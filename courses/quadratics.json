@@ -1,0 +1,3137 @@
+{
+  "stage": {
+    "id": "math-quadratics-ch21",
+    "name": "一元二次方程",
+    "description": "人教版 · 九年级上册 · 第二十一章",
+    "createdAt": 1788936173016,
+    "updatedAt": 1788936173016,
+    "languageDirective": "用简体中文讲解数学概念与例题。",
+    "style": "professional",
+    "agentIds": [
+      "teacher"
+    ]
+  },
+  "scenes": [
+    {
+      "id": "math-quadratics-ch21-slide-1",
+      "outlineId": "math-quadratics-ch21-outline-1",
+      "stageId": "math-quadratics-ch21",
+      "type": "slide",
+      "title": "一元二次方程",
+      "order": 1,
+      "content": {
+        "type": "slide",
+        "canvas": {
+          "id": "c4wfde9eZySHDPeKMtr1c",
+          "viewportSize": 1000,
+          "viewportRatio": 0.5625,
+          "theme": {
+            "backgroundColor": "#ffffff",
+            "themeColors": [
+              "#5b9bd5",
+              "#ed7d31",
+              "#a5a5a5",
+              "#ffc000",
+              "#4472c4"
+            ],
+            "fontColor": "#333333",
+            "fontName": "Microsoft YaHei",
+            "outline": {
+              "color": "#d14424",
+              "width": 2,
+              "style": "solid"
+            },
+            "shadow": {
+              "h": 0,
+              "v": 0,
+              "blur": 10,
+              "color": "#000000"
+            }
+          },
+          "elements": [
+            {
+              "id": "t0-0",
+              "type": "text",
+              "left": 54.6875,
+              "top": 144.53125,
+              "width": 890.625,
+              "height": 82.8125,
+              "rotate": 0,
+              "defaultFontName": "Microsoft YaHei",
+              "defaultColor": "#FFFFFF",
+              "content": "<p style=\"font-size:48.4375px;line-height:1.25;font-weight:bold;\">一元二次方程</p>"
+            },
+            {
+              "id": "t0-1",
+              "type": "text",
+              "left": 59.375,
+              "top": 246.09375,
+              "width": 875,
+              "height": 42.96875,
+              "rotate": 0,
+              "defaultFontName": "Microsoft YaHei",
+              "defaultColor": "#FFFFFF",
+              "content": "<p style=\"font-size:24.21875px;line-height:1.25;\">本册首章 · 第二十一章</p>"
+            },
+            {
+              "id": "t0-2",
+              "type": "text",
+              "left": 59.375,
+              "top": 291.40625,
+              "width": 875,
+              "height": 42.96875,
+              "rotate": 0,
+              "defaultFontName": "Microsoft YaHei",
+              "defaultColor": "#FFFFFF",
+              "content": "<p style=\"font-size:24.21875px;line-height:1.25;\">从数量关系到方程的解</p>"
+            },
+            {
+              "id": "t0-3",
+              "type": "text",
+              "left": 59.375,
+              "top": 445.3125,
+              "width": 875,
+              "height": 35.15625,
+              "rotate": 0,
+              "defaultFontName": "Microsoft YaHei",
+              "defaultColor": "#FFFFFF",
+              "content": "<p style=\"font-size:17.96875px;line-height:1.25;\">人教版 · 九年级上册 · 第二十一章</p>"
+            },
+            {
+              "id": "t0-4",
+              "type": "text",
+              "left": 859.375,
+              "top": 514.0625,
+              "width": 82.03125,
+              "height": 27.34375,
+              "rotate": 0,
+              "defaultFontName": "Microsoft YaHei",
+              "defaultColor": "#FFFFFF",
+              "content": "<p style=\"font-size:14.0625px;line-height:1.25;\">1 / 17</p>"
+            }
+          ],
+          "background": {
+            "type": "solid",
+            "color": "#9B3B62"
+          }
+        }
+      },
+      "actions": [
+        {
+          "id": "speech-0",
+          "type": "speech",
+          "agentId": "teacher",
+          "text": "一元二次方程。本册首章 · 第二十一章。从数量关系到方程的解。章节学习与复习课件"
+        }
+      ],
+      "createdAt": 1788936173016,
+      "updatedAt": 1788936173016
+    },
+    {
+      "id": "math-quadratics-ch21-slide-2",
+      "outlineId": "math-quadratics-ch21-outline-2",
+      "stageId": "math-quadratics-ch21",
+      "type": "slide",
+      "title": "本章学习路线",
+      "order": 2,
+      "content": {
+        "type": "slide",
+        "canvas": {
+          "id": "zy5P0Vz4fIWK5PCySdvjW",
+          "viewportSize": 1000,
+          "viewportRatio": 0.5625,
+          "theme": {
+            "backgroundColor": "#ffffff",
+            "themeColors": [
+              "#5b9bd5",
+              "#ed7d31",
+              "#a5a5a5",
+              "#ffc000",
+              "#4472c4"
+            ],
+            "fontColor": "#333333",
+            "fontName": "Microsoft YaHei",
+            "outline": {
+              "color": "#d14424",
+              "width": 2,
+              "style": "solid"
+            },
+            "shadow": {
+              "h": 0,
+              "v": 0,
+              "blur": 10,
+              "color": "#000000"
+            }
+          },
+          "elements": [
+            {
+              "id": "t1-0",
+              "type": "text",
+              "left": 54.6875,
+              "top": 40.625,
+              "width": 890.625,
+              "height": 65.625,
+              "rotate": 0,
+              "defaultFontName": "Microsoft YaHei",
+              "defaultColor": "#182C35",
+              "content": "<p style=\"font-size:34.375px;line-height:1.25;font-weight:bold;\">本章学习路线</p>"
+            },
+            {
+              "id": "t1-1",
+              "type": "text",
+              "left": 59.375,
+              "top": 129.6875,
+              "width": 875,
+              "height": 46.875,
+              "rotate": 0,
+              "defaultFontName": "Microsoft YaHei",
+              "defaultColor": "#233B43",
+              "content": "<p style=\"font-size:22.65625px;line-height:1.25;\">21.1 一元二次方程的概念</p>"
+            },
+            {
+              "id": "t1-2",
+              "type": "text",
+              "left": 59.375,
+              "top": 180.46875,
+              "width": 875,
+              "height": 46.875,
+              "rotate": 0,
+              "defaultFontName": "Microsoft YaHei",
+              "defaultColor": "#233B43",
+              "content": "<p style=\"font-size:22.65625px;line-height:1.25;\">21.2 配方法、公式法与因式分解法</p>"
+            },
+            {
+              "id": "t1-3",
+              "type": "text",
+              "left": 59.375,
+              "top": 231.25,
+              "width": 875,
+              "height": 46.875,
+              "rotate": 0,
+              "defaultFontName": "Microsoft YaHei",
+              "defaultColor": "#233B43",
+              "content": "<p style=\"font-size:22.65625px;line-height:1.25;\">21.3 实际问题与一元二次方程</p>"
+            },
+            {
+              "id": "t1-4",
+              "type": "text",
+              "left": 59.375,
+              "top": 282.03125,
+              "width": 875,
+              "height": 46.875,
+              "rotate": 0,
+              "defaultFontName": "Microsoft YaHei",
+              "defaultColor": "#233B43",
+              "content": "<p style=\"font-size:22.65625px;line-height:1.25;\">选学：根与系数的关系</p>"
+            },
+            {
+              "id": "t1-5",
+              "type": "text",
+              "left": 59.375,
+              "top": 384.375,
+              "width": 875,
+              "height": 97.65625,
+              "rotate": 0,
+              "defaultFontName": "Microsoft YaHei",
+              "defaultColor": "#344B52",
+              "content": "<p style=\"font-size:20.3125px;line-height:1.25;\">学习目标：会选方法求解，并检验答案是否符合题意。</p>"
+            },
+            {
+              "id": "t1-6",
+              "type": "text",
+              "left": 59.375,
+              "top": 514.0625,
+              "width": 703.125,
+              "height": 27.34375,
+              "rotate": 0,
+              "defaultFontName": "Microsoft YaHei",
+              "defaultColor": "#63757A",
+              "content": "<p style=\"font-size:14.84375px;line-height:1.25;\">教材第 2–24 页</p>"
+            },
+            {
+              "id": "t1-7",
+              "type": "text",
+              "left": 859.375,
+              "top": 514.0625,
+              "width": 82.03125,
+              "height": 27.34375,
+              "rotate": 0,
+              "defaultFontName": "Microsoft YaHei",
+              "defaultColor": "#63757A",
+              "content": "<p style=\"font-size:14.0625px;line-height:1.25;\">2 / 17</p>"
+            }
+          ],
+          "background": {
+            "type": "solid",
+            "color": "#FCFBF7"
+          }
+        }
+      },
+      "actions": [
+        {
+          "id": "speech-1",
+          "type": "speech",
+          "agentId": "teacher",
+          "text": "本章学习路线。21.1 一元二次方程的概念。21.2 配方法、公式法与因式分解法。21.3 实际问题与一元二次方程。选学：根与系数的关系。学习目标：会选方法求解，并检验答案是否符合题意。"
+        }
+      ],
+      "createdAt": 1788936173017,
+      "updatedAt": 1788936173017
+    },
+    {
+      "id": "math-quadratics-ch21-slide-3",
+      "outlineId": "math-quadratics-ch21-outline-3",
+      "stageId": "math-quadratics-ch21",
+      "type": "slide",
+      "title": "一般形式与系数",
+      "order": 3,
+      "content": {
+        "type": "slide",
+        "canvas": {
+          "id": "-yitw-vldUh0uD3s2FdHc",
+          "viewportSize": 1000,
+          "viewportRatio": 0.5625,
+          "theme": {
+            "backgroundColor": "#ffffff",
+            "themeColors": [
+              "#5b9bd5",
+              "#ed7d31",
+              "#a5a5a5",
+              "#ffc000",
+              "#4472c4"
+            ],
+            "fontColor": "#333333",
+            "fontName": "Microsoft YaHei",
+            "outline": {
+              "color": "#d14424",
+              "width": 2,
+              "style": "solid"
+            },
+            "shadow": {
+              "h": 0,
+              "v": 0,
+              "blur": 10,
+              "color": "#000000"
+            }
+          },
+          "elements": [
+            {
+              "id": "t2-0",
+              "type": "text",
+              "left": 54.6875,
+              "top": 40.625,
+              "width": 890.625,
+              "height": 65.625,
+              "rotate": 0,
+              "defaultFontName": "Microsoft YaHei",
+              "defaultColor": "#182C35",
+              "content": "<p style=\"font-size:34.375px;line-height:1.25;font-weight:bold;\">一般形式与系数</p>"
+            },
+            {
+              "id": "t2-1",
+              "type": "text",
+              "left": 59.375,
+              "top": 129.6875,
+              "width": 875,
+              "height": 46.875,
+              "rotate": 0,
+              "defaultFontName": "Microsoft YaHei",
+              "defaultColor": "#233B43",
+              "content": "<p style=\"font-size:22.65625px;line-height:1.25;\">方程两边都是整式。</p>"
+            },
+            {
+              "id": "t2-2",
+              "type": "text",
+              "left": 59.375,
+              "top": 180.46875,
+              "width": 875,
+              "height": 46.875,
+              "rotate": 0,
+              "defaultFontName": "Microsoft YaHei",
+              "defaultColor": "#233B43",
+              "content": "<p style=\"font-size:22.65625px;line-height:1.25;\">只含一个未知数，整理后最高次数为 2。</p>"
+            },
+            {
+              "id": "t2-3",
+              "type": "text",
+              "left": 59.375,
+              "top": 231.25,
+              "width": 875,
+              "height": 46.875,
+              "rotate": 0,
+              "defaultFontName": "Microsoft YaHei",
+              "defaultColor": "#233B43",
+              "content": "<p style=\"font-size:22.65625px;line-height:1.25;\">识别系数前，先移项并合并同类项。</p>"
+            },
+            {
+              "id": "t2-4",
+              "type": "text",
+              "left": 59.375,
+              "top": 304.6875,
+              "width": 875,
+              "height": 51.5625,
+              "rotate": 0,
+              "defaultFontName": "Microsoft YaHei",
+              "defaultColor": "#9B3B62",
+              "content": "<p style=\"font-size:26.5625px;line-height:1.25;font-weight:bold;\">ax² + bx + c = 0，a ≠ 0</p>"
+            },
+            {
+              "id": "t2-5",
+              "type": "text",
+              "left": 59.375,
+              "top": 384.375,
+              "width": 875,
+              "height": 97.65625,
+              "rotate": 0,
+              "defaultFontName": "Microsoft YaHei",
+              "defaultColor": "#344B52",
+              "content": "<p style=\"font-size:20.3125px;line-height:1.25;\">例：3x(x−1) = 5(x+2)，整理为 3x²−8x−10 = 0。</p>"
+            },
+            {
+              "id": "t2-6",
+              "type": "text",
+              "left": 59.375,
+              "top": 514.0625,
+              "width": 703.125,
+              "height": 27.34375,
+              "rotate": 0,
+              "defaultFontName": "Microsoft YaHei",
+              "defaultColor": "#63757A",
+              "content": "<p style=\"font-size:14.84375px;line-height:1.25;\">教材第 2–4 页</p>"
+            },
+            {
+              "id": "t2-7",
+              "type": "text",
+              "left": 859.375,
+              "top": 514.0625,
+              "width": 82.03125,
+              "height": 27.34375,
+              "rotate": 0,
+              "defaultFontName": "Microsoft YaHei",
+              "defaultColor": "#63757A",
+              "content": "<p style=\"font-size:14.0625px;line-height:1.25;\">3 / 17</p>"
+            }
+          ],
+          "background": {
+            "type": "solid",
+            "color": "#FCFBF7"
+          }
+        }
+      },
+      "actions": [
+        {
+          "id": "speech-2",
+          "type": "speech",
+          "agentId": "teacher",
+          "text": "一般形式与系数。方程两边都是整式。。只含一个未知数，整理后最高次数为 2。。识别系数前，先移项并合并同类项。。ax² + bx + c = 0，a ≠ 0。例：3x(x−1) = 5(x+2)，整理为 3x²−8x−10 = 0。"
+        }
+      ],
+      "createdAt": 1788936173017,
+      "updatedAt": 1788936173017
+    },
+    {
+      "id": "math-quadratics-ch21-slide-4",
+      "outlineId": "math-quadratics-ch21-outline-4",
+      "stageId": "math-quadratics-ch21",
+      "type": "slide",
+      "title": "方程的根",
+      "order": 4,
+      "content": {
+        "type": "slide",
+        "canvas": {
+          "id": "0H9YXHlYgZXjgX_cYJSgo",
+          "viewportSize": 1000,
+          "viewportRatio": 0.5625,
+          "theme": {
+            "backgroundColor": "#ffffff",
+            "themeColors": [
+              "#5b9bd5",
+              "#ed7d31",
+              "#a5a5a5",
+              "#ffc000",
+              "#4472c4"
+            ],
+            "fontColor": "#333333",
+            "fontName": "Microsoft YaHei",
+            "outline": {
+              "color": "#d14424",
+              "width": 2,
+              "style": "solid"
+            },
+            "shadow": {
+              "h": 0,
+              "v": 0,
+              "blur": 10,
+              "color": "#000000"
+            }
+          },
+          "elements": [
+            {
+              "id": "t3-0",
+              "type": "text",
+              "left": 54.6875,
+              "top": 40.625,
+              "width": 890.625,
+              "height": 65.625,
+              "rotate": 0,
+              "defaultFontName": "Microsoft YaHei",
+              "defaultColor": "#182C35",
+              "content": "<p style=\"font-size:34.375px;line-height:1.25;font-weight:bold;\">方程的根</p>"
+            },
+            {
+              "id": "t3-1",
+              "type": "text",
+              "left": 59.375,
+              "top": 129.6875,
+              "width": 875,
+              "height": 46.875,
+              "rotate": 0,
+              "defaultFontName": "Microsoft YaHei",
+              "defaultColor": "#233B43",
+              "content": "<p style=\"font-size:22.65625px;line-height:1.25;\">使方程左右两边相等的未知数值就是根。</p>"
+            },
+            {
+              "id": "t3-2",
+              "type": "text",
+              "left": 59.375,
+              "top": 180.46875,
+              "width": 875,
+              "height": 46.875,
+              "rotate": 0,
+              "defaultFontName": "Microsoft YaHei",
+              "defaultColor": "#233B43",
+              "content": "<p style=\"font-size:22.65625px;line-height:1.25;\">代入可以检查一个数是不是根。</p>"
+            },
+            {
+              "id": "t3-3",
+              "type": "text",
+              "left": 59.375,
+              "top": 231.25,
+              "width": 875,
+              "height": 46.875,
+              "rotate": 0,
+              "defaultFontName": "Microsoft YaHei",
+              "defaultColor": "#233B43",
+              "content": "<p style=\"font-size:22.65625px;line-height:1.25;\">实际问题还可能要求长度为正、人数为整数。</p>"
+            },
+            {
+              "id": "t3-4",
+              "type": "text",
+              "left": 59.375,
+              "top": 304.6875,
+              "width": 875,
+              "height": 51.5625,
+              "rotate": 0,
+              "defaultFontName": "Microsoft YaHei",
+              "defaultColor": "#9B3B62",
+              "content": "<p style=\"font-size:26.5625px;line-height:1.25;font-weight:bold;\">x² − x − 6 = 0</p>"
+            },
+            {
+              "id": "t3-5",
+              "type": "text",
+              "left": 59.375,
+              "top": 384.375,
+              "width": 875,
+              "height": 97.65625,
+              "rotate": 0,
+              "defaultFontName": "Microsoft YaHei",
+              "defaultColor": "#344B52",
+              "content": "<p style=\"font-size:20.3125px;line-height:1.25;\">代入 x = 3，得 9−3−6 = 0；代入 x = 2，得 −4 ≠ 0。因此 3 是根，2 不是。</p>"
+            },
+            {
+              "id": "t3-6",
+              "type": "text",
+              "left": 59.375,
+              "top": 514.0625,
+              "width": 703.125,
+              "height": 27.34375,
+              "rotate": 0,
+              "defaultFontName": "Microsoft YaHei",
+              "defaultColor": "#63757A",
+              "content": "<p style=\"font-size:14.84375px;line-height:1.25;\">教材第 3–4 页</p>"
+            },
+            {
+              "id": "t3-7",
+              "type": "text",
+              "left": 859.375,
+              "top": 514.0625,
+              "width": 82.03125,
+              "height": 27.34375,
+              "rotate": 0,
+              "defaultFontName": "Microsoft YaHei",
+              "defaultColor": "#63757A",
+              "content": "<p style=\"font-size:14.0625px;line-height:1.25;\">4 / 17</p>"
+            }
+          ],
+          "background": {
+            "type": "solid",
+            "color": "#FCFBF7"
+          }
+        }
+      },
+      "actions": [
+        {
+          "id": "speech-3",
+          "type": "speech",
+          "agentId": "teacher",
+          "text": "方程的根。使方程左右两边相等的未知数值就是根。。代入可以检查一个数是不是根。。实际问题还可能要求长度为正、人数为整数。。x² − x − 6 = 0。代入 x = 3，得 9−3−6 = 0；代入 x = 2，得 −4 ≠ 0。因此 3 是根，2 不是。"
+        }
+      ],
+      "createdAt": 1788936173018,
+      "updatedAt": 1788936173018
+    },
+    {
+      "id": "math-quadratics-ch21-slide-5",
+      "outlineId": "math-quadratics-ch21-outline-5",
+      "stageId": "math-quadratics-ch21",
+      "type": "slide",
+      "title": "直接开平方",
+      "order": 5,
+      "content": {
+        "type": "slide",
+        "canvas": {
+          "id": "nzeKvRPcEWDpfw3-nEYDB",
+          "viewportSize": 1000,
+          "viewportRatio": 0.5625,
+          "theme": {
+            "backgroundColor": "#ffffff",
+            "themeColors": [
+              "#5b9bd5",
+              "#ed7d31",
+              "#a5a5a5",
+              "#ffc000",
+              "#4472c4"
+            ],
+            "fontColor": "#333333",
+            "fontName": "Microsoft YaHei",
+            "outline": {
+              "color": "#d14424",
+              "width": 2,
+              "style": "solid"
+            },
+            "shadow": {
+              "h": 0,
+              "v": 0,
+              "blur": 10,
+              "color": "#000000"
+            }
+          },
+          "elements": [
+            {
+              "id": "t4-0",
+              "type": "text",
+              "left": 54.6875,
+              "top": 40.625,
+              "width": 890.625,
+              "height": 65.625,
+              "rotate": 0,
+              "defaultFontName": "Microsoft YaHei",
+              "defaultColor": "#182C35",
+              "content": "<p style=\"font-size:34.375px;line-height:1.25;font-weight:bold;\">直接开平方</p>"
+            },
+            {
+              "id": "t4-1",
+              "type": "text",
+              "left": 59.375,
+              "top": 129.6875,
+              "width": 875,
+              "height": 46.875,
+              "rotate": 0,
+              "defaultFontName": "Microsoft YaHei",
+              "defaultColor": "#233B43",
+              "content": "<p style=\"font-size:22.65625px;line-height:1.25;\">把方程化为 x² = p 或 (x+m)² = p。</p>"
+            },
+            {
+              "id": "t4-2",
+              "type": "text",
+              "left": 59.375,
+              "top": 180.46875,
+              "width": 875,
+              "height": 46.875,
+              "rotate": 0,
+              "defaultFontName": "Microsoft YaHei",
+              "defaultColor": "#233B43",
+              "content": "<p style=\"font-size:22.65625px;line-height:1.25;\">p &gt; 0：两个不相等的实数根。</p>"
+            },
+            {
+              "id": "t4-3",
+              "type": "text",
+              "left": 59.375,
+              "top": 231.25,
+              "width": 875,
+              "height": 46.875,
+              "rotate": 0,
+              "defaultFontName": "Microsoft YaHei",
+              "defaultColor": "#233B43",
+              "content": "<p style=\"font-size:22.65625px;line-height:1.25;\">p = 0：两个相等的实数根；p &lt; 0：无实数根。</p>"
+            },
+            {
+              "id": "t4-4",
+              "type": "text",
+              "left": 59.375,
+              "top": 304.6875,
+              "width": 875,
+              "height": 51.5625,
+              "rotate": 0,
+              "defaultFontName": "Microsoft YaHei",
+              "defaultColor": "#9B3B62",
+              "content": "<p style=\"font-size:26.5625px;line-height:1.25;font-weight:bold;\">(x − 2)² = 9 ⇒ x = 5 或 −1</p>"
+            },
+            {
+              "id": "t4-5",
+              "type": "text",
+              "left": 59.375,
+              "top": 384.375,
+              "width": 875,
+              "height": 97.65625,
+              "rotate": 0,
+              "defaultFontName": "Microsoft YaHei",
+              "defaultColor": "#344B52",
+              "content": "<p style=\"font-size:20.3125px;line-height:1.25;\">开平方不要漏掉负号对应的根。</p>"
+            },
+            {
+              "id": "t4-6",
+              "type": "text",
+              "left": 59.375,
+              "top": 514.0625,
+              "width": 703.125,
+              "height": 27.34375,
+              "rotate": 0,
+              "defaultFontName": "Microsoft YaHei",
+              "defaultColor": "#63757A",
+              "content": "<p style=\"font-size:14.84375px;line-height:1.25;\">教材第 5–6 页</p>"
+            },
+            {
+              "id": "t4-7",
+              "type": "text",
+              "left": 859.375,
+              "top": 514.0625,
+              "width": 82.03125,
+              "height": 27.34375,
+              "rotate": 0,
+              "defaultFontName": "Microsoft YaHei",
+              "defaultColor": "#63757A",
+              "content": "<p style=\"font-size:14.0625px;line-height:1.25;\">5 / 17</p>"
+            }
+          ],
+          "background": {
+            "type": "solid",
+            "color": "#FCFBF7"
+          }
+        }
+      },
+      "actions": [
+        {
+          "id": "speech-4",
+          "type": "speech",
+          "agentId": "teacher",
+          "text": "直接开平方。把方程化为 x² = p 或 (x+m)² = p。。p > 0：两个不相等的实数根。。p = 0：两个相等的实数根；p < 0：无实数根。。(x − 2)² = 9 ⇒ x = 5 或 −1。开平方不要漏掉负号对应的根。"
+        }
+      ],
+      "createdAt": 1788936173018,
+      "updatedAt": 1788936173018
+    },
+    {
+      "id": "math-quadratics-ch21-slide-6",
+      "outlineId": "math-quadratics-ch21-outline-6",
+      "stageId": "math-quadratics-ch21",
+      "type": "slide",
+      "title": "配方法的关键",
+      "order": 6,
+      "content": {
+        "type": "slide",
+        "canvas": {
+          "id": "QDDCqNkUC6L-H0IsBahph",
+          "viewportSize": 1000,
+          "viewportRatio": 0.5625,
+          "theme": {
+            "backgroundColor": "#ffffff",
+            "themeColors": [
+              "#5b9bd5",
+              "#ed7d31",
+              "#a5a5a5",
+              "#ffc000",
+              "#4472c4"
+            ],
+            "fontColor": "#333333",
+            "fontName": "Microsoft YaHei",
+            "outline": {
+              "color": "#d14424",
+              "width": 2,
+              "style": "solid"
+            },
+            "shadow": {
+              "h": 0,
+              "v": 0,
+              "blur": 10,
+              "color": "#000000"
+            }
+          },
+          "elements": [
+            {
+              "id": "t5-0",
+              "type": "text",
+              "left": 54.6875,
+              "top": 40.625,
+              "width": 890.625,
+              "height": 65.625,
+              "rotate": 0,
+              "defaultFontName": "Microsoft YaHei",
+              "defaultColor": "#182C35",
+              "content": "<p style=\"font-size:34.375px;line-height:1.25;font-weight:bold;\">配方法的关键</p>"
+            },
+            {
+              "id": "t5-1",
+              "type": "text",
+              "left": 59.375,
+              "top": 129.6875,
+              "width": 875,
+              "height": 46.875,
+              "rotate": 0,
+              "defaultFontName": "Microsoft YaHei",
+              "defaultColor": "#233B43",
+              "content": "<p style=\"font-size:22.65625px;line-height:1.25;\">先把二次项系数化为 1。</p>"
+            },
+            {
+              "id": "t5-2",
+              "type": "text",
+              "left": 59.375,
+              "top": 180.46875,
+              "width": 875,
+              "height": 46.875,
+              "rotate": 0,
+              "defaultFontName": "Microsoft YaHei",
+              "defaultColor": "#233B43",
+              "content": "<p style=\"font-size:22.65625px;line-height:1.25;\">把常数项移到右边。</p>"
+            },
+            {
+              "id": "t5-3",
+              "type": "text",
+              "left": 59.375,
+              "top": 231.25,
+              "width": 875,
+              "height": 46.875,
+              "rotate": 0,
+              "defaultFontName": "Microsoft YaHei",
+              "defaultColor": "#233B43",
+              "content": "<p style=\"font-size:22.65625px;line-height:1.25;\">两边同加一次项系数一半的平方。</p>"
+            },
+            {
+              "id": "t5-4",
+              "type": "text",
+              "left": 59.375,
+              "top": 304.6875,
+              "width": 875,
+              "height": 51.5625,
+              "rotate": 0,
+              "defaultFontName": "Microsoft YaHei",
+              "defaultColor": "#9B3B62",
+              "content": "<p style=\"font-size:26.5625px;line-height:1.25;font-weight:bold;\">x² + 6x + 4 = 0</p>"
+            },
+            {
+              "id": "t5-5",
+              "type": "text",
+              "left": 59.375,
+              "top": 384.375,
+              "width": 875,
+              "height": 97.65625,
+              "rotate": 0,
+              "defaultFontName": "Microsoft YaHei",
+              "defaultColor": "#344B52",
+              "content": "<p style=\"font-size:20.3125px;line-height:1.25;\">x²+6x = −4；两边加 9，得 (x+3)² = 5；所以 x = −3 ± √5。</p>"
+            },
+            {
+              "id": "t5-6",
+              "type": "text",
+              "left": 59.375,
+              "top": 514.0625,
+              "width": 703.125,
+              "height": 27.34375,
+              "rotate": 0,
+              "defaultFontName": "Microsoft YaHei",
+              "defaultColor": "#63757A",
+              "content": "<p style=\"font-size:14.84375px;line-height:1.25;\">教材第 6–9 页</p>"
+            },
+            {
+              "id": "t5-7",
+              "type": "text",
+              "left": 859.375,
+              "top": 514.0625,
+              "width": 82.03125,
+              "height": 27.34375,
+              "rotate": 0,
+              "defaultFontName": "Microsoft YaHei",
+              "defaultColor": "#63757A",
+              "content": "<p style=\"font-size:14.0625px;line-height:1.25;\">6 / 17</p>"
+            }
+          ],
+          "background": {
+            "type": "solid",
+            "color": "#FCFBF7"
+          }
+        }
+      },
+      "actions": [
+        {
+          "id": "speech-5",
+          "type": "speech",
+          "agentId": "teacher",
+          "text": "配方法的关键。先把二次项系数化为 1。。把常数项移到右边。。两边同加一次项系数一半的平方。。x² + 6x + 4 = 0。x²+6x = −4；两边加 9，得 (x+3)² = 5；所以 x = −3 ± √5。"
+        }
+      ],
+      "createdAt": 1788936173018,
+      "updatedAt": 1788936173018
+    },
+    {
+      "id": "math-quadratics-ch21-slide-7",
+      "outlineId": "math-quadratics-ch21-outline-7",
+      "stageId": "math-quadratics-ch21",
+      "type": "slide",
+      "title": "非首一方程的配方",
+      "order": 7,
+      "content": {
+        "type": "slide",
+        "canvas": {
+          "id": "T5OR6rwLYyNaKlB_sskyT",
+          "viewportSize": 1000,
+          "viewportRatio": 0.5625,
+          "theme": {
+            "backgroundColor": "#ffffff",
+            "themeColors": [
+              "#5b9bd5",
+              "#ed7d31",
+              "#a5a5a5",
+              "#ffc000",
+              "#4472c4"
+            ],
+            "fontColor": "#333333",
+            "fontName": "Microsoft YaHei",
+            "outline": {
+              "color": "#d14424",
+              "width": 2,
+              "style": "solid"
+            },
+            "shadow": {
+              "h": 0,
+              "v": 0,
+              "blur": 10,
+              "color": "#000000"
+            }
+          },
+          "elements": [
+            {
+              "id": "t6-0",
+              "type": "text",
+              "left": 54.6875,
+              "top": 40.625,
+              "width": 890.625,
+              "height": 65.625,
+              "rotate": 0,
+              "defaultFontName": "Microsoft YaHei",
+              "defaultColor": "#182C35",
+              "content": "<p style=\"font-size:34.375px;line-height:1.25;font-weight:bold;\">非首一方程的配方</p>"
+            },
+            {
+              "id": "t6-1",
+              "type": "text",
+              "left": 59.375,
+              "top": 129.6875,
+              "width": 875,
+              "height": 46.875,
+              "rotate": 0,
+              "defaultFontName": "Microsoft YaHei",
+              "defaultColor": "#233B43",
+              "content": "<p style=\"font-size:22.65625px;line-height:1.25;\">2x² − 3x + 1 = 0。</p>"
+            },
+            {
+              "id": "t6-2",
+              "type": "text",
+              "left": 59.375,
+              "top": 180.46875,
+              "width": 875,
+              "height": 46.875,
+              "rotate": 0,
+              "defaultFontName": "Microsoft YaHei",
+              "defaultColor": "#233B43",
+              "content": "<p style=\"font-size:22.65625px;line-height:1.25;\">两边除以 2，得到 x² − (3/2)x = −1/2。</p>"
+            },
+            {
+              "id": "t6-3",
+              "type": "text",
+              "left": 59.375,
+              "top": 231.25,
+              "width": 875,
+              "height": 46.875,
+              "rotate": 0,
+              "defaultFontName": "Microsoft YaHei",
+              "defaultColor": "#233B43",
+              "content": "<p style=\"font-size:22.65625px;line-height:1.25;\">两边加 9/16，再开平方。</p>"
+            },
+            {
+              "id": "t6-4",
+              "type": "text",
+              "left": 59.375,
+              "top": 304.6875,
+              "width": 875,
+              "height": 51.5625,
+              "rotate": 0,
+              "defaultFontName": "Microsoft YaHei",
+              "defaultColor": "#9B3B62",
+              "content": "<p style=\"font-size:26.5625px;line-height:1.25;font-weight:bold;\">(x − 3/4)² = 1/16</p>"
+            },
+            {
+              "id": "t6-5",
+              "type": "text",
+              "left": 59.375,
+              "top": 384.375,
+              "width": 875,
+              "height": 97.65625,
+              "rotate": 0,
+              "defaultFontName": "Microsoft YaHei",
+              "defaultColor": "#344B52",
+              "content": "<p style=\"font-size:20.3125px;line-height:1.25;\">x = 3/4 ± 1/4，即 x = 1 或 1/2。</p>"
+            },
+            {
+              "id": "t6-6",
+              "type": "text",
+              "left": 59.375,
+              "top": 514.0625,
+              "width": 703.125,
+              "height": 27.34375,
+              "rotate": 0,
+              "defaultFontName": "Microsoft YaHei",
+              "defaultColor": "#63757A",
+              "content": "<p style=\"font-size:14.84375px;line-height:1.25;\">教材第 7–8 页</p>"
+            },
+            {
+              "id": "t6-7",
+              "type": "text",
+              "left": 859.375,
+              "top": 514.0625,
+              "width": 82.03125,
+              "height": 27.34375,
+              "rotate": 0,
+              "defaultFontName": "Microsoft YaHei",
+              "defaultColor": "#63757A",
+              "content": "<p style=\"font-size:14.0625px;line-height:1.25;\">7 / 17</p>"
+            }
+          ],
+          "background": {
+            "type": "solid",
+            "color": "#FCFBF7"
+          }
+        }
+      },
+      "actions": [
+        {
+          "id": "speech-6",
+          "type": "speech",
+          "agentId": "teacher",
+          "text": "非首一方程的配方。2x² − 3x + 1 = 0。。两边除以 2，得到 x² − (3/2)x = −1/2。。两边加 9/16，再开平方。。(x − 3/4)² = 1/16。x = 3/4 ± 1/4，即 x = 1 或 1/2。"
+        }
+      ],
+      "createdAt": 1788936173018,
+      "updatedAt": 1788936173018
+    },
+    {
+      "id": "math-quadratics-ch21-slide-8",
+      "outlineId": "math-quadratics-ch21-outline-8",
+      "stageId": "math-quadratics-ch21",
+      "type": "slide",
+      "title": "判别式与实数根",
+      "order": 8,
+      "content": {
+        "type": "slide",
+        "canvas": {
+          "id": "jiVqJjtBelSTj6bgfGLqC",
+          "viewportSize": 1000,
+          "viewportRatio": 0.5625,
+          "theme": {
+            "backgroundColor": "#ffffff",
+            "themeColors": [
+              "#5b9bd5",
+              "#ed7d31",
+              "#a5a5a5",
+              "#ffc000",
+              "#4472c4"
+            ],
+            "fontColor": "#333333",
+            "fontName": "Microsoft YaHei",
+            "outline": {
+              "color": "#d14424",
+              "width": 2,
+              "style": "solid"
+            },
+            "shadow": {
+              "h": 0,
+              "v": 0,
+              "blur": 10,
+              "color": "#000000"
+            }
+          },
+          "elements": [
+            {
+              "id": "t7-0",
+              "type": "text",
+              "left": 54.6875,
+              "top": 40.625,
+              "width": 890.625,
+              "height": 65.625,
+              "rotate": 0,
+              "defaultFontName": "Microsoft YaHei",
+              "defaultColor": "#182C35",
+              "content": "<p style=\"font-size:34.375px;line-height:1.25;font-weight:bold;\">判别式与实数根</p>"
+            },
+            {
+              "id": "t7-1",
+              "type": "text",
+              "left": 59.375,
+              "top": 129.6875,
+              "width": 875,
+              "height": 46.875,
+              "rotate": 0,
+              "defaultFontName": "Microsoft YaHei",
+              "defaultColor": "#233B43",
+              "content": "<p style=\"font-size:22.65625px;line-height:1.25;\">Δ &gt; 0：两个不相等的实数根。</p>"
+            },
+            {
+              "id": "t7-2",
+              "type": "text",
+              "left": 59.375,
+              "top": 180.46875,
+              "width": 875,
+              "height": 46.875,
+              "rotate": 0,
+              "defaultFontName": "Microsoft YaHei",
+              "defaultColor": "#233B43",
+              "content": "<p style=\"font-size:22.65625px;line-height:1.25;\">Δ = 0：两个相等的实数根。</p>"
+            },
+            {
+              "id": "t7-3",
+              "type": "text",
+              "left": 59.375,
+              "top": 231.25,
+              "width": 875,
+              "height": 46.875,
+              "rotate": 0,
+              "defaultFontName": "Microsoft YaHei",
+              "defaultColor": "#233B43",
+              "content": "<p style=\"font-size:22.65625px;line-height:1.25;\">Δ &lt; 0：没有实数根。</p>"
+            },
+            {
+              "id": "t7-4",
+              "type": "text",
+              "left": 59.375,
+              "top": 304.6875,
+              "width": 875,
+              "height": 51.5625,
+              "rotate": 0,
+              "defaultFontName": "Microsoft YaHei",
+              "defaultColor": "#9B3B62",
+              "content": "<p style=\"font-size:26.5625px;line-height:1.25;font-weight:bold;\">Δ = b² − 4ac</p>"
+            },
+            {
+              "id": "t7-5",
+              "type": "text",
+              "left": 59.375,
+              "top": 384.375,
+              "width": 875,
+              "height": 97.65625,
+              "rotate": 0,
+              "defaultFontName": "Microsoft YaHei",
+              "defaultColor": "#344B52",
+              "content": "<p style=\"font-size:20.3125px;line-height:1.25;\">例：x²−4x+5 = 0，Δ = 16−20 = −4，所以无实数根。</p>"
+            },
+            {
+              "id": "t7-6",
+              "type": "text",
+              "left": 59.375,
+              "top": 514.0625,
+              "width": 703.125,
+              "height": 27.34375,
+              "rotate": 0,
+              "defaultFontName": "Microsoft YaHei",
+              "defaultColor": "#63757A",
+              "content": "<p style=\"font-size:14.84375px;line-height:1.25;\">教材第 9–10 页</p>"
+            },
+            {
+              "id": "t7-7",
+              "type": "text",
+              "left": 859.375,
+              "top": 514.0625,
+              "width": 82.03125,
+              "height": 27.34375,
+              "rotate": 0,
+              "defaultFontName": "Microsoft YaHei",
+              "defaultColor": "#63757A",
+              "content": "<p style=\"font-size:14.0625px;line-height:1.25;\">8 / 17</p>"
+            }
+          ],
+          "background": {
+            "type": "solid",
+            "color": "#FCFBF7"
+          }
+        }
+      },
+      "actions": [
+        {
+          "id": "speech-7",
+          "type": "speech",
+          "agentId": "teacher",
+          "text": "判别式与实数根。Δ > 0：两个不相等的实数根。。Δ = 0：两个相等的实数根。。Δ < 0：没有实数根。。Δ = b² − 4ac。例：x²−4x+5 = 0，Δ = 16−20 = −4，所以无实数根。"
+        }
+      ],
+      "createdAt": 1788936173019,
+      "updatedAt": 1788936173019
+    },
+    {
+      "id": "math-quadratics-ch21-slide-9",
+      "outlineId": "math-quadratics-ch21-outline-9",
+      "stageId": "math-quadratics-ch21",
+      "type": "slide",
+      "title": "公式法",
+      "order": 9,
+      "content": {
+        "type": "slide",
+        "canvas": {
+          "id": "T22fuvblbshBNv2TLYF--",
+          "viewportSize": 1000,
+          "viewportRatio": 0.5625,
+          "theme": {
+            "backgroundColor": "#ffffff",
+            "themeColors": [
+              "#5b9bd5",
+              "#ed7d31",
+              "#a5a5a5",
+              "#ffc000",
+              "#4472c4"
+            ],
+            "fontColor": "#333333",
+            "fontName": "Microsoft YaHei",
+            "outline": {
+              "color": "#d14424",
+              "width": 2,
+              "style": "solid"
+            },
+            "shadow": {
+              "h": 0,
+              "v": 0,
+              "blur": 10,
+              "color": "#000000"
+            }
+          },
+          "elements": [
+            {
+              "id": "t8-0",
+              "type": "text",
+              "left": 54.6875,
+              "top": 40.625,
+              "width": 890.625,
+              "height": 65.625,
+              "rotate": 0,
+              "defaultFontName": "Microsoft YaHei",
+              "defaultColor": "#182C35",
+              "content": "<p style=\"font-size:34.375px;line-height:1.25;font-weight:bold;\">公式法</p>"
+            },
+            {
+              "id": "t8-1",
+              "type": "text",
+              "left": 59.375,
+              "top": 129.6875,
+              "width": 875,
+              "height": 46.875,
+              "rotate": 0,
+              "defaultFontName": "Microsoft YaHei",
+              "defaultColor": "#233B43",
+              "content": "<p style=\"font-size:22.65625px;line-height:1.25;\">先化为一般形式，连同正负号确定 a、b、c。</p>"
+            },
+            {
+              "id": "t8-2",
+              "type": "text",
+              "left": 59.375,
+              "top": 180.46875,
+              "width": 875,
+              "height": 46.875,
+              "rotate": 0,
+              "defaultFontName": "Microsoft YaHei",
+              "defaultColor": "#233B43",
+              "content": "<p style=\"font-size:22.65625px;line-height:1.25;\">计算判别式；只有 Δ ≥ 0 时才在实数范围开方。</p>"
+            },
+            {
+              "id": "t8-3",
+              "type": "text",
+              "left": 59.375,
+              "top": 231.25,
+              "width": 875,
+              "height": 46.875,
+              "rotate": 0,
+              "defaultFontName": "Microsoft YaHei",
+              "defaultColor": "#233B43",
+              "content": "<p style=\"font-size:22.65625px;line-height:1.25;\">代入求根公式并化简。</p>"
+            },
+            {
+              "id": "t8-4",
+              "type": "text",
+              "left": 59.375,
+              "top": 304.6875,
+              "width": 875,
+              "height": 51.5625,
+              "rotate": 0,
+              "defaultFontName": "Microsoft YaHei",
+              "defaultColor": "#9B3B62",
+              "content": "<p style=\"font-size:26.5625px;line-height:1.25;font-weight:bold;\">x = (−b ± √(b²−4ac)) / (2a)</p>"
+            },
+            {
+              "id": "t8-5",
+              "type": "text",
+              "left": 59.375,
+              "top": 384.375,
+              "width": 875,
+              "height": 97.65625,
+              "rotate": 0,
+              "defaultFontName": "Microsoft YaHei",
+              "defaultColor": "#344B52",
+              "content": "<p style=\"font-size:20.3125px;line-height:1.25;\">例：x²−4x−7 = 0，Δ = 44，因此 x = 2 ± √11。</p>"
+            },
+            {
+              "id": "t8-6",
+              "type": "text",
+              "left": 59.375,
+              "top": 514.0625,
+              "width": 703.125,
+              "height": 27.34375,
+              "rotate": 0,
+              "defaultFontName": "Microsoft YaHei",
+              "defaultColor": "#63757A",
+              "content": "<p style=\"font-size:14.84375px;line-height:1.25;\">教材第 10–12 页</p>"
+            },
+            {
+              "id": "t8-7",
+              "type": "text",
+              "left": 859.375,
+              "top": 514.0625,
+              "width": 82.03125,
+              "height": 27.34375,
+              "rotate": 0,
+              "defaultFontName": "Microsoft YaHei",
+              "defaultColor": "#63757A",
+              "content": "<p style=\"font-size:14.0625px;line-height:1.25;\">9 / 17</p>"
+            }
+          ],
+          "background": {
+            "type": "solid",
+            "color": "#FCFBF7"
+          }
+        }
+      },
+      "actions": [
+        {
+          "id": "speech-8",
+          "type": "speech",
+          "agentId": "teacher",
+          "text": "公式法。先化为一般形式，连同正负号确定 a、b、c。。计算判别式；只有 Δ ≥ 0 时才在实数范围开方。。代入求根公式并化简。。x = (−b ± √(b²−4ac)) / (2a)。例：x²−4x−7 = 0，Δ = 44，因此 x = 2 ± √11。"
+        }
+      ],
+      "createdAt": 1788936173019,
+      "updatedAt": 1788936173019
+    },
+    {
+      "id": "math-quadratics-ch21-slide-10",
+      "outlineId": "math-quadratics-ch21-outline-10",
+      "stageId": "math-quadratics-ch21",
+      "type": "slide",
+      "title": "因式分解法",
+      "order": 10,
+      "content": {
+        "type": "slide",
+        "canvas": {
+          "id": "ySlhug6LWNNzCdfhJiZQK",
+          "viewportSize": 1000,
+          "viewportRatio": 0.5625,
+          "theme": {
+            "backgroundColor": "#ffffff",
+            "themeColors": [
+              "#5b9bd5",
+              "#ed7d31",
+              "#a5a5a5",
+              "#ffc000",
+              "#4472c4"
+            ],
+            "fontColor": "#333333",
+            "fontName": "Microsoft YaHei",
+            "outline": {
+              "color": "#d14424",
+              "width": 2,
+              "style": "solid"
+            },
+            "shadow": {
+              "h": 0,
+              "v": 0,
+              "blur": 10,
+              "color": "#000000"
+            }
+          },
+          "elements": [
+            {
+              "id": "t9-0",
+              "type": "text",
+              "left": 54.6875,
+              "top": 40.625,
+              "width": 890.625,
+              "height": 65.625,
+              "rotate": 0,
+              "defaultFontName": "Microsoft YaHei",
+              "defaultColor": "#182C35",
+              "content": "<p style=\"font-size:34.375px;line-height:1.25;font-weight:bold;\">因式分解法</p>"
+            },
+            {
+              "id": "t9-1",
+              "type": "text",
+              "left": 59.375,
+              "top": 129.6875,
+              "width": 875,
+              "height": 46.875,
+              "rotate": 0,
+              "defaultFontName": "Microsoft YaHei",
+              "defaultColor": "#233B43",
+              "content": "<p style=\"font-size:22.65625px;line-height:1.25;\">先把方程一边化为 0。</p>"
+            },
+            {
+              "id": "t9-2",
+              "type": "text",
+              "left": 59.375,
+              "top": 180.46875,
+              "width": 875,
+              "height": 46.875,
+              "rotate": 0,
+              "defaultFontName": "Microsoft YaHei",
+              "defaultColor": "#233B43",
+              "content": "<p style=\"font-size:22.65625px;line-height:1.25;\">把另一边分解为两个一次因式的乘积。</p>"
+            },
+            {
+              "id": "t9-3",
+              "type": "text",
+              "left": 59.375,
+              "top": 231.25,
+              "width": 875,
+              "height": 46.875,
+              "rotate": 0,
+              "defaultFontName": "Microsoft YaHei",
+              "defaultColor": "#233B43",
+              "content": "<p style=\"font-size:22.65625px;line-height:1.25;\">分别令每个因式为 0，得到各个根。</p>"
+            },
+            {
+              "id": "t9-4",
+              "type": "text",
+              "left": 59.375,
+              "top": 304.6875,
+              "width": 875,
+              "height": 51.5625,
+              "rotate": 0,
+              "defaultFontName": "Microsoft YaHei",
+              "defaultColor": "#9B3B62",
+              "content": "<p style=\"font-size:26.5625px;line-height:1.25;font-weight:bold;\">x(x − 2) + x − 2 = 0</p>"
+            },
+            {
+              "id": "t9-5",
+              "type": "text",
+              "left": 59.375,
+              "top": 384.375,
+              "width": 875,
+              "height": 97.65625,
+              "rotate": 0,
+              "defaultFontName": "Microsoft YaHei",
+              "defaultColor": "#344B52",
+              "content": "<p style=\"font-size:20.3125px;line-height:1.25;\">分组得 (x−2)(x+1) = 0，所以 x = 2 或 −1。不能直接除以含未知数的因式，否则可能丢根。</p>"
+            },
+            {
+              "id": "t9-6",
+              "type": "text",
+              "left": 59.375,
+              "top": 514.0625,
+              "width": 703.125,
+              "height": 27.34375,
+              "rotate": 0,
+              "defaultFontName": "Microsoft YaHei",
+              "defaultColor": "#63757A",
+              "content": "<p style=\"font-size:14.84375px;line-height:1.25;\">教材第 12–14 页</p>"
+            },
+            {
+              "id": "t9-7",
+              "type": "text",
+              "left": 859.375,
+              "top": 514.0625,
+              "width": 82.03125,
+              "height": 27.34375,
+              "rotate": 0,
+              "defaultFontName": "Microsoft YaHei",
+              "defaultColor": "#63757A",
+              "content": "<p style=\"font-size:14.0625px;line-height:1.25;\">10 / 17</p>"
+            }
+          ],
+          "background": {
+            "type": "solid",
+            "color": "#FCFBF7"
+          }
+        }
+      },
+      "actions": [
+        {
+          "id": "speech-9",
+          "type": "speech",
+          "agentId": "teacher",
+          "text": "因式分解法。先把方程一边化为 0。。把另一边分解为两个一次因式的乘积。。分别令每个因式为 0，得到各个根。。x(x − 2) + x − 2 = 0。分组得 (x−2)(x+1) = 0，所以 x = 2 或 −1。不能直接除以含未知数的因式，否则可能丢根。"
+        }
+      ],
+      "createdAt": 1788936173019,
+      "updatedAt": 1788936173019
+    },
+    {
+      "id": "math-quadratics-ch21-slide-11",
+      "outlineId": "math-quadratics-ch21-outline-11",
+      "stageId": "math-quadratics-ch21",
+      "type": "slide",
+      "title": "解法的选择",
+      "order": 11,
+      "content": {
+        "type": "slide",
+        "canvas": {
+          "id": "EfoNSf95UjON58KaSVA-w",
+          "viewportSize": 1000,
+          "viewportRatio": 0.5625,
+          "theme": {
+            "backgroundColor": "#ffffff",
+            "themeColors": [
+              "#5b9bd5",
+              "#ed7d31",
+              "#a5a5a5",
+              "#ffc000",
+              "#4472c4"
+            ],
+            "fontColor": "#333333",
+            "fontName": "Microsoft YaHei",
+            "outline": {
+              "color": "#d14424",
+              "width": 2,
+              "style": "solid"
+            },
+            "shadow": {
+              "h": 0,
+              "v": 0,
+              "blur": 10,
+              "color": "#000000"
+            }
+          },
+          "elements": [
+            {
+              "id": "t10-0",
+              "type": "text",
+              "left": 54.6875,
+              "top": 40.625,
+              "width": 890.625,
+              "height": 65.625,
+              "rotate": 0,
+              "defaultFontName": "Microsoft YaHei",
+              "defaultColor": "#182C35",
+              "content": "<p style=\"font-size:34.375px;line-height:1.25;font-weight:bold;\">解法的选择</p>"
+            },
+            {
+              "id": "t10-1",
+              "type": "text",
+              "left": 59.375,
+              "top": 129.6875,
+              "width": 875,
+              "height": 46.875,
+              "rotate": 0,
+              "defaultFontName": "Microsoft YaHei",
+              "defaultColor": "#233B43",
+              "content": "<p style=\"font-size:22.65625px;line-height:1.25;\">已有完全平方形式：直接开平方。</p>"
+            },
+            {
+              "id": "t10-2",
+              "type": "text",
+              "left": 59.375,
+              "top": 180.46875,
+              "width": 875,
+              "height": 46.875,
+              "rotate": 0,
+              "defaultFontName": "Microsoft YaHei",
+              "defaultColor": "#233B43",
+              "content": "<p style=\"font-size:22.65625px;line-height:1.25;\">容易提公因式或使用乘法公式：因式分解。</p>"
+            },
+            {
+              "id": "t10-3",
+              "type": "text",
+              "left": 59.375,
+              "top": 231.25,
+              "width": 875,
+              "height": 46.875,
+              "rotate": 0,
+              "defaultFontName": "Microsoft YaHei",
+              "defaultColor": "#233B43",
+              "content": "<p style=\"font-size:22.65625px;line-height:1.25;\">需要理解求根公式的来源：配方法。</p>"
+            },
+            {
+              "id": "t10-4",
+              "type": "text",
+              "left": 59.375,
+              "top": 282.03125,
+              "width": 875,
+              "height": 46.875,
+              "rotate": 0,
+              "defaultFontName": "Microsoft YaHei",
+              "defaultColor": "#233B43",
+              "content": "<p style=\"font-size:22.65625px;line-height:1.25;\">一般方程：检查判别式后使用公式法。</p>"
+            },
+            {
+              "id": "t10-5",
+              "type": "text",
+              "left": 59.375,
+              "top": 384.375,
+              "width": 875,
+              "height": 97.65625,
+              "rotate": 0,
+              "defaultFontName": "Microsoft YaHei",
+              "defaultColor": "#344B52",
+              "content": "<p style=\"font-size:20.3125px;line-height:1.25;\">共同思路是降次，把二次方程转化为一次方程。</p>"
+            },
+            {
+              "id": "t10-6",
+              "type": "text",
+              "left": 59.375,
+              "top": 514.0625,
+              "width": 703.125,
+              "height": 27.34375,
+              "rotate": 0,
+              "defaultFontName": "Microsoft YaHei",
+              "defaultColor": "#63757A",
+              "content": "<p style=\"font-size:14.84375px;line-height:1.25;\">教材第 14、24 页</p>"
+            },
+            {
+              "id": "t10-7",
+              "type": "text",
+              "left": 859.375,
+              "top": 514.0625,
+              "width": 82.03125,
+              "height": 27.34375,
+              "rotate": 0,
+              "defaultFontName": "Microsoft YaHei",
+              "defaultColor": "#63757A",
+              "content": "<p style=\"font-size:14.0625px;line-height:1.25;\">11 / 17</p>"
+            }
+          ],
+          "background": {
+            "type": "solid",
+            "color": "#FCFBF7"
+          }
+        }
+      },
+      "actions": [
+        {
+          "id": "speech-10",
+          "type": "speech",
+          "agentId": "teacher",
+          "text": "解法的选择。已有完全平方形式：直接开平方。。容易提公因式或使用乘法公式：因式分解。。需要理解求根公式的来源：配方法。。一般方程：检查判别式后使用公式法。。共同思路是降次，把二次方程转化为一次方程。"
+        }
+      ],
+      "createdAt": 1788936173020,
+      "updatedAt": 1788936173020
+    },
+    {
+      "id": "math-quadratics-ch21-slide-12",
+      "outlineId": "math-quadratics-ch21-outline-12",
+      "stageId": "math-quadratics-ch21",
+      "type": "slide",
+      "title": "选学：根与系数的关系",
+      "order": 12,
+      "content": {
+        "type": "slide",
+        "canvas": {
+          "id": "eHBcuWTupJNkttEM3sqiA",
+          "viewportSize": 1000,
+          "viewportRatio": 0.5625,
+          "theme": {
+            "backgroundColor": "#ffffff",
+            "themeColors": [
+              "#5b9bd5",
+              "#ed7d31",
+              "#a5a5a5",
+              "#ffc000",
+              "#4472c4"
+            ],
+            "fontColor": "#333333",
+            "fontName": "Microsoft YaHei",
+            "outline": {
+              "color": "#d14424",
+              "width": 2,
+              "style": "solid"
+            },
+            "shadow": {
+              "h": 0,
+              "v": 0,
+              "blur": 10,
+              "color": "#000000"
+            }
+          },
+          "elements": [
+            {
+              "id": "t11-0",
+              "type": "text",
+              "left": 54.6875,
+              "top": 40.625,
+              "width": 890.625,
+              "height": 65.625,
+              "rotate": 0,
+              "defaultFontName": "Microsoft YaHei",
+              "defaultColor": "#182C35",
+              "content": "<p style=\"font-size:34.375px;line-height:1.25;font-weight:bold;\">选学：根与系数的关系</p>"
+            },
+            {
+              "id": "t11-1",
+              "type": "text",
+              "left": 59.375,
+              "top": 129.6875,
+              "width": 875,
+              "height": 46.875,
+              "rotate": 0,
+              "defaultFontName": "Microsoft YaHei",
+              "defaultColor": "#233B43",
+              "content": "<p style=\"font-size:22.65625px;line-height:1.25;\">设 x₁、x₂ 是 ax²+bx+c = 0 的两个实数根。</p>"
+            },
+            {
+              "id": "t11-2",
+              "type": "text",
+              "left": 59.375,
+              "top": 180.46875,
+              "width": 875,
+              "height": 46.875,
+              "rotate": 0,
+              "defaultFontName": "Microsoft YaHei",
+              "defaultColor": "#233B43",
+              "content": "<p style=\"font-size:22.65625px;line-height:1.25;\">无需分别求根，就能计算根的和与积。</p>"
+            },
+            {
+              "id": "t11-3",
+              "type": "text",
+              "left": 59.375,
+              "top": 231.25,
+              "width": 875,
+              "height": 46.875,
+              "rotate": 0,
+              "defaultFontName": "Microsoft YaHei",
+              "defaultColor": "#233B43",
+              "content": "<p style=\"font-size:22.65625px;line-height:1.25;\">使用前检查 a ≠ 0，并确认实数根存在。</p>"
+            },
+            {
+              "id": "t11-4",
+              "type": "text",
+              "left": 59.375,
+              "top": 304.6875,
+              "width": 875,
+              "height": 51.5625,
+              "rotate": 0,
+              "defaultFontName": "Microsoft YaHei",
+              "defaultColor": "#9B3B62",
+              "content": "<p style=\"font-size:26.5625px;line-height:1.25;font-weight:bold;\">x₁ + x₂ = −b/a；x₁x₂ = c/a</p>"
+            },
+            {
+              "id": "t11-5",
+              "type": "text",
+              "left": 59.375,
+              "top": 384.375,
+              "width": 875,
+              "height": 97.65625,
+              "rotate": 0,
+              "defaultFontName": "Microsoft YaHei",
+              "defaultColor": "#344B52",
+              "content": "<p style=\"font-size:20.3125px;line-height:1.25;\">例：2x²−5x+2 = 0，两根和为 5/2，积为 1。本节在教材中标为选学。</p>"
+            },
+            {
+              "id": "t11-6",
+              "type": "text",
+              "left": 59.375,
+              "top": 514.0625,
+              "width": 703.125,
+              "height": 27.34375,
+              "rotate": 0,
+              "defaultFontName": "Microsoft YaHei",
+              "defaultColor": "#63757A",
+              "content": "<p style=\"font-size:14.84375px;line-height:1.25;\">教材第 15–16 页</p>"
+            },
+            {
+              "id": "t11-7",
+              "type": "text",
+              "left": 859.375,
+              "top": 514.0625,
+              "width": 82.03125,
+              "height": 27.34375,
+              "rotate": 0,
+              "defaultFontName": "Microsoft YaHei",
+              "defaultColor": "#63757A",
+              "content": "<p style=\"font-size:14.0625px;line-height:1.25;\">12 / 17</p>"
+            }
+          ],
+          "background": {
+            "type": "solid",
+            "color": "#FCFBF7"
+          }
+        }
+      },
+      "actions": [
+        {
+          "id": "speech-11",
+          "type": "speech",
+          "agentId": "teacher",
+          "text": "选学：根与系数的关系。设 x₁、x₂ 是 ax²+bx+c = 0 的两个实数根。。无需分别求根，就能计算根的和与积。。使用前检查 a ≠ 0，并确认实数根存在。。x₁ + x₂ = −b/a；x₁x₂ = c/a。例：2x²−5x+2 = 0，两根和为 5/2，积为 1。本节在教材中标为选学。"
+        }
+      ],
+      "createdAt": 1788936173020,
+      "updatedAt": 1788936173020
+    },
+    {
+      "id": "math-quadratics-ch21-slide-13",
+      "outlineId": "math-quadratics-ch21-outline-13",
+      "stageId": "math-quadratics-ch21",
+      "type": "slide",
+      "title": "阅读：黄金分割数",
+      "order": 13,
+      "content": {
+        "type": "slide",
+        "canvas": {
+          "id": "qE3mbtlIR2hhkRmaBRIMS",
+          "viewportSize": 1000,
+          "viewportRatio": 0.5625,
+          "theme": {
+            "backgroundColor": "#ffffff",
+            "themeColors": [
+              "#5b9bd5",
+              "#ed7d31",
+              "#a5a5a5",
+              "#ffc000",
+              "#4472c4"
+            ],
+            "fontColor": "#333333",
+            "fontName": "Microsoft YaHei",
+            "outline": {
+              "color": "#d14424",
+              "width": 2,
+              "style": "solid"
+            },
+            "shadow": {
+              "h": 0,
+              "v": 0,
+              "blur": 10,
+              "color": "#000000"
+            }
+          },
+          "elements": [
+            {
+              "id": "t12-0",
+              "type": "text",
+              "left": 54.6875,
+              "top": 40.625,
+              "width": 890.625,
+              "height": 65.625,
+              "rotate": 0,
+              "defaultFontName": "Microsoft YaHei",
+              "defaultColor": "#182C35",
+              "content": "<p style=\"font-size:34.375px;line-height:1.25;font-weight:bold;\">阅读：黄金分割数</p>"
+            },
+            {
+              "id": "t12-1",
+              "type": "text",
+              "left": 59.375,
+              "top": 129.6875,
+              "width": 875,
+              "height": 46.875,
+              "rotate": 0,
+              "defaultFontName": "Microsoft YaHei",
+              "defaultColor": "#233B43",
+              "content": "<p style=\"font-size:22.65625px;line-height:1.25;\">设单位线段较长部分为 x，较短部分为 1−x。</p>"
+            },
+            {
+              "id": "t12-2",
+              "type": "text",
+              "left": 59.375,
+              "top": 180.46875,
+              "width": 875,
+              "height": 46.875,
+              "rotate": 0,
+              "defaultFontName": "Microsoft YaHei",
+              "defaultColor": "#233B43",
+              "content": "<p style=\"font-size:22.65625px;line-height:1.25;\">较短部分与较长部分之比，等于较长部分与全长之比。</p>"
+            },
+            {
+              "id": "t12-3",
+              "type": "text",
+              "left": 59.375,
+              "top": 231.25,
+              "width": 875,
+              "height": 46.875,
+              "rotate": 0,
+              "defaultFontName": "Microsoft YaHei",
+              "defaultColor": "#233B43",
+              "content": "<p style=\"font-size:22.65625px;line-height:1.25;\">列方程并按 0 &lt; x &lt; 1 筛选根。</p>"
+            },
+            {
+              "id": "t12-4",
+              "type": "text",
+              "left": 59.375,
+              "top": 304.6875,
+              "width": 875,
+              "height": 51.5625,
+              "rotate": 0,
+              "defaultFontName": "Microsoft YaHei",
+              "defaultColor": "#9B3B62",
+              "content": "<p style=\"font-size:26.5625px;line-height:1.25;font-weight:bold;\">(1 − x)/x = x</p>"
+            },
+            {
+              "id": "t12-5",
+              "type": "text",
+              "left": 59.375,
+              "top": 384.375,
+              "width": 875,
+              "height": 97.65625,
+              "rotate": 0,
+              "defaultFontName": "Microsoft YaHei",
+              "defaultColor": "#344B52",
+              "content": "<p style=\"font-size:20.3125px;line-height:1.25;\">得到 x²+x−1 = 0，取 x = (√5−1)/2，约为 0.618。</p>"
+            },
+            {
+              "id": "t12-6",
+              "type": "text",
+              "left": 59.375,
+              "top": 514.0625,
+              "width": 703.125,
+              "height": 27.34375,
+              "rotate": 0,
+              "defaultFontName": "Microsoft YaHei",
+              "defaultColor": "#63757A",
+              "content": "<p style=\"font-size:14.84375px;line-height:1.25;\">教材第 18 页</p>"
+            },
+            {
+              "id": "t12-7",
+              "type": "text",
+              "left": 859.375,
+              "top": 514.0625,
+              "width": 82.03125,
+              "height": 27.34375,
+              "rotate": 0,
+              "defaultFontName": "Microsoft YaHei",
+              "defaultColor": "#63757A",
+              "content": "<p style=\"font-size:14.0625px;line-height:1.25;\">13 / 17</p>"
+            }
+          ],
+          "background": {
+            "type": "solid",
+            "color": "#FCFBF7"
+          }
+        }
+      },
+      "actions": [
+        {
+          "id": "speech-12",
+          "type": "speech",
+          "agentId": "teacher",
+          "text": "阅读：黄金分割数。设单位线段较长部分为 x，较短部分为 1−x。。较短部分与较长部分之比，等于较长部分与全长之比。。列方程并按 0 < x < 1 筛选根。。(1 − x)/x = x。得到 x²+x−1 = 0，取 x = (√5−1)/2，约为 0.618。"
+        }
+      ],
+      "createdAt": 1788936173021,
+      "updatedAt": 1788936173021
+    },
+    {
+      "id": "math-quadratics-ch21-slide-14",
+      "outlineId": "math-quadratics-ch21-outline-14",
+      "stageId": "math-quadratics-ch21",
+      "type": "slide",
+      "title": "实际问题：增长与下降",
+      "order": 14,
+      "content": {
+        "type": "slide",
+        "canvas": {
+          "id": "2fVG30gBv-417j1xtac2j",
+          "viewportSize": 1000,
+          "viewportRatio": 0.5625,
+          "theme": {
+            "backgroundColor": "#ffffff",
+            "themeColors": [
+              "#5b9bd5",
+              "#ed7d31",
+              "#a5a5a5",
+              "#ffc000",
+              "#4472c4"
+            ],
+            "fontColor": "#333333",
+            "fontName": "Microsoft YaHei",
+            "outline": {
+              "color": "#d14424",
+              "width": 2,
+              "style": "solid"
+            },
+            "shadow": {
+              "h": 0,
+              "v": 0,
+              "blur": 10,
+              "color": "#000000"
+            }
+          },
+          "elements": [
+            {
+              "id": "t13-0",
+              "type": "text",
+              "left": 54.6875,
+              "top": 40.625,
+              "width": 890.625,
+              "height": 65.625,
+              "rotate": 0,
+              "defaultFontName": "Microsoft YaHei",
+              "defaultColor": "#182C35",
+              "content": "<p style=\"font-size:34.375px;line-height:1.25;font-weight:bold;\">实际问题：增长与下降</p>"
+            },
+            {
+              "id": "t13-1",
+              "type": "text",
+              "left": 59.375,
+              "top": 129.6875,
+              "width": 875,
+              "height": 46.875,
+              "rotate": 0,
+              "defaultFontName": "Microsoft YaHei",
+              "defaultColor": "#233B43",
+              "content": "<p style=\"font-size:22.65625px;line-height:1.25;\">连续两期以相同比率增长：a(1+r)² = b。</p>"
+            },
+            {
+              "id": "t13-2",
+              "type": "text",
+              "left": 59.375,
+              "top": 180.46875,
+              "width": 875,
+              "height": 46.875,
+              "rotate": 0,
+              "defaultFontName": "Microsoft YaHei",
+              "defaultColor": "#233B43",
+              "content": "<p style=\"font-size:22.65625px;line-height:1.25;\">连续两期以相同比率下降：a(1−r)² = b。</p>"
+            },
+            {
+              "id": "t13-3",
+              "type": "text",
+              "left": 59.375,
+              "top": 231.25,
+              "width": 875,
+              "height": 46.875,
+              "rotate": 0,
+              "defaultFontName": "Microsoft YaHei",
+              "defaultColor": "#233B43",
+              "content": "<p style=\"font-size:22.65625px;line-height:1.25;\">平均变化率不能直接用总变化率除以 2。</p>"
+            },
+            {
+              "id": "t13-4",
+              "type": "text",
+              "left": 59.375,
+              "top": 304.6875,
+              "width": 875,
+              "height": 51.5625,
+              "rotate": 0,
+              "defaultFontName": "Microsoft YaHei",
+              "defaultColor": "#9B3B62",
+              "content": "<p style=\"font-size:26.5625px;line-height:1.25;font-weight:bold;\">100(1 + r)² = 121</p>"
+            },
+            {
+              "id": "t13-5",
+              "type": "text",
+              "left": 59.375,
+              "top": 384.375,
+              "width": 875,
+              "height": 97.65625,
+              "rotate": 0,
+              "defaultFontName": "Microsoft YaHei",
+              "defaultColor": "#344B52",
+              "content": "<p style=\"font-size:20.3125px;line-height:1.25;\">例：数量由 100 连续两期增长到 121，r = 0.1，即每期增长 10%。</p>"
+            },
+            {
+              "id": "t13-6",
+              "type": "text",
+              "left": 59.375,
+              "top": 514.0625,
+              "width": 703.125,
+              "height": 27.34375,
+              "rotate": 0,
+              "defaultFontName": "Microsoft YaHei",
+              "defaultColor": "#63757A",
+              "content": "<p style=\"font-size:14.84375px;line-height:1.25;\">教材第 19–20 页</p>"
+            },
+            {
+              "id": "t13-7",
+              "type": "text",
+              "left": 859.375,
+              "top": 514.0625,
+              "width": 82.03125,
+              "height": 27.34375,
+              "rotate": 0,
+              "defaultFontName": "Microsoft YaHei",
+              "defaultColor": "#63757A",
+              "content": "<p style=\"font-size:14.0625px;line-height:1.25;\">14 / 17</p>"
+            }
+          ],
+          "background": {
+            "type": "solid",
+            "color": "#FCFBF7"
+          }
+        }
+      },
+      "actions": [
+        {
+          "id": "speech-13",
+          "type": "speech",
+          "agentId": "teacher",
+          "text": "实际问题：增长与下降。连续两期以相同比率增长：a(1+r)² = b。。连续两期以相同比率下降：a(1−r)² = b。。平均变化率不能直接用总变化率除以 2。。100(1 + r)² = 121。例：数量由 100 连续两期增长到 121，r = 0.1，即每期增长 10%。"
+        }
+      ],
+      "createdAt": 1788936173021,
+      "updatedAt": 1788936173021
+    },
+    {
+      "id": "math-quadratics-ch21-slide-15",
+      "outlineId": "math-quadratics-ch21-outline-15",
+      "stageId": "math-quadratics-ch21",
+      "type": "slide",
+      "title": "实际问题：面积与约束",
+      "order": 15,
+      "content": {
+        "type": "slide",
+        "canvas": {
+          "id": "1PPw5mrQB4336oeFxum1J",
+          "viewportSize": 1000,
+          "viewportRatio": 0.5625,
+          "theme": {
+            "backgroundColor": "#ffffff",
+            "themeColors": [
+              "#5b9bd5",
+              "#ed7d31",
+              "#a5a5a5",
+              "#ffc000",
+              "#4472c4"
+            ],
+            "fontColor": "#333333",
+            "fontName": "Microsoft YaHei",
+            "outline": {
+              "color": "#d14424",
+              "width": 2,
+              "style": "solid"
+            },
+            "shadow": {
+              "h": 0,
+              "v": 0,
+              "blur": 10,
+              "color": "#000000"
+            }
+          },
+          "elements": [
+            {
+              "id": "t14-0",
+              "type": "text",
+              "left": 54.6875,
+              "top": 40.625,
+              "width": 890.625,
+              "height": 65.625,
+              "rotate": 0,
+              "defaultFontName": "Microsoft YaHei",
+              "defaultColor": "#182C35",
+              "content": "<p style=\"font-size:34.375px;line-height:1.25;font-weight:bold;\">实际问题：面积与约束</p>"
+            },
+            {
+              "id": "t14-1",
+              "type": "text",
+              "left": 59.375,
+              "top": 129.6875,
+              "width": 875,
+              "height": 46.875,
+              "rotate": 0,
+              "defaultFontName": "Microsoft YaHei",
+              "defaultColor": "#233B43",
+              "content": "<p style=\"font-size:22.65625px;line-height:1.25;\">先用未知数表示各条边。</p>"
+            },
+            {
+              "id": "t14-2",
+              "type": "text",
+              "left": 59.375,
+              "top": 180.46875,
+              "width": 875,
+              "height": 46.875,
+              "rotate": 0,
+              "defaultFontName": "Microsoft YaHei",
+              "defaultColor": "#233B43",
+              "content": "<p style=\"font-size:22.65625px;line-height:1.25;\">列面积等式，解方程。</p>"
+            },
+            {
+              "id": "t14-3",
+              "type": "text",
+              "left": 59.375,
+              "top": 231.25,
+              "width": 875,
+              "height": 46.875,
+              "rotate": 0,
+              "defaultFontName": "Microsoft YaHei",
+              "defaultColor": "#233B43",
+              "content": "<p style=\"font-size:22.65625px;line-height:1.25;\">将结果代回尺寸条件，舍去不合理的根。</p>"
+            },
+            {
+              "id": "t14-4",
+              "type": "text",
+              "left": 59.375,
+              "top": 304.6875,
+              "width": 875,
+              "height": 51.5625,
+              "rotate": 0,
+              "defaultFontName": "Microsoft YaHei",
+              "defaultColor": "#9B3B62",
+              "content": "<p style=\"font-size:26.5625px;line-height:1.25;font-weight:bold;\">x(x + 3) = 10</p>"
+            },
+            {
+              "id": "t14-5",
+              "type": "text",
+              "left": 59.375,
+              "top": 384.375,
+              "width": 875,
+              "height": 97.65625,
+              "rotate": 0,
+              "defaultFontName": "Microsoft YaHei",
+              "defaultColor": "#344B52",
+              "content": "<p style=\"font-size:20.3125px;line-height:1.25;\">例：矩形宽 x cm，长比宽多 3 cm，面积为 10 cm²。解得 x = 2 或 −5；取宽 2 cm、长 5 cm。</p>"
+            },
+            {
+              "id": "t14-6",
+              "type": "text",
+              "left": 59.375,
+              "top": 514.0625,
+              "width": 703.125,
+              "height": 27.34375,
+              "rotate": 0,
+              "defaultFontName": "Microsoft YaHei",
+              "defaultColor": "#63757A",
+              "content": "<p style=\"font-size:14.84375px;line-height:1.25;\">教材第 20–22 页</p>"
+            },
+            {
+              "id": "t14-7",
+              "type": "text",
+              "left": 859.375,
+              "top": 514.0625,
+              "width": 82.03125,
+              "height": 27.34375,
+              "rotate": 0,
+              "defaultFontName": "Microsoft YaHei",
+              "defaultColor": "#63757A",
+              "content": "<p style=\"font-size:14.0625px;line-height:1.25;\">15 / 17</p>"
+            }
+          ],
+          "background": {
+            "type": "solid",
+            "color": "#FCFBF7"
+          }
+        }
+      },
+      "actions": [
+        {
+          "id": "speech-14",
+          "type": "speech",
+          "agentId": "teacher",
+          "text": "实际问题：面积与约束。先用未知数表示各条边。。列面积等式，解方程。。将结果代回尺寸条件，舍去不合理的根。。x(x + 3) = 10。例：矩形宽 x cm，长比宽多 3 cm，面积为 10 cm²。解得 x = 2 或 −5；取宽 2 cm、长 5 cm。"
+        }
+      ],
+      "createdAt": 1788936173022,
+      "updatedAt": 1788936173022
+    },
+    {
+      "id": "math-quadratics-ch21-slide-16",
+      "outlineId": "math-quadratics-ch21-outline-16",
+      "stageId": "math-quadratics-ch21",
+      "type": "slide",
+      "title": "数学活动与计数",
+      "order": 16,
+      "content": {
+        "type": "slide",
+        "canvas": {
+          "id": "QIuqEYvcoqJuMU-PTFoA2",
+          "viewportSize": 1000,
+          "viewportRatio": 0.5625,
+          "theme": {
+            "backgroundColor": "#ffffff",
+            "themeColors": [
+              "#5b9bd5",
+              "#ed7d31",
+              "#a5a5a5",
+              "#ffc000",
+              "#4472c4"
+            ],
+            "fontColor": "#333333",
+            "fontName": "Microsoft YaHei",
+            "outline": {
+              "color": "#d14424",
+              "width": 2,
+              "style": "solid"
+            },
+            "shadow": {
+              "h": 0,
+              "v": 0,
+              "blur": 10,
+              "color": "#000000"
+            }
+          },
+          "elements": [
+            {
+              "id": "t15-0",
+              "type": "text",
+              "left": 54.6875,
+              "top": 40.625,
+              "width": 890.625,
+              "height": 65.625,
+              "rotate": 0,
+              "defaultFontName": "Microsoft YaHei",
+              "defaultColor": "#182C35",
+              "content": "<p style=\"font-size:34.375px;line-height:1.25;font-weight:bold;\">数学活动与计数</p>"
+            },
+            {
+              "id": "t15-1",
+              "type": "text",
+              "left": 59.375,
+              "top": 129.6875,
+              "width": 875,
+              "height": 46.875,
+              "rotate": 0,
+              "defaultFontName": "Microsoft YaHei",
+              "defaultColor": "#233B43",
+              "content": "<p style=\"font-size:22.65625px;line-height:1.25;\">单循环比赛：每两队比赛一场，总场数为 n(n−1)/2。</p>"
+            },
+            {
+              "id": "t15-2",
+              "type": "text",
+              "left": 59.375,
+              "top": 180.46875,
+              "width": 875,
+              "height": 46.875,
+              "rotate": 0,
+              "defaultFontName": "Microsoft YaHei",
+              "defaultColor": "#233B43",
+              "content": "<p style=\"font-size:22.65625px;line-height:1.25;\">三角点阵前 n 行的点数为 n(n+1)/2。</p>"
+            },
+            {
+              "id": "t15-3",
+              "type": "text",
+              "left": 59.375,
+              "top": 231.25,
+              "width": 875,
+              "height": 46.875,
+              "rotate": 0,
+              "defaultFontName": "Microsoft YaHei",
+              "defaultColor": "#233B43",
+              "content": "<p style=\"font-size:22.65625px;line-height:1.25;\">解出 n 后，必须检查它是否为正整数。</p>"
+            },
+            {
+              "id": "t15-4",
+              "type": "text",
+              "left": 59.375,
+              "top": 304.6875,
+              "width": 875,
+              "height": 51.5625,
+              "rotate": 0,
+              "defaultFontName": "Microsoft YaHei",
+              "defaultColor": "#9B3B62",
+              "content": "<p style=\"font-size:26.5625px;line-height:1.25;font-weight:bold;\">n(n + 1)/2 = 300</p>"
+            },
+            {
+              "id": "t15-5",
+              "type": "text",
+              "left": 59.375,
+              "top": 384.375,
+              "width": 875,
+              "height": 97.65625,
+              "rotate": 0,
+              "defaultFontName": "Microsoft YaHei",
+              "defaultColor": "#344B52",
+              "content": "<p style=\"font-size:20.3125px;line-height:1.25;\">n²+n−600 = 0，分解为 (n−24)(n+25) = 0，取 n = 24。</p>"
+            },
+            {
+              "id": "t15-6",
+              "type": "text",
+              "left": 59.375,
+              "top": 514.0625,
+              "width": 703.125,
+              "height": 27.34375,
+              "rotate": 0,
+              "defaultFontName": "Microsoft YaHei",
+              "defaultColor": "#63757A",
+              "content": "<p style=\"font-size:14.84375px;line-height:1.25;\">教材第 2、23 页</p>"
+            },
+            {
+              "id": "t15-7",
+              "type": "text",
+              "left": 859.375,
+              "top": 514.0625,
+              "width": 82.03125,
+              "height": 27.34375,
+              "rotate": 0,
+              "defaultFontName": "Microsoft YaHei",
+              "defaultColor": "#63757A",
+              "content": "<p style=\"font-size:14.0625px;line-height:1.25;\">16 / 17</p>"
+            }
+          ],
+          "background": {
+            "type": "solid",
+            "color": "#FCFBF7"
+          }
+        }
+      },
+      "actions": [
+        {
+          "id": "speech-15",
+          "type": "speech",
+          "agentId": "teacher",
+          "text": "数学活动与计数。单循环比赛：每两队比赛一场，总场数为 n(n−1)/2。。三角点阵前 n 行的点数为 n(n+1)/2。。解出 n 后，必须检查它是否为正整数。。n(n + 1)/2 = 300。n²+n−600 = 0，分解为 (n−24)(n+25) = 0，取 n = 24。"
+        }
+      ],
+      "createdAt": 1788936173022,
+      "updatedAt": 1788936173022
+    },
+    {
+      "id": "math-quadratics-ch21-slide-17",
+      "outlineId": "math-quadratics-ch21-outline-17",
+      "stageId": "math-quadratics-ch21",
+      "type": "slide",
+      "title": "本章易错点",
+      "order": 17,
+      "content": {
+        "type": "slide",
+        "canvas": {
+          "id": "pb7Tj4cVTDGlwmTWW5u2Y",
+          "viewportSize": 1000,
+          "viewportRatio": 0.5625,
+          "theme": {
+            "backgroundColor": "#ffffff",
+            "themeColors": [
+              "#5b9bd5",
+              "#ed7d31",
+              "#a5a5a5",
+              "#ffc000",
+              "#4472c4"
+            ],
+            "fontColor": "#333333",
+            "fontName": "Microsoft YaHei",
+            "outline": {
+              "color": "#d14424",
+              "width": 2,
+              "style": "solid"
+            },
+            "shadow": {
+              "h": 0,
+              "v": 0,
+              "blur": 10,
+              "color": "#000000"
+            }
+          },
+          "elements": [
+            {
+              "id": "t16-0",
+              "type": "text",
+              "left": 54.6875,
+              "top": 40.625,
+              "width": 890.625,
+              "height": 65.625,
+              "rotate": 0,
+              "defaultFontName": "Microsoft YaHei",
+              "defaultColor": "#182C35",
+              "content": "<p style=\"font-size:34.375px;line-height:1.25;font-weight:bold;\">本章易错点</p>"
+            },
+            {
+              "id": "t16-1",
+              "type": "text",
+              "left": 59.375,
+              "top": 129.6875,
+              "width": 875,
+              "height": 46.875,
+              "rotate": 0,
+              "defaultFontName": "Microsoft YaHei",
+              "defaultColor": "#233B43",
+              "content": "<p style=\"font-size:22.65625px;line-height:1.25;\">一般形式中 a 不能为 0，b、c 可以为 0。</p>"
+            },
+            {
+              "id": "t16-2",
+              "type": "text",
+              "left": 59.375,
+              "top": 180.46875,
+              "width": 875,
+              "height": 46.875,
+              "rotate": 0,
+              "defaultFontName": "Microsoft YaHei",
+              "defaultColor": "#233B43",
+              "content": "<p style=\"font-size:22.65625px;line-height:1.25;\">配方时等式两边必须同时加同一个数。</p>"
+            },
+            {
+              "id": "t16-3",
+              "type": "text",
+              "left": 59.375,
+              "top": 231.25,
+              "width": 875,
+              "height": 46.875,
+              "rotate": 0,
+              "defaultFontName": "Microsoft YaHei",
+              "defaultColor": "#233B43",
+              "content": "<p style=\"font-size:22.65625px;line-height:1.25;\">因式分解前先令方程一边为 0，避免直接约去 x。</p>"
+            },
+            {
+              "id": "t16-4",
+              "type": "text",
+              "left": 59.375,
+              "top": 282.03125,
+              "width": 875,
+              "height": 46.875,
+              "rotate": 0,
+              "defaultFontName": "Microsoft YaHei",
+              "defaultColor": "#233B43",
+              "content": "<p style=\"font-size:22.65625px;line-height:1.25;\">实际问题必须检验根的取值范围与单位。</p>"
+            },
+            {
+              "id": "t16-5",
+              "type": "text",
+              "left": 59.375,
+              "top": 384.375,
+              "width": 875,
+              "height": 97.65625,
+              "rotate": 0,
+              "defaultFontName": "Microsoft YaHei",
+              "defaultColor": "#344B52",
+              "content": "<p style=\"font-size:20.3125px;line-height:1.25;\">完成独立 quiz 后，区分“计算错误”与“建模错误”，再选择对应例题复习。</p>"
+            },
+            {
+              "id": "t16-6",
+              "type": "text",
+              "left": 59.375,
+              "top": 514.0625,
+              "width": 703.125,
+              "height": 27.34375,
+              "rotate": 0,
+              "defaultFontName": "Microsoft YaHei",
+              "defaultColor": "#63757A",
+              "content": "<p style=\"font-size:14.84375px;line-height:1.25;\">教材第 24–26 页</p>"
+            },
+            {
+              "id": "t16-7",
+              "type": "text",
+              "left": 859.375,
+              "top": 514.0625,
+              "width": 82.03125,
+              "height": 27.34375,
+              "rotate": 0,
+              "defaultFontName": "Microsoft YaHei",
+              "defaultColor": "#63757A",
+              "content": "<p style=\"font-size:14.0625px;line-height:1.25;\">17 / 17</p>"
+            }
+          ],
+          "background": {
+            "type": "solid",
+            "color": "#FCFBF7"
+          }
+        }
+      },
+      "actions": [
+        {
+          "id": "speech-16",
+          "type": "speech",
+          "agentId": "teacher",
+          "text": "本章易错点。一般形式中 a 不能为 0，b、c 可以为 0。。配方时等式两边必须同时加同一个数。。因式分解前先令方程一边为 0，避免直接约去 x。。实际问题必须检验根的取值范围与单位。。完成独立 quiz 后，区分“计算错误”与“建模错误”，再选择对应例题复习。"
+        }
+      ],
+      "createdAt": 1788936173022,
+      "updatedAt": 1788936173022
+    },
+    {
+      "id": "math-quadratics-ch21-quiz",
+      "outlineId": "math-quadratics-ch21-quiz-outline",
+      "stageId": "math-quadratics-ch21",
+      "type": "quiz",
+      "title": "章节测验",
+      "order": 18,
+      "content": {
+        "type": "quiz",
+        "questions": [
+          {
+            "id": "math-quadratics-ch21-q1",
+            "type": "single",
+            "question": "下列方程中，一元二次方程是？",
+            "options": [
+              {
+                "label": "x²−3x+2=0",
+                "value": "A"
+              },
+              {
+                "label": "x+1/x=2",
+                "value": "B"
+              },
+              {
+                "label": "x²+y=0",
+                "value": "C"
+              },
+              {
+                "label": "2x+1=0",
+                "value": "D"
+              }
+            ],
+            "answer": [
+              "A"
+            ],
+            "analysis": "第一项是只含一个未知数、最高次数为 2 的整式方程。第二项不是整式方程。",
+            "hasAnswer": true,
+            "points": 1
+          },
+          {
+            "id": "math-quadratics-ch21-q2",
+            "type": "single",
+            "question": "3x(x−1)=5(x+2) 化为一般形式后，b 与 c 分别是？",
+            "options": [
+              {
+                "label": "−3，−10",
+                "value": "A"
+              },
+              {
+                "label": "−8，−10",
+                "value": "B"
+              },
+              {
+                "label": "8，10",
+                "value": "C"
+              },
+              {
+                "label": "−8，10",
+                "value": "D"
+              }
+            ],
+            "answer": [
+              "B"
+            ],
+            "analysis": "展开并移项：3x²−3x−5x−10=0，即 3x²−8x−10=0。",
+            "hasAnswer": true,
+            "points": 1
+          },
+          {
+            "id": "math-quadratics-ch21-q3",
+            "type": "single",
+            "question": "(x−2)²=9 的根为？",
+            "options": [
+              {
+                "label": "只有 5",
+                "value": "A"
+              },
+              {
+                "label": "只有 −1",
+                "value": "B"
+              },
+              {
+                "label": "5 和 −1",
+                "value": "C"
+              },
+              {
+                "label": "3 和 −3",
+                "value": "D"
+              }
+            ],
+            "answer": [
+              "C"
+            ],
+            "analysis": "x−2=±3，因此 x=5 或 x=−1。",
+            "hasAnswer": true,
+            "points": 1
+          },
+          {
+            "id": "math-quadratics-ch21-q4",
+            "type": "single",
+            "question": "将 x²+6x=4 配成完全平方，需要在两边同时加？",
+            "options": [
+              {
+                "label": "3",
+                "value": "A"
+              },
+              {
+                "label": "6",
+                "value": "B"
+              },
+              {
+                "label": "9",
+                "value": "C"
+              },
+              {
+                "label": "36",
+                "value": "D"
+              }
+            ],
+            "answer": [
+              "C"
+            ],
+            "analysis": "一次项系数 6 的一半为 3，其平方为 9。",
+            "hasAnswer": true,
+            "points": 1
+          },
+          {
+            "id": "math-quadratics-ch21-q5",
+            "type": "single",
+            "question": "2x²−3x+1=0 的两个根为？",
+            "options": [
+              {
+                "label": "1 和 1/2",
+                "value": "A"
+              },
+              {
+                "label": "−1 和 −1/2",
+                "value": "B"
+              },
+              {
+                "label": "1 和 2",
+                "value": "C"
+              },
+              {
+                "label": "0 和 3/2",
+                "value": "D"
+              }
+            ],
+            "answer": [
+              "A"
+            ],
+            "analysis": "(2x−1)(x−1)=0，所以 x=1/2 或 1。",
+            "hasAnswer": true,
+            "points": 1
+          },
+          {
+            "id": "math-quadratics-ch21-q6",
+            "type": "single",
+            "question": "x²−4x+5=0 的实数根情况是？",
+            "options": [
+              {
+                "label": "两个不同实数根",
+                "value": "A"
+              },
+              {
+                "label": "两个相等实数根",
+                "value": "B"
+              },
+              {
+                "label": "无实数根",
+                "value": "C"
+              },
+              {
+                "label": "只有一个实数根且非重根",
+                "value": "D"
+              }
+            ],
+            "answer": [
+              "C"
+            ],
+            "analysis": "Δ=(−4)²−4×1×5=−4<0，所以没有实数根。",
+            "hasAnswer": true,
+            "points": 1
+          },
+          {
+            "id": "math-quadratics-ch21-q7",
+            "type": "single",
+            "question": "x(x−3)=0 的根为？",
+            "options": [
+              {
+                "label": "只有 3",
+                "value": "A"
+              },
+              {
+                "label": "只有 0",
+                "value": "B"
+              },
+              {
+                "label": "0 和 3",
+                "value": "C"
+              },
+              {
+                "label": "0 和 −3",
+                "value": "D"
+              }
+            ],
+            "answer": [
+              "C"
+            ],
+            "analysis": "两个因式分别为 0，得到 x=0 或 3；直接除以 x 会丢掉零根。",
+            "hasAnswer": true,
+            "points": 1
+          },
+          {
+            "id": "math-quadratics-ch21-q8",
+            "type": "multiple",
+            "question": "关于解方程，下列说法正确的有？",
+            "options": [
+              {
+                "label": "配方可以只给左边加数",
+                "value": "A"
+              },
+              {
+                "label": "开平方时应考虑正负两种情况",
+                "value": "B"
+              },
+              {
+                "label": "实际问题要检验根是否符合题意",
+                "value": "C"
+              },
+              {
+                "label": "因式分解法应先使方程一边为 0",
+                "value": "D"
+              }
+            ],
+            "answer": [
+              "B",
+              "C",
+              "D"
+            ],
+            "analysis": "等式两边必须保持相等；开方、零积条件与实际意义都需要检查。",
+            "hasAnswer": true,
+            "points": 1
+          },
+          {
+            "id": "math-quadratics-ch21-q9",
+            "type": "single",
+            "question": "数量连续两期按相同比率增长，从 100 到 121，每期增长率为？",
+            "options": [
+              {
+                "label": "21%",
+                "value": "A"
+              },
+              {
+                "label": "10.5%",
+                "value": "B"
+              },
+              {
+                "label": "10%",
+                "value": "C"
+              },
+              {
+                "label": "11%",
+                "value": "D"
+              }
+            ],
+            "answer": [
+              "C"
+            ],
+            "analysis": "100(1+r)²=121。按 r>0 得 1+r=1.1，因此 r=10%。",
+            "hasAnswer": true,
+            "points": 1
+          },
+          {
+            "id": "math-quadratics-ch21-q10",
+            "type": "single",
+            "question": "矩形长比宽多 3 cm，面积 10 cm²，宽为？",
+            "options": [
+              {
+                "label": "2 cm",
+                "value": "A"
+              },
+              {
+                "label": "5 cm",
+                "value": "B"
+              },
+              {
+                "label": "−5 cm",
+                "value": "C"
+              },
+              {
+                "label": "3 cm",
+                "value": "D"
+              }
+            ],
+            "answer": [
+              "A"
+            ],
+            "analysis": "设宽 x，得 x(x+3)=10，即 (x+5)(x−2)=0，舍去 −5，取 2。",
+            "hasAnswer": true,
+            "points": 1
+          },
+          {
+            "id": "math-quadratics-ch21-q11",
+            "type": "single",
+            "question": "单循环比赛每两队比赛一场，共 15 场，参赛队数为？",
+            "options": [
+              {
+                "label": "5",
+                "value": "A"
+              },
+              {
+                "label": "6",
+                "value": "B"
+              },
+              {
+                "label": "10",
+                "value": "C"
+              },
+              {
+                "label": "15",
+                "value": "D"
+              }
+            ],
+            "answer": [
+              "B"
+            ],
+            "analysis": "n(n−1)/2=15，得 (n−6)(n+5)=0，取正整数 n=6。",
+            "hasAnswer": true,
+            "points": 1
+          },
+          {
+            "id": "math-quadratics-ch21-q12",
+            "type": "single",
+            "question": "【选学】2x²−5x+2=0 的两根之和与积为？",
+            "options": [
+              {
+                "label": "5/2 和 1",
+                "value": "A"
+              },
+              {
+                "label": "−5/2 和 1",
+                "value": "B"
+              },
+              {
+                "label": "5 和 2",
+                "value": "C"
+              },
+              {
+                "label": "5/2 和 −1",
+                "value": "D"
+              }
+            ],
+            "answer": [
+              "A"
+            ],
+            "analysis": "Δ=25−16=9，实数根存在。根的和为 −b/a=5/2，积为 c/a=1。",
+            "hasAnswer": true,
+            "points": 1
+          }
+        ]
+      },
+      "actions": [],
+      "createdAt": 1788936173022,
+      "updatedAt": 1788936173022
+    }
+  ],
+  "dslVersion": "0.2.0",
+  "outline": {
+    "outlines": [
+      {
+        "id": "math-quadratics-ch21-outline-1",
+        "type": "slide",
+        "title": "一元二次方程",
+        "description": "章节学习与复习课件",
+        "keyPoints": [
+          "本册首章 · 第二十一章",
+          "从数量关系到方程的解"
+        ],
+        "order": 1
+      },
+      {
+        "id": "math-quadratics-ch21-outline-2",
+        "type": "slide",
+        "title": "本章学习路线",
+        "description": "学习目标：会选方法求解，并检验答案是否符合题意。",
+        "keyPoints": [
+          "21.1 一元二次方程的概念",
+          "21.2 配方法、公式法与因式分解法",
+          "21.3 实际问题与一元二次方程",
+          "选学：根与系数的关系"
+        ],
+        "order": 2
+      },
+      {
+        "id": "math-quadratics-ch21-outline-3",
+        "type": "slide",
+        "title": "一般形式与系数",
+        "description": "例：3x(x−1) = 5(x+2)，整理为 3x²−8x−10 = 0。",
+        "keyPoints": [
+          "方程两边都是整式。",
+          "只含一个未知数，整理后最高次数为 2。",
+          "识别系数前，先移项并合并同类项。"
+        ],
+        "order": 3
+      },
+      {
+        "id": "math-quadratics-ch21-outline-4",
+        "type": "slide",
+        "title": "方程的根",
+        "description": "代入 x = 3，得 9−3−6 = 0；代入 x = 2，得 −4 ≠ 0。因此 3 是根，2 不是。",
+        "keyPoints": [
+          "使方程左右两边相等的未知数值就是根。",
+          "代入可以检查一个数是不是根。",
+          "实际问题还可能要求长度为正、人数为整数。"
+        ],
+        "order": 4
+      },
+      {
+        "id": "math-quadratics-ch21-outline-5",
+        "type": "slide",
+        "title": "直接开平方",
+        "description": "开平方不要漏掉负号对应的根。",
+        "keyPoints": [
+          "把方程化为 x² = p 或 (x+m)² = p。",
+          "p > 0：两个不相等的实数根。",
+          "p = 0：两个相等的实数根；p < 0：无实数根。"
+        ],
+        "order": 5
+      },
+      {
+        "id": "math-quadratics-ch21-outline-6",
+        "type": "slide",
+        "title": "配方法的关键",
+        "description": "x²+6x = −4；两边加 9，得 (x+3)² = 5；所以 x = −3 ± √5。",
+        "keyPoints": [
+          "先把二次项系数化为 1。",
+          "把常数项移到右边。",
+          "两边同加一次项系数一半的平方。"
+        ],
+        "order": 6
+      },
+      {
+        "id": "math-quadratics-ch21-outline-7",
+        "type": "slide",
+        "title": "非首一方程的配方",
+        "description": "x = 3/4 ± 1/4，即 x = 1 或 1/2。",
+        "keyPoints": [
+          "2x² − 3x + 1 = 0。",
+          "两边除以 2，得到 x² − (3/2)x = −1/2。",
+          "两边加 9/16，再开平方。"
+        ],
+        "order": 7
+      },
+      {
+        "id": "math-quadratics-ch21-outline-8",
+        "type": "slide",
+        "title": "判别式与实数根",
+        "description": "例：x²−4x+5 = 0，Δ = 16−20 = −4，所以无实数根。",
+        "keyPoints": [
+          "Δ > 0：两个不相等的实数根。",
+          "Δ = 0：两个相等的实数根。",
+          "Δ < 0：没有实数根。"
+        ],
+        "order": 8
+      },
+      {
+        "id": "math-quadratics-ch21-outline-9",
+        "type": "slide",
+        "title": "公式法",
+        "description": "例：x²−4x−7 = 0，Δ = 44，因此 x = 2 ± √11。",
+        "keyPoints": [
+          "先化为一般形式，连同正负号确定 a、b、c。",
+          "计算判别式；只有 Δ ≥ 0 时才在实数范围开方。",
+          "代入求根公式并化简。"
+        ],
+        "order": 9
+      },
+      {
+        "id": "math-quadratics-ch21-outline-10",
+        "type": "slide",
+        "title": "因式分解法",
+        "description": "分组得 (x−2)(x+1) = 0，所以 x = 2 或 −1。不能直接除以含未知数的因式，否则可能丢根。",
+        "keyPoints": [
+          "先把方程一边化为 0。",
+          "把另一边分解为两个一次因式的乘积。",
+          "分别令每个因式为 0，得到各个根。"
+        ],
+        "order": 10
+      },
+      {
+        "id": "math-quadratics-ch21-outline-11",
+        "type": "slide",
+        "title": "解法的选择",
+        "description": "共同思路是降次，把二次方程转化为一次方程。",
+        "keyPoints": [
+          "已有完全平方形式：直接开平方。",
+          "容易提公因式或使用乘法公式：因式分解。",
+          "需要理解求根公式的来源：配方法。",
+          "一般方程：检查判别式后使用公式法。"
+        ],
+        "order": 11
+      },
+      {
+        "id": "math-quadratics-ch21-outline-12",
+        "type": "slide",
+        "title": "选学：根与系数的关系",
+        "description": "例：2x²−5x+2 = 0，两根和为 5/2，积为 1。本节在教材中标为选学。",
+        "keyPoints": [
+          "设 x₁、x₂ 是 ax²+bx+c = 0 的两个实数根。",
+          "无需分别求根，就能计算根的和与积。",
+          "使用前检查 a ≠ 0，并确认实数根存在。"
+        ],
+        "order": 12
+      },
+      {
+        "id": "math-quadratics-ch21-outline-13",
+        "type": "slide",
+        "title": "阅读：黄金分割数",
+        "description": "得到 x²+x−1 = 0，取 x = (√5−1)/2，约为 0.618。",
+        "keyPoints": [
+          "设单位线段较长部分为 x，较短部分为 1−x。",
+          "较短部分与较长部分之比，等于较长部分与全长之比。",
+          "列方程并按 0 < x < 1 筛选根。"
+        ],
+        "order": 13
+      },
+      {
+        "id": "math-quadratics-ch21-outline-14",
+        "type": "slide",
+        "title": "实际问题：增长与下降",
+        "description": "例：数量由 100 连续两期增长到 121，r = 0.1，即每期增长 10%。",
+        "keyPoints": [
+          "连续两期以相同比率增长：a(1+r)² = b。",
+          "连续两期以相同比率下降：a(1−r)² = b。",
+          "平均变化率不能直接用总变化率除以 2。"
+        ],
+        "order": 14
+      },
+      {
+        "id": "math-quadratics-ch21-outline-15",
+        "type": "slide",
+        "title": "实际问题：面积与约束",
+        "description": "例：矩形宽 x cm，长比宽多 3 cm，面积为 10 cm²。解得 x = 2 或 −5；取宽 2 cm、长 5 cm。",
+        "keyPoints": [
+          "先用未知数表示各条边。",
+          "列面积等式，解方程。",
+          "将结果代回尺寸条件，舍去不合理的根。"
+        ],
+        "order": 15
+      },
+      {
+        "id": "math-quadratics-ch21-outline-16",
+        "type": "slide",
+        "title": "数学活动与计数",
+        "description": "n²+n−600 = 0，分解为 (n−24)(n+25) = 0，取 n = 24。",
+        "keyPoints": [
+          "单循环比赛：每两队比赛一场，总场数为 n(n−1)/2。",
+          "三角点阵前 n 行的点数为 n(n+1)/2。",
+          "解出 n 后，必须检查它是否为正整数。"
+        ],
+        "order": 16
+      },
+      {
+        "id": "math-quadratics-ch21-outline-17",
+        "type": "slide",
+        "title": "本章易错点",
+        "description": "完成独立 quiz 后，区分“计算错误”与“建模错误”，再选择对应例题复习。",
+        "keyPoints": [
+          "一般形式中 a 不能为 0，b、c 可以为 0。",
+          "配方时等式两边必须同时加同一个数。",
+          "因式分解前先令方程一边为 0，避免直接约去 x。",
+          "实际问题必须检验根的取值范围与单位。"
+        ],
+        "order": 17
+      },
+      {
+        "id": "math-quadratics-ch21-quiz-outline",
+        "type": "quiz",
+        "title": "章节测验",
+        "description": "12 道选择题，每题 1 分；多选题须完全选对。",
+        "keyPoints": [
+          "章节理解与应用"
+        ],
+        "order": 18
+      }
+    ],
+    "createdAt": 1788936173016,
+    "updatedAt": 1788936173016,
+    "generationComplete": true
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "name": "textbook-classroom",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "generate": "node scripts/generate.mjs",
+    "predev": "npm run generate",
+    "dev": "vite --host 127.0.0.1 --port 8780 --strictPort",
+    "prebuild": "npm run generate",
+    "build": "vite build",
+    "preview": "vite preview --host 127.0.0.1 --port 8780 --strictPort"
+  },
+  "dependencies": {
+    "@openmaic/dsl": "0.10.1",
+    "@openmaic/generation": "0.3.1",
+    "@openmaic/renderer": "0.1.3",
+    "@tailwindcss/vite": "4.2.1",
+    "echarts": "^6.0.0",
+    "jszip": "3.10.1",
+    "motion": "12.34.3",
+    "react": "19.2.6",
+    "react-dom": "19.2.6",
+    "shiki": "^3.20.0",
+    "tailwindcss": "4.2.1",
+    "vite": "7.3.1"
+  },
+  "version": "1.0.0",
+  "author": "ljy",
+  "engines": {
+    "node": ">=22.13.0"
+  }
+}

@@ -1,0 +1,3774 @@
+{
+  "stage": {
+    "id": "math-vectors-ch6",
+    "name": "平面向量及其应用",
+    "description": "人教 A 版 · 必修第二册 · 第六章",
+    "createdAt": 1788936168793,
+    "updatedAt": 1788936168793,
+    "languageDirective": "用简体中文讲解数学概念与例题。",
+    "style": "professional",
+    "agentIds": [
+      "teacher"
+    ]
+  },
+  "scenes": [
+    {
+      "id": "math-vectors-ch6-slide-1",
+      "outlineId": "math-vectors-ch6-outline-1",
+      "stageId": "math-vectors-ch6",
+      "type": "slide",
+      "title": "平面向量及其应用",
+      "order": 1,
+      "content": {
+        "type": "slide",
+        "canvas": {
+          "id": "Aoxj1G2aO_R90YQegXW47",
+          "viewportSize": 1000,
+          "viewportRatio": 0.5625,
+          "theme": {
+            "backgroundColor": "#ffffff",
+            "themeColors": [
+              "#5b9bd5",
+              "#ed7d31",
+              "#a5a5a5",
+              "#ffc000",
+              "#4472c4"
+            ],
+            "fontColor": "#333333",
+            "fontName": "Microsoft YaHei",
+            "outline": {
+              "color": "#d14424",
+              "width": 2,
+              "style": "solid"
+            },
+            "shadow": {
+              "h": 0,
+              "v": 0,
+              "blur": 10,
+              "color": "#000000"
+            }
+          },
+          "elements": [
+            {
+              "id": "t0-0",
+              "type": "text",
+              "left": 54.6875,
+              "top": 144.53125,
+              "width": 890.625,
+              "height": 82.8125,
+              "rotate": 0,
+              "defaultFontName": "Microsoft YaHei",
+              "defaultColor": "#FFFFFF",
+              "content": "<p style=\"font-size:48.4375px;line-height:1.25;font-weight:bold;\">平面向量及其应用</p>"
+            },
+            {
+              "id": "t0-1",
+              "type": "text",
+              "left": 59.375,
+              "top": 246.09375,
+              "width": 875,
+              "height": 42.96875,
+              "rotate": 0,
+              "defaultFontName": "Microsoft YaHei",
+              "defaultColor": "#FFFFFF",
+              "content": "<p style=\"font-size:24.21875px;line-height:1.25;\">本册首章 · 第六章</p>"
+            },
+            {
+              "id": "t0-2",
+              "type": "text",
+              "left": 59.375,
+              "top": 291.40625,
+              "width": 875,
+              "height": 42.96875,
+              "rotate": 0,
+              "defaultFontName": "Microsoft YaHei",
+              "defaultColor": "#FFFFFF",
+              "content": "<p style=\"font-size:24.21875px;line-height:1.25;\">概念、运算、坐标与解三角形</p>"
+            },
+            {
+              "id": "t0-3",
+              "type": "text",
+              "left": 59.375,
+              "top": 445.3125,
+              "width": 875,
+              "height": 35.15625,
+              "rotate": 0,
+              "defaultFontName": "Microsoft YaHei",
+              "defaultColor": "#FFFFFF",
+              "content": "<p style=\"font-size:17.96875px;line-height:1.25;\">人教 A 版 · 必修第二册 · 第六章</p>"
+            },
+            {
+              "id": "t0-4",
+              "type": "text",
+              "left": 859.375,
+              "top": 514.0625,
+              "width": 82.03125,
+              "height": 27.34375,
+              "rotate": 0,
+              "defaultFontName": "Microsoft YaHei",
+              "defaultColor": "#FFFFFF",
+              "content": "<p style=\"font-size:14.0625px;line-height:1.25;\">1 / 21</p>"
+            }
+          ],
+          "background": {
+            "type": "solid",
+            "color": "#096E68"
+          }
+        }
+      },
+      "actions": [
+        {
+          "id": "speech-0",
+          "type": "speech",
+          "agentId": "teacher",
+          "text": "平面向量及其应用。本册首章 · 第六章。概念、运算、坐标与解三角形。章节学习与复习课件"
+        }
+      ],
+      "createdAt": 1788936168797,
+      "updatedAt": 1788936168797
+    },
+    {
+      "id": "math-vectors-ch6-slide-2",
+      "outlineId": "math-vectors-ch6-outline-2",
+      "stageId": "math-vectors-ch6",
+      "type": "slide",
+      "title": "本章学习路线",
+      "order": 2,
+      "content": {
+        "type": "slide",
+        "canvas": {
+          "id": "LkL4aKZMuPE17egvSaZZk",
+          "viewportSize": 1000,
+          "viewportRatio": 0.5625,
+          "theme": {
+            "backgroundColor": "#ffffff",
+            "themeColors": [
+              "#5b9bd5",
+              "#ed7d31",
+              "#a5a5a5",
+              "#ffc000",
+              "#4472c4"
+            ],
+            "fontColor": "#333333",
+            "fontName": "Microsoft YaHei",
+            "outline": {
+              "color": "#d14424",
+              "width": 2,
+              "style": "solid"
+            },
+            "shadow": {
+              "h": 0,
+              "v": 0,
+              "blur": 10,
+              "color": "#000000"
+            }
+          },
+          "elements": [
+            {
+              "id": "t1-0",
+              "type": "text",
+              "left": 54.6875,
+              "top": 40.625,
+              "width": 890.625,
+              "height": 65.625,
+              "rotate": 0,
+              "defaultFontName": "Microsoft YaHei",
+              "defaultColor": "#182C35",
+              "content": "<p style=\"font-size:34.375px;line-height:1.25;font-weight:bold;\">本章学习路线</p>"
+            },
+            {
+              "id": "t1-1",
+              "type": "text",
+              "left": 59.375,
+              "top": 129.6875,
+              "width": 875,
+              "height": 46.875,
+              "rotate": 0,
+              "defaultFontName": "Microsoft YaHei",
+              "defaultColor": "#233B43",
+              "content": "<p style=\"font-size:22.65625px;line-height:1.25;\">6.1 向量：大小与方向</p>"
+            },
+            {
+              "id": "t1-2",
+              "type": "text",
+              "left": 59.375,
+              "top": 180.46875,
+              "width": 875,
+              "height": 46.875,
+              "rotate": 0,
+              "defaultFontName": "Microsoft YaHei",
+              "defaultColor": "#233B43",
+              "content": "<p style=\"font-size:22.65625px;line-height:1.25;\">6.2 运算：加减、数乘、数量积</p>"
+            },
+            {
+              "id": "t1-3",
+              "type": "text",
+              "left": 59.375,
+              "top": 231.25,
+              "width": 875,
+              "height": 46.875,
+              "rotate": 0,
+              "defaultFontName": "Microsoft YaHei",
+              "defaultColor": "#233B43",
+              "content": "<p style=\"font-size:22.65625px;line-height:1.25;\">6.3 表示：基底与坐标</p>"
+            },
+            {
+              "id": "t1-4",
+              "type": "text",
+              "left": 59.375,
+              "top": 282.03125,
+              "width": 875,
+              "height": 46.875,
+              "rotate": 0,
+              "defaultFontName": "Microsoft YaHei",
+              "defaultColor": "#233B43",
+              "content": "<p style=\"font-size:22.65625px;line-height:1.25;\">6.4 应用：几何、物理与解三角形</p>"
+            },
+            {
+              "id": "t1-5",
+              "type": "text",
+              "left": 59.375,
+              "top": 384.375,
+              "width": 875,
+              "height": 97.65625,
+              "rotate": 0,
+              "defaultFontName": "Microsoft YaHei",
+              "defaultColor": "#344B52",
+              "content": "<p style=\"font-size:20.3125px;line-height:1.25;\">学习目标：把几何关系转成可计算的向量关系。</p>"
+            },
+            {
+              "id": "t1-6",
+              "type": "text",
+              "left": 59.375,
+              "top": 514.0625,
+              "width": 703.125,
+              "height": 27.34375,
+              "rotate": 0,
+              "defaultFontName": "Microsoft YaHei",
+              "defaultColor": "#63757A",
+              "content": "<p style=\"font-size:14.84375px;line-height:1.25;\">教材第 2–54 页</p>"
+            },
+            {
+              "id": "t1-7",
+              "type": "text",
+              "left": 859.375,
+              "top": 514.0625,
+              "width": 82.03125,
+              "height": 27.34375,
+              "rotate": 0,
+              "defaultFontName": "Microsoft YaHei",
+              "defaultColor": "#63757A",
+              "content": "<p style=\"font-size:14.0625px;line-height:1.25;\">2 / 21</p>"
+            }
+          ],
+          "background": {
+            "type": "solid",
+            "color": "#FCFBF7"
+          }
+        }
+      },
+      "actions": [
+        {
+          "id": "speech-1",
+          "type": "speech",
+          "agentId": "teacher",
+          "text": "本章学习路线。6.1 向量：大小与方向。6.2 运算：加减、数乘、数量积。6.3 表示：基底与坐标。6.4 应用：几何、物理与解三角形。学习目标：把几何关系转成可计算的向量关系。"
+        }
+      ],
+      "createdAt": 1788936168798,
+      "updatedAt": 1788936168798
+    },
+    {
+      "id": "math-vectors-ch6-slide-3",
+      "outlineId": "math-vectors-ch6-outline-3",
+      "stageId": "math-vectors-ch6",
+      "type": "slide",
+      "title": "向量与数量",
+      "order": 3,
+      "content": {
+        "type": "slide",
+        "canvas": {
+          "id": "uqPiBuk3PqWUgfvi7msSu",
+          "viewportSize": 1000,
+          "viewportRatio": 0.5625,
+          "theme": {
+            "backgroundColor": "#ffffff",
+            "themeColors": [
+              "#5b9bd5",
+              "#ed7d31",
+              "#a5a5a5",
+              "#ffc000",
+              "#4472c4"
+            ],
+            "fontColor": "#333333",
+            "fontName": "Microsoft YaHei",
+            "outline": {
+              "color": "#d14424",
+              "width": 2,
+              "style": "solid"
+            },
+            "shadow": {
+              "h": 0,
+              "v": 0,
+              "blur": 10,
+              "color": "#000000"
+            }
+          },
+          "elements": [
+            {
+              "id": "t2-0",
+              "type": "text",
+              "left": 54.6875,
+              "top": 40.625,
+              "width": 890.625,
+              "height": 65.625,
+              "rotate": 0,
+              "defaultFontName": "Microsoft YaHei",
+              "defaultColor": "#182C35",
+              "content": "<p style=\"font-size:34.375px;line-height:1.25;font-weight:bold;\">向量与数量</p>"
+            },
+            {
+              "id": "t2-1",
+              "type": "text",
+              "left": 59.375,
+              "top": 129.6875,
+              "width": 875,
+              "height": 46.875,
+              "rotate": 0,
+              "defaultFontName": "Microsoft YaHei",
+              "defaultColor": "#233B43",
+              "content": "<p style=\"font-size:22.65625px;line-height:1.25;\">向量同时具有大小和方向，如位移、力。</p>"
+            },
+            {
+              "id": "t2-2",
+              "type": "text",
+              "left": 59.375,
+              "top": 180.46875,
+              "width": 875,
+              "height": 46.875,
+              "rotate": 0,
+              "defaultFontName": "Microsoft YaHei",
+              "defaultColor": "#233B43",
+              "content": "<p style=\"font-size:22.65625px;line-height:1.25;\">数量只有大小，如路程、质量。</p>"
+            },
+            {
+              "id": "t2-3",
+              "type": "text",
+              "left": 59.375,
+              "top": 231.25,
+              "width": 875,
+              "height": 46.875,
+              "rotate": 0,
+              "defaultFontName": "Microsoft YaHei",
+              "defaultColor": "#233B43",
+              "content": "<p style=\"font-size:22.65625px;line-height:1.25;\">有向线段的长度表示模，箭头表示方向。</p>"
+            },
+            {
+              "id": "t2-4",
+              "type": "text",
+              "left": 59.375,
+              "top": 304.6875,
+              "width": 875,
+              "height": 51.5625,
+              "rotate": 0,
+              "defaultFontName": "Microsoft YaHei",
+              "defaultColor": "#096E68",
+              "content": "<p style=\"font-size:26.5625px;line-height:1.25;font-weight:bold;\">|a| ≥ 0</p>"
+            },
+            {
+              "id": "t2-5",
+              "type": "text",
+              "left": 59.375,
+              "top": 384.375,
+              "width": 875,
+              "height": 97.65625,
+              "rotate": 0,
+              "defaultFontName": "Microsoft YaHei",
+              "defaultColor": "#344B52",
+              "content": "<p style=\"font-size:20.3125px;line-height:1.25;\">例：向东走 3 m，再向西走 3 m；路程为 6 m，合位移为零向量。</p>"
+            },
+            {
+              "id": "t2-6",
+              "type": "text",
+              "left": 59.375,
+              "top": 514.0625,
+              "width": 703.125,
+              "height": 27.34375,
+              "rotate": 0,
+              "defaultFontName": "Microsoft YaHei",
+              "defaultColor": "#63757A",
+              "content": "<p style=\"font-size:14.84375px;line-height:1.25;\">教材第 2–3 页</p>"
+            },
+            {
+              "id": "t2-7",
+              "type": "text",
+              "left": 859.375,
+              "top": 514.0625,
+              "width": 82.03125,
+              "height": 27.34375,
+              "rotate": 0,
+              "defaultFontName": "Microsoft YaHei",
+              "defaultColor": "#63757A",
+              "content": "<p style=\"font-size:14.0625px;line-height:1.25;\">3 / 21</p>"
+            }
+          ],
+          "background": {
+            "type": "solid",
+            "color": "#FCFBF7"
+          }
+        }
+      },
+      "actions": [
+        {
+          "id": "speech-2",
+          "type": "speech",
+          "agentId": "teacher",
+          "text": "向量与数量。向量同时具有大小和方向，如位移、力。。数量只有大小，如路程、质量。。有向线段的长度表示模，箭头表示方向。。|a| ≥ 0。例：向东走 3 m，再向西走 3 m；路程为 6 m，合位移为零向量。"
+        }
+      ],
+      "createdAt": 1788936168799,
+      "updatedAt": 1788936168799
+    },
+    {
+      "id": "math-vectors-ch6-slide-4",
+      "outlineId": "math-vectors-ch6-outline-4",
+      "stageId": "math-vectors-ch6",
+      "type": "slide",
+      "title": "相等、相反与共线",
+      "order": 4,
+      "content": {
+        "type": "slide",
+        "canvas": {
+          "id": "vg606GfFZ7NFMly6V_PLD",
+          "viewportSize": 1000,
+          "viewportRatio": 0.5625,
+          "theme": {
+            "backgroundColor": "#ffffff",
+            "themeColors": [
+              "#5b9bd5",
+              "#ed7d31",
+              "#a5a5a5",
+              "#ffc000",
+              "#4472c4"
+            ],
+            "fontColor": "#333333",
+            "fontName": "Microsoft YaHei",
+            "outline": {
+              "color": "#d14424",
+              "width": 2,
+              "style": "solid"
+            },
+            "shadow": {
+              "h": 0,
+              "v": 0,
+              "blur": 10,
+              "color": "#000000"
+            }
+          },
+          "elements": [
+            {
+              "id": "t3-0",
+              "type": "text",
+              "left": 54.6875,
+              "top": 40.625,
+              "width": 890.625,
+              "height": 65.625,
+              "rotate": 0,
+              "defaultFontName": "Microsoft YaHei",
+              "defaultColor": "#182C35",
+              "content": "<p style=\"font-size:34.375px;line-height:1.25;font-weight:bold;\">相等、相反与共线</p>"
+            },
+            {
+              "id": "t3-1",
+              "type": "text",
+              "left": 59.375,
+              "top": 129.6875,
+              "width": 875,
+              "height": 46.875,
+              "rotate": 0,
+              "defaultFontName": "Microsoft YaHei",
+              "defaultColor": "#233B43",
+              "content": "<p style=\"font-size:22.65625px;line-height:1.25;\">相等向量：大小相等，方向相同，可平移。</p>"
+            },
+            {
+              "id": "t3-2",
+              "type": "text",
+              "left": 59.375,
+              "top": 180.46875,
+              "width": 875,
+              "height": 46.875,
+              "rotate": 0,
+              "defaultFontName": "Microsoft YaHei",
+              "defaultColor": "#233B43",
+              "content": "<p style=\"font-size:22.65625px;line-height:1.25;\">相反向量：大小相等，方向相反。</p>"
+            },
+            {
+              "id": "t3-3",
+              "type": "text",
+              "left": 59.375,
+              "top": 231.25,
+              "width": 875,
+              "height": 46.875,
+              "rotate": 0,
+              "defaultFontName": "Microsoft YaHei",
+              "defaultColor": "#233B43",
+              "content": "<p style=\"font-size:22.65625px;line-height:1.25;\">零向量的模为 0；规定它与任意向量平行。</p>"
+            },
+            {
+              "id": "t3-4",
+              "type": "text",
+              "left": 59.375,
+              "top": 304.6875,
+              "width": 875,
+              "height": 51.5625,
+              "rotate": 0,
+              "defaultFontName": "Microsoft YaHei",
+              "defaultColor": "#096E68",
+              "content": "<p style=\"font-size:26.5625px;line-height:1.25;font-weight:bold;\">a + (−a) = 0</p>"
+            },
+            {
+              "id": "t3-5",
+              "type": "text",
+              "left": 59.375,
+              "top": 384.375,
+              "width": 875,
+              "height": 97.65625,
+              "rotate": 0,
+              "defaultFontName": "Microsoft YaHei",
+              "defaultColor": "#344B52",
+              "content": "<p style=\"font-size:20.3125px;line-height:1.25;\">模相等不能推出向量相等；单位向量的模为 1，方向可以不同。</p>"
+            },
+            {
+              "id": "t3-6",
+              "type": "text",
+              "left": 59.375,
+              "top": 514.0625,
+              "width": 703.125,
+              "height": 27.34375,
+              "rotate": 0,
+              "defaultFontName": "Microsoft YaHei",
+              "defaultColor": "#63757A",
+              "content": "<p style=\"font-size:14.84375px;line-height:1.25;\">教材第 3–5 页</p>"
+            },
+            {
+              "id": "t3-7",
+              "type": "text",
+              "left": 859.375,
+              "top": 514.0625,
+              "width": 82.03125,
+              "height": 27.34375,
+              "rotate": 0,
+              "defaultFontName": "Microsoft YaHei",
+              "defaultColor": "#63757A",
+              "content": "<p style=\"font-size:14.0625px;line-height:1.25;\">4 / 21</p>"
+            }
+          ],
+          "background": {
+            "type": "solid",
+            "color": "#FCFBF7"
+          }
+        }
+      },
+      "actions": [
+        {
+          "id": "speech-3",
+          "type": "speech",
+          "agentId": "teacher",
+          "text": "相等、相反与共线。相等向量：大小相等，方向相同，可平移。。相反向量：大小相等，方向相反。。零向量的模为 0；规定它与任意向量平行。。a + (−a) = 0。模相等不能推出向量相等；单位向量的模为 1，方向可以不同。"
+        }
+      ],
+      "createdAt": 1788936168799,
+      "updatedAt": 1788936168799
+    },
+    {
+      "id": "math-vectors-ch6-slide-5",
+      "outlineId": "math-vectors-ch6-outline-5",
+      "stageId": "math-vectors-ch6",
+      "type": "slide",
+      "title": "向量加法",
+      "order": 5,
+      "content": {
+        "type": "slide",
+        "canvas": {
+          "id": "fvlL1i4VmcxkJgP4Pkqtz",
+          "viewportSize": 1000,
+          "viewportRatio": 0.5625,
+          "theme": {
+            "backgroundColor": "#ffffff",
+            "themeColors": [
+              "#5b9bd5",
+              "#ed7d31",
+              "#a5a5a5",
+              "#ffc000",
+              "#4472c4"
+            ],
+            "fontColor": "#333333",
+            "fontName": "Microsoft YaHei",
+            "outline": {
+              "color": "#d14424",
+              "width": 2,
+              "style": "solid"
+            },
+            "shadow": {
+              "h": 0,
+              "v": 0,
+              "blur": 10,
+              "color": "#000000"
+            }
+          },
+          "elements": [
+            {
+              "id": "t4-0",
+              "type": "text",
+              "left": 54.6875,
+              "top": 40.625,
+              "width": 890.625,
+              "height": 65.625,
+              "rotate": 0,
+              "defaultFontName": "Microsoft YaHei",
+              "defaultColor": "#182C35",
+              "content": "<p style=\"font-size:34.375px;line-height:1.25;font-weight:bold;\">向量加法</p>"
+            },
+            {
+              "id": "t4-1",
+              "type": "text",
+              "left": 59.375,
+              "top": 129.6875,
+              "width": 875,
+              "height": 46.875,
+              "rotate": 0,
+              "defaultFontName": "Microsoft YaHei",
+              "defaultColor": "#233B43",
+              "content": "<p style=\"font-size:22.65625px;line-height:1.25;\">三角形法则：首尾相接，连接起点与终点。</p>"
+            },
+            {
+              "id": "t4-2",
+              "type": "text",
+              "left": 59.375,
+              "top": 180.46875,
+              "width": 875,
+              "height": 46.875,
+              "rotate": 0,
+              "defaultFontName": "Microsoft YaHei",
+              "defaultColor": "#233B43",
+              "content": "<p style=\"font-size:22.65625px;line-height:1.25;\">平行四边形法则：同起点，两邻边合成为对角线。</p>"
+            },
+            {
+              "id": "t4-3",
+              "type": "text",
+              "left": 59.375,
+              "top": 231.25,
+              "width": 875,
+              "height": 46.875,
+              "rotate": 0,
+              "defaultFontName": "Microsoft YaHei",
+              "defaultColor": "#233B43",
+              "content": "<p style=\"font-size:22.65625px;line-height:1.25;\">加法满足交换律、结合律。</p>"
+            },
+            {
+              "id": "t4-4",
+              "type": "text",
+              "left": 59.375,
+              "top": 304.6875,
+              "width": 875,
+              "height": 51.5625,
+              "rotate": 0,
+              "defaultFontName": "Microsoft YaHei",
+              "defaultColor": "#096E68",
+              "content": "<p style=\"font-size:26.5625px;line-height:1.25;font-weight:bold;\">AB + BC = AC</p>"
+            },
+            {
+              "id": "t4-5",
+              "type": "text",
+              "left": 59.375,
+              "top": 384.375,
+              "width": 875,
+              "height": 97.65625,
+              "rotate": 0,
+              "defaultFontName": "Microsoft YaHei",
+              "defaultColor": "#344B52",
+              "content": "<p style=\"font-size:20.3125px;line-height:1.25;\">这里 AB、BC、AC 均表示有向线段对应的向量。沿路径相加时，中间点可以消去。</p>"
+            },
+            {
+              "id": "t4-6",
+              "type": "text",
+              "left": 59.375,
+              "top": 514.0625,
+              "width": 703.125,
+              "height": 27.34375,
+              "rotate": 0,
+              "defaultFontName": "Microsoft YaHei",
+              "defaultColor": "#63757A",
+              "content": "<p style=\"font-size:14.84375px;line-height:1.25;\">教材第 7–11 页</p>"
+            },
+            {
+              "id": "t4-7",
+              "type": "text",
+              "left": 859.375,
+              "top": 514.0625,
+              "width": 82.03125,
+              "height": 27.34375,
+              "rotate": 0,
+              "defaultFontName": "Microsoft YaHei",
+              "defaultColor": "#63757A",
+              "content": "<p style=\"font-size:14.0625px;line-height:1.25;\">5 / 21</p>"
+            }
+          ],
+          "background": {
+            "type": "solid",
+            "color": "#FCFBF7"
+          }
+        }
+      },
+      "actions": [
+        {
+          "id": "speech-4",
+          "type": "speech",
+          "agentId": "teacher",
+          "text": "向量加法。三角形法则：首尾相接，连接起点与终点。。平行四边形法则：同起点，两邻边合成为对角线。。加法满足交换律、结合律。。AB + BC = AC。这里 AB、BC、AC 均表示有向线段对应的向量。沿路径相加时，中间点可以消去。"
+        }
+      ],
+      "createdAt": 1788936168800,
+      "updatedAt": 1788936168800
+    },
+    {
+      "id": "math-vectors-ch6-slide-6",
+      "outlineId": "math-vectors-ch6-outline-6",
+      "stageId": "math-vectors-ch6",
+      "type": "slide",
+      "title": "向量减法",
+      "order": 6,
+      "content": {
+        "type": "slide",
+        "canvas": {
+          "id": "cTf-AqD1OSECPMR1IaZcR",
+          "viewportSize": 1000,
+          "viewportRatio": 0.5625,
+          "theme": {
+            "backgroundColor": "#ffffff",
+            "themeColors": [
+              "#5b9bd5",
+              "#ed7d31",
+              "#a5a5a5",
+              "#ffc000",
+              "#4472c4"
+            ],
+            "fontColor": "#333333",
+            "fontName": "Microsoft YaHei",
+            "outline": {
+              "color": "#d14424",
+              "width": 2,
+              "style": "solid"
+            },
+            "shadow": {
+              "h": 0,
+              "v": 0,
+              "blur": 10,
+              "color": "#000000"
+            }
+          },
+          "elements": [
+            {
+              "id": "t5-0",
+              "type": "text",
+              "left": 54.6875,
+              "top": 40.625,
+              "width": 890.625,
+              "height": 65.625,
+              "rotate": 0,
+              "defaultFontName": "Microsoft YaHei",
+              "defaultColor": "#182C35",
+              "content": "<p style=\"font-size:34.375px;line-height:1.25;font-weight:bold;\">向量减法</p>"
+            },
+            {
+              "id": "t5-1",
+              "type": "text",
+              "left": 59.375,
+              "top": 129.6875,
+              "width": 875,
+              "height": 46.875,
+              "rotate": 0,
+              "defaultFontName": "Microsoft YaHei",
+              "defaultColor": "#233B43",
+              "content": "<p style=\"font-size:22.65625px;line-height:1.25;\">减去一个向量，等于加上它的相反向量。</p>"
+            },
+            {
+              "id": "t5-2",
+              "type": "text",
+              "left": 59.375,
+              "top": 180.46875,
+              "width": 875,
+              "height": 46.875,
+              "rotate": 0,
+              "defaultFontName": "Microsoft YaHei",
+              "defaultColor": "#233B43",
+              "content": "<p style=\"font-size:22.65625px;line-height:1.25;\">同起点作差：从减向量的终点指向被减向量的终点。</p>"
+            },
+            {
+              "id": "t5-3",
+              "type": "text",
+              "left": 59.375,
+              "top": 304.6875,
+              "width": 875,
+              "height": 51.5625,
+              "rotate": 0,
+              "defaultFontName": "Microsoft YaHei",
+              "defaultColor": "#096E68",
+              "content": "<p style=\"font-size:26.5625px;line-height:1.25;font-weight:bold;\">a − b = a + (−b)</p>"
+            },
+            {
+              "id": "t5-4",
+              "type": "text",
+              "left": 59.375,
+              "top": 384.375,
+              "width": 875,
+              "height": 97.65625,
+              "rotate": 0,
+              "defaultFontName": "Microsoft YaHei",
+              "defaultColor": "#344B52",
+              "content": "<p style=\"font-size:20.3125px;line-height:1.25;\">OA − OB = BA。易错点：差向量的方向不要画反。</p>"
+            },
+            {
+              "id": "t5-5",
+              "type": "text",
+              "left": 59.375,
+              "top": 514.0625,
+              "width": 703.125,
+              "height": 27.34375,
+              "rotate": 0,
+              "defaultFontName": "Microsoft YaHei",
+              "defaultColor": "#63757A",
+              "content": "<p style=\"font-size:14.84375px;line-height:1.25;\">教材第 11–13 页</p>"
+            },
+            {
+              "id": "t5-6",
+              "type": "text",
+              "left": 859.375,
+              "top": 514.0625,
+              "width": 82.03125,
+              "height": 27.34375,
+              "rotate": 0,
+              "defaultFontName": "Microsoft YaHei",
+              "defaultColor": "#63757A",
+              "content": "<p style=\"font-size:14.0625px;line-height:1.25;\">6 / 21</p>"
+            }
+          ],
+          "background": {
+            "type": "solid",
+            "color": "#FCFBF7"
+          }
+        }
+      },
+      "actions": [
+        {
+          "id": "speech-5",
+          "type": "speech",
+          "agentId": "teacher",
+          "text": "向量减法。减去一个向量，等于加上它的相反向量。。同起点作差：从减向量的终点指向被减向量的终点。。a − b = a + (−b)。OA − OB = BA。易错点：差向量的方向不要画反。"
+        }
+      ],
+      "createdAt": 1788936168801,
+      "updatedAt": 1788936168801
+    },
+    {
+      "id": "math-vectors-ch6-slide-7",
+      "outlineId": "math-vectors-ch6-outline-7",
+      "stageId": "math-vectors-ch6",
+      "type": "slide",
+      "title": "实数与向量的积",
+      "order": 7,
+      "content": {
+        "type": "slide",
+        "canvas": {
+          "id": "Wg-jGv6WR-YSeUfKRRAYC",
+          "viewportSize": 1000,
+          "viewportRatio": 0.5625,
+          "theme": {
+            "backgroundColor": "#ffffff",
+            "themeColors": [
+              "#5b9bd5",
+              "#ed7d31",
+              "#a5a5a5",
+              "#ffc000",
+              "#4472c4"
+            ],
+            "fontColor": "#333333",
+            "fontName": "Microsoft YaHei",
+            "outline": {
+              "color": "#d14424",
+              "width": 2,
+              "style": "solid"
+            },
+            "shadow": {
+              "h": 0,
+              "v": 0,
+              "blur": 10,
+              "color": "#000000"
+            }
+          },
+          "elements": [
+            {
+              "id": "t6-0",
+              "type": "text",
+              "left": 54.6875,
+              "top": 40.625,
+              "width": 890.625,
+              "height": 65.625,
+              "rotate": 0,
+              "defaultFontName": "Microsoft YaHei",
+              "defaultColor": "#182C35",
+              "content": "<p style=\"font-size:34.375px;line-height:1.25;font-weight:bold;\">实数与向量的积</p>"
+            },
+            {
+              "id": "t6-1",
+              "type": "text",
+              "left": 59.375,
+              "top": 129.6875,
+              "width": 875,
+              "height": 46.875,
+              "rotate": 0,
+              "defaultFontName": "Microsoft YaHei",
+              "defaultColor": "#233B43",
+              "content": "<p style=\"font-size:22.65625px;line-height:1.25;\">|λa| = |λ| |a|。</p>"
+            },
+            {
+              "id": "t6-2",
+              "type": "text",
+              "left": 59.375,
+              "top": 180.46875,
+              "width": 875,
+              "height": 46.875,
+              "rotate": 0,
+              "defaultFontName": "Microsoft YaHei",
+              "defaultColor": "#233B43",
+              "content": "<p style=\"font-size:22.65625px;line-height:1.25;\">λ &gt; 0 时同向；λ &lt; 0 时反向；λ = 0 时为零向量。</p>"
+            },
+            {
+              "id": "t6-3",
+              "type": "text",
+              "left": 59.375,
+              "top": 231.25,
+              "width": 875,
+              "height": 46.875,
+              "rotate": 0,
+              "defaultFontName": "Microsoft YaHei",
+              "defaultColor": "#233B43",
+              "content": "<p style=\"font-size:22.65625px;line-height:1.25;\">满足分配律：λ(a + b) = λa + λb。</p>"
+            },
+            {
+              "id": "t6-4",
+              "type": "text",
+              "left": 59.375,
+              "top": 304.6875,
+              "width": 875,
+              "height": 51.5625,
+              "rotate": 0,
+              "defaultFontName": "Microsoft YaHei",
+              "defaultColor": "#096E68",
+              "content": "<p style=\"font-size:26.5625px;line-height:1.25;font-weight:bold;\">b = λa（a ≠ 0）</p>"
+            },
+            {
+              "id": "t6-5",
+              "type": "text",
+              "left": 59.375,
+              "top": 384.375,
+              "width": 875,
+              "height": 97.65625,
+              "rotate": 0,
+              "defaultFontName": "Microsoft YaHei",
+              "defaultColor": "#344B52",
+              "content": "<p style=\"font-size:20.3125px;line-height:1.25;\">共线判定：当 a 非零时，a 与 b 共线，当且仅当存在实数 λ 使 b = λa。</p>"
+            },
+            {
+              "id": "t6-6",
+              "type": "text",
+              "left": 59.375,
+              "top": 514.0625,
+              "width": 703.125,
+              "height": 27.34375,
+              "rotate": 0,
+              "defaultFontName": "Microsoft YaHei",
+              "defaultColor": "#63757A",
+              "content": "<p style=\"font-size:14.84375px;line-height:1.25;\">教材第 14–16 页</p>"
+            },
+            {
+              "id": "t6-7",
+              "type": "text",
+              "left": 859.375,
+              "top": 514.0625,
+              "width": 82.03125,
+              "height": 27.34375,
+              "rotate": 0,
+              "defaultFontName": "Microsoft YaHei",
+              "defaultColor": "#63757A",
+              "content": "<p style=\"font-size:14.0625px;line-height:1.25;\">7 / 21</p>"
+            }
+          ],
+          "background": {
+            "type": "solid",
+            "color": "#FCFBF7"
+          }
+        }
+      },
+      "actions": [
+        {
+          "id": "speech-6",
+          "type": "speech",
+          "agentId": "teacher",
+          "text": "实数与向量的积。|λa| = |λ| |a|。。λ > 0 时同向；λ < 0 时反向；λ = 0 时为零向量。。满足分配律：λ(a + b) = λa + λb。。b = λa（a ≠ 0）。共线判定：当 a 非零时，a 与 b 共线，当且仅当存在实数 λ 使 b = λa。"
+        }
+      ],
+      "createdAt": 1788936168801,
+      "updatedAt": 1788936168801
+    },
+    {
+      "id": "math-vectors-ch6-slide-8",
+      "outlineId": "math-vectors-ch6-outline-8",
+      "stageId": "math-vectors-ch6",
+      "type": "slide",
+      "title": "数量积",
+      "order": 8,
+      "content": {
+        "type": "slide",
+        "canvas": {
+          "id": "xTuLsZmRRnyYjMez6vsuR",
+          "viewportSize": 1000,
+          "viewportRatio": 0.5625,
+          "theme": {
+            "backgroundColor": "#ffffff",
+            "themeColors": [
+              "#5b9bd5",
+              "#ed7d31",
+              "#a5a5a5",
+              "#ffc000",
+              "#4472c4"
+            ],
+            "fontColor": "#333333",
+            "fontName": "Microsoft YaHei",
+            "outline": {
+              "color": "#d14424",
+              "width": 2,
+              "style": "solid"
+            },
+            "shadow": {
+              "h": 0,
+              "v": 0,
+              "blur": 10,
+              "color": "#000000"
+            }
+          },
+          "elements": [
+            {
+              "id": "t7-0",
+              "type": "text",
+              "left": 54.6875,
+              "top": 40.625,
+              "width": 890.625,
+              "height": 65.625,
+              "rotate": 0,
+              "defaultFontName": "Microsoft YaHei",
+              "defaultColor": "#182C35",
+              "content": "<p style=\"font-size:34.375px;line-height:1.25;font-weight:bold;\">数量积</p>"
+            },
+            {
+              "id": "t7-1",
+              "type": "text",
+              "left": 59.375,
+              "top": 129.6875,
+              "width": 875,
+              "height": 46.875,
+              "rotate": 0,
+              "defaultFontName": "Microsoft YaHei",
+              "defaultColor": "#233B43",
+              "content": "<p style=\"font-size:22.65625px;line-height:1.25;\">非零向量的夹角 θ 取 0° 到 180°。</p>"
+            },
+            {
+              "id": "t7-2",
+              "type": "text",
+              "left": 59.375,
+              "top": 180.46875,
+              "width": 875,
+              "height": 46.875,
+              "rotate": 0,
+              "defaultFontName": "Microsoft YaHei",
+              "defaultColor": "#233B43",
+              "content": "<p style=\"font-size:22.65625px;line-height:1.25;\">数量积的结果是一个数。</p>"
+            },
+            {
+              "id": "t7-3",
+              "type": "text",
+              "left": 59.375,
+              "top": 231.25,
+              "width": 875,
+              "height": 46.875,
+              "rotate": 0,
+              "defaultFontName": "Microsoft YaHei",
+              "defaultColor": "#233B43",
+              "content": "<p style=\"font-size:22.65625px;line-height:1.25;\">夹角为锐角、直角、钝角时，数量积依次为正、零、负。</p>"
+            },
+            {
+              "id": "t7-4",
+              "type": "text",
+              "left": 59.375,
+              "top": 304.6875,
+              "width": 875,
+              "height": 51.5625,
+              "rotate": 0,
+              "defaultFontName": "Microsoft YaHei",
+              "defaultColor": "#096E68",
+              "content": "<p style=\"font-size:26.5625px;line-height:1.25;font-weight:bold;\">a · b = |a| |b| cos θ</p>"
+            },
+            {
+              "id": "t7-5",
+              "type": "text",
+              "left": 59.375,
+              "top": 384.375,
+              "width": 875,
+              "height": 97.65625,
+              "rotate": 0,
+              "defaultFontName": "Microsoft YaHei",
+              "defaultColor": "#344B52",
+              "content": "<p style=\"font-size:20.3125px;line-height:1.25;\">例：|a| = 3，|b| = 4，θ = 60°，则 a · b = 6。</p>"
+            },
+            {
+              "id": "t7-6",
+              "type": "text",
+              "left": 59.375,
+              "top": 514.0625,
+              "width": 703.125,
+              "height": 27.34375,
+              "rotate": 0,
+              "defaultFontName": "Microsoft YaHei",
+              "defaultColor": "#63757A",
+              "content": "<p style=\"font-size:14.84375px;line-height:1.25;\">教材第 17–21 页</p>"
+            },
+            {
+              "id": "t7-7",
+              "type": "text",
+              "left": 859.375,
+              "top": 514.0625,
+              "width": 82.03125,
+              "height": 27.34375,
+              "rotate": 0,
+              "defaultFontName": "Microsoft YaHei",
+              "defaultColor": "#63757A",
+              "content": "<p style=\"font-size:14.0625px;line-height:1.25;\">8 / 21</p>"
+            }
+          ],
+          "background": {
+            "type": "solid",
+            "color": "#FCFBF7"
+          }
+        }
+      },
+      "actions": [
+        {
+          "id": "speech-7",
+          "type": "speech",
+          "agentId": "teacher",
+          "text": "数量积。非零向量的夹角 θ 取 0° 到 180°。。数量积的结果是一个数。。夹角为锐角、直角、钝角时，数量积依次为正、零、负。。a · b = |a| |b| cos θ。例：|a| = 3，|b| = 4，θ = 60°，则 a · b = 6。"
+        }
+      ],
+      "createdAt": 1788936168802,
+      "updatedAt": 1788936168802
+    },
+    {
+      "id": "math-vectors-ch6-slide-9",
+      "outlineId": "math-vectors-ch6-outline-9",
+      "stageId": "math-vectors-ch6",
+      "type": "slide",
+      "title": "投影与垂直",
+      "order": 9,
+      "content": {
+        "type": "slide",
+        "canvas": {
+          "id": "Id5wQB9ZAepzhDM1sp6E4",
+          "viewportSize": 1000,
+          "viewportRatio": 0.5625,
+          "theme": {
+            "backgroundColor": "#ffffff",
+            "themeColors": [
+              "#5b9bd5",
+              "#ed7d31",
+              "#a5a5a5",
+              "#ffc000",
+              "#4472c4"
+            ],
+            "fontColor": "#333333",
+            "fontName": "Microsoft YaHei",
+            "outline": {
+              "color": "#d14424",
+              "width": 2,
+              "style": "solid"
+            },
+            "shadow": {
+              "h": 0,
+              "v": 0,
+              "blur": 10,
+              "color": "#000000"
+            }
+          },
+          "elements": [
+            {
+              "id": "t8-0",
+              "type": "text",
+              "left": 54.6875,
+              "top": 40.625,
+              "width": 890.625,
+              "height": 65.625,
+              "rotate": 0,
+              "defaultFontName": "Microsoft YaHei",
+              "defaultColor": "#182C35",
+              "content": "<p style=\"font-size:34.375px;line-height:1.25;font-weight:bold;\">投影与垂直</p>"
+            },
+            {
+              "id": "t8-1",
+              "type": "text",
+              "left": 59.375,
+              "top": 129.6875,
+              "width": 875,
+              "height": 46.875,
+              "rotate": 0,
+              "defaultFontName": "Microsoft YaHei",
+              "defaultColor": "#233B43",
+              "content": "<p style=\"font-size:22.65625px;line-height:1.25;\">设 e 是沿 b 方向的单位向量，b ≠ 0。</p>"
+            },
+            {
+              "id": "t8-2",
+              "type": "text",
+              "left": 59.375,
+              "top": 180.46875,
+              "width": 875,
+              "height": 46.875,
+              "rotate": 0,
+              "defaultFontName": "Microsoft YaHei",
+              "defaultColor": "#233B43",
+              "content": "<p style=\"font-size:22.65625px;line-height:1.25;\">a 在 b 方向上的投影向量为 (a · e)e。</p>"
+            },
+            {
+              "id": "t8-3",
+              "type": "text",
+              "left": 59.375,
+              "top": 231.25,
+              "width": 875,
+              "height": 46.875,
+              "rotate": 0,
+              "defaultFontName": "Microsoft YaHei",
+              "defaultColor": "#233B43",
+              "content": "<p style=\"font-size:22.65625px;line-height:1.25;\">非零向量 a、b 垂直，当且仅当 a · b = 0。</p>"
+            },
+            {
+              "id": "t8-4",
+              "type": "text",
+              "left": 59.375,
+              "top": 304.6875,
+              "width": 875,
+              "height": 51.5625,
+              "rotate": 0,
+              "defaultFontName": "Microsoft YaHei",
+              "defaultColor": "#096E68",
+              "content": "<p style=\"font-size:26.5625px;line-height:1.25;font-weight:bold;\">a · a = |a|²</p>"
+            },
+            {
+              "id": "t8-5",
+              "type": "text",
+              "left": 59.375,
+              "top": 384.375,
+              "width": 875,
+              "height": 97.65625,
+              "rotate": 0,
+              "defaultFontName": "Microsoft YaHei",
+              "defaultColor": "#344B52",
+              "content": "<p style=\"font-size:20.3125px;line-height:1.25;\">投影长度的有向值可以为负；数量积不满足一般的结合律。</p>"
+            },
+            {
+              "id": "t8-6",
+              "type": "text",
+              "left": 59.375,
+              "top": 514.0625,
+              "width": 703.125,
+              "height": 27.34375,
+              "rotate": 0,
+              "defaultFontName": "Microsoft YaHei",
+              "defaultColor": "#63757A",
+              "content": "<p style=\"font-size:14.84375px;line-height:1.25;\">教材第 18–22 页</p>"
+            },
+            {
+              "id": "t8-7",
+              "type": "text",
+              "left": 859.375,
+              "top": 514.0625,
+              "width": 82.03125,
+              "height": 27.34375,
+              "rotate": 0,
+              "defaultFontName": "Microsoft YaHei",
+              "defaultColor": "#63757A",
+              "content": "<p style=\"font-size:14.0625px;line-height:1.25;\">9 / 21</p>"
+            }
+          ],
+          "background": {
+            "type": "solid",
+            "color": "#FCFBF7"
+          }
+        }
+      },
+      "actions": [
+        {
+          "id": "speech-8",
+          "type": "speech",
+          "agentId": "teacher",
+          "text": "投影与垂直。设 e 是沿 b 方向的单位向量，b ≠ 0。。a 在 b 方向上的投影向量为 (a · e)e。。非零向量 a、b 垂直，当且仅当 a · b = 0。。a · a = |a|²。投影长度的有向值可以为负；数量积不满足一般的结合律。"
+        }
+      ],
+      "createdAt": 1788936168803,
+      "updatedAt": 1788936168803
+    },
+    {
+      "id": "math-vectors-ch6-slide-10",
+      "outlineId": "math-vectors-ch6-outline-10",
+      "stageId": "math-vectors-ch6",
+      "type": "slide",
+      "title": "平面向量基本定理",
+      "order": 10,
+      "content": {
+        "type": "slide",
+        "canvas": {
+          "id": "3xJG21jBL9x8DIY2uLlND",
+          "viewportSize": 1000,
+          "viewportRatio": 0.5625,
+          "theme": {
+            "backgroundColor": "#ffffff",
+            "themeColors": [
+              "#5b9bd5",
+              "#ed7d31",
+              "#a5a5a5",
+              "#ffc000",
+              "#4472c4"
+            ],
+            "fontColor": "#333333",
+            "fontName": "Microsoft YaHei",
+            "outline": {
+              "color": "#d14424",
+              "width": 2,
+              "style": "solid"
+            },
+            "shadow": {
+              "h": 0,
+              "v": 0,
+              "blur": 10,
+              "color": "#000000"
+            }
+          },
+          "elements": [
+            {
+              "id": "t9-0",
+              "type": "text",
+              "left": 54.6875,
+              "top": 40.625,
+              "width": 890.625,
+              "height": 65.625,
+              "rotate": 0,
+              "defaultFontName": "Microsoft YaHei",
+              "defaultColor": "#182C35",
+              "content": "<p style=\"font-size:34.375px;line-height:1.25;font-weight:bold;\">平面向量基本定理</p>"
+            },
+            {
+              "id": "t9-1",
+              "type": "text",
+              "left": 59.375,
+              "top": 129.6875,
+              "width": 875,
+              "height": 46.875,
+              "rotate": 0,
+              "defaultFontName": "Microsoft YaHei",
+              "defaultColor": "#233B43",
+              "content": "<p style=\"font-size:22.65625px;line-height:1.25;\">两个不共线向量 e₁、e₂ 构成平面的一组基底。</p>"
+            },
+            {
+              "id": "t9-2",
+              "type": "text",
+              "left": 59.375,
+              "top": 180.46875,
+              "width": 875,
+              "height": 46.875,
+              "rotate": 0,
+              "defaultFontName": "Microsoft YaHei",
+              "defaultColor": "#233B43",
+              "content": "<p style=\"font-size:22.65625px;line-height:1.25;\">同一平面内任意向量可由这组基底唯一表示。</p>"
+            },
+            {
+              "id": "t9-3",
+              "type": "text",
+              "left": 59.375,
+              "top": 231.25,
+              "width": 875,
+              "height": 46.875,
+              "rotate": 0,
+              "defaultFontName": "Microsoft YaHei",
+              "defaultColor": "#233B43",
+              "content": "<p style=\"font-size:22.65625px;line-height:1.25;\">基底不一定垂直，也不一定是单位向量。</p>"
+            },
+            {
+              "id": "t9-4",
+              "type": "text",
+              "left": 59.375,
+              "top": 304.6875,
+              "width": 875,
+              "height": 51.5625,
+              "rotate": 0,
+              "defaultFontName": "Microsoft YaHei",
+              "defaultColor": "#096E68",
+              "content": "<p style=\"font-size:26.5625px;line-height:1.25;font-weight:bold;\">a = λ₁e₁ + λ₂e₂</p>"
+            },
+            {
+              "id": "t9-5",
+              "type": "text",
+              "left": 59.375,
+              "top": 384.375,
+              "width": 875,
+              "height": 97.65625,
+              "rotate": 0,
+              "defaultFontName": "Microsoft YaHei",
+              "defaultColor": "#344B52",
+              "content": "<p style=\"font-size:20.3125px;line-height:1.25;\">关键条件是不共线；若 e₂ = 2e₁，就不能表示任意平面向量。</p>"
+            },
+            {
+              "id": "t9-6",
+              "type": "text",
+              "left": 59.375,
+              "top": 514.0625,
+              "width": 703.125,
+              "height": 27.34375,
+              "rotate": 0,
+              "defaultFontName": "Microsoft YaHei",
+              "defaultColor": "#63757A",
+              "content": "<p style=\"font-size:14.84375px;line-height:1.25;\">教材第 25–27 页</p>"
+            },
+            {
+              "id": "t9-7",
+              "type": "text",
+              "left": 859.375,
+              "top": 514.0625,
+              "width": 82.03125,
+              "height": 27.34375,
+              "rotate": 0,
+              "defaultFontName": "Microsoft YaHei",
+              "defaultColor": "#63757A",
+              "content": "<p style=\"font-size:14.0625px;line-height:1.25;\">10 / 21</p>"
+            }
+          ],
+          "background": {
+            "type": "solid",
+            "color": "#FCFBF7"
+          }
+        }
+      },
+      "actions": [
+        {
+          "id": "speech-9",
+          "type": "speech",
+          "agentId": "teacher",
+          "text": "平面向量基本定理。两个不共线向量 e₁、e₂ 构成平面的一组基底。。同一平面内任意向量可由这组基底唯一表示。。基底不一定垂直，也不一定是单位向量。。a = λ₁e₁ + λ₂e₂。关键条件是不共线；若 e₂ = 2e₁，就不能表示任意平面向量。"
+        }
+      ],
+      "createdAt": 1788936168804,
+      "updatedAt": 1788936168804
+    },
+    {
+      "id": "math-vectors-ch6-slide-11",
+      "outlineId": "math-vectors-ch6-outline-11",
+      "stageId": "math-vectors-ch6",
+      "type": "slide",
+      "title": "向量的坐标表示",
+      "order": 11,
+      "content": {
+        "type": "slide",
+        "canvas": {
+          "id": "JNCjVq3ij4ac9BGBRXX3v",
+          "viewportSize": 1000,
+          "viewportRatio": 0.5625,
+          "theme": {
+            "backgroundColor": "#ffffff",
+            "themeColors": [
+              "#5b9bd5",
+              "#ed7d31",
+              "#a5a5a5",
+              "#ffc000",
+              "#4472c4"
+            ],
+            "fontColor": "#333333",
+            "fontName": "Microsoft YaHei",
+            "outline": {
+              "color": "#d14424",
+              "width": 2,
+              "style": "solid"
+            },
+            "shadow": {
+              "h": 0,
+              "v": 0,
+              "blur": 10,
+              "color": "#000000"
+            }
+          },
+          "elements": [
+            {
+              "id": "t10-0",
+              "type": "text",
+              "left": 54.6875,
+              "top": 40.625,
+              "width": 890.625,
+              "height": 65.625,
+              "rotate": 0,
+              "defaultFontName": "Microsoft YaHei",
+              "defaultColor": "#182C35",
+              "content": "<p style=\"font-size:34.375px;line-height:1.25;font-weight:bold;\">向量的坐标表示</p>"
+            },
+            {
+              "id": "t10-1",
+              "type": "text",
+              "left": 59.375,
+              "top": 129.6875,
+              "width": 875,
+              "height": 46.875,
+              "rotate": 0,
+              "defaultFontName": "Microsoft YaHei",
+              "defaultColor": "#233B43",
+              "content": "<p style=\"font-size:22.65625px;line-height:1.25;\">取相互垂直的单位向量作为基底。</p>"
+            },
+            {
+              "id": "t10-2",
+              "type": "text",
+              "left": 59.375,
+              "top": 180.46875,
+              "width": 875,
+              "height": 46.875,
+              "rotate": 0,
+              "defaultFontName": "Microsoft YaHei",
+              "defaultColor": "#233B43",
+              "content": "<p style=\"font-size:22.65625px;line-height:1.25;\">向量 a = (x, y)，对应两个方向的分量。</p>"
+            },
+            {
+              "id": "t10-3",
+              "type": "text",
+              "left": 59.375,
+              "top": 231.25,
+              "width": 875,
+              "height": 46.875,
+              "rotate": 0,
+              "defaultFontName": "Microsoft YaHei",
+              "defaultColor": "#233B43",
+              "content": "<p style=\"font-size:22.65625px;line-height:1.25;\">点的坐标与向量的坐标含义不同。</p>"
+            },
+            {
+              "id": "t10-4",
+              "type": "text",
+              "left": 59.375,
+              "top": 304.6875,
+              "width": 875,
+              "height": 51.5625,
+              "rotate": 0,
+              "defaultFontName": "Microsoft YaHei",
+              "defaultColor": "#096E68",
+              "content": "<p style=\"font-size:26.5625px;line-height:1.25;font-weight:bold;\">AB = (x₂ − x₁, y₂ − y₁)</p>"
+            },
+            {
+              "id": "t10-5",
+              "type": "text",
+              "left": 59.375,
+              "top": 384.375,
+              "width": 875,
+              "height": 97.65625,
+              "rotate": 0,
+              "defaultFontName": "Microsoft YaHei",
+              "defaultColor": "#344B52",
+              "content": "<p style=\"font-size:20.3125px;line-height:1.25;\">例：A(1, 2)，B(4, 6)，则 AB = (3, 4)，|AB| = 5。</p>"
+            },
+            {
+              "id": "t10-6",
+              "type": "text",
+              "left": 59.375,
+              "top": 514.0625,
+              "width": 703.125,
+              "height": 27.34375,
+              "rotate": 0,
+              "defaultFontName": "Microsoft YaHei",
+              "defaultColor": "#63757A",
+              "content": "<p style=\"font-size:14.84375px;line-height:1.25;\">教材第 28–30 页</p>"
+            },
+            {
+              "id": "t10-7",
+              "type": "text",
+              "left": 859.375,
+              "top": 514.0625,
+              "width": 82.03125,
+              "height": 27.34375,
+              "rotate": 0,
+              "defaultFontName": "Microsoft YaHei",
+              "defaultColor": "#63757A",
+              "content": "<p style=\"font-size:14.0625px;line-height:1.25;\">11 / 21</p>"
+            }
+          ],
+          "background": {
+            "type": "solid",
+            "color": "#FCFBF7"
+          }
+        }
+      },
+      "actions": [
+        {
+          "id": "speech-10",
+          "type": "speech",
+          "agentId": "teacher",
+          "text": "向量的坐标表示。取相互垂直的单位向量作为基底。。向量 a = (x, y)，对应两个方向的分量。。点的坐标与向量的坐标含义不同。。AB = (x₂ − x₁, y₂ − y₁)。例：A(1, 2)，B(4, 6)，则 AB = (3, 4)，|AB| = 5。"
+        }
+      ],
+      "createdAt": 1788936168805,
+      "updatedAt": 1788936168805
+    },
+    {
+      "id": "math-vectors-ch6-slide-12",
+      "outlineId": "math-vectors-ch6-outline-12",
+      "stageId": "math-vectors-ch6",
+      "type": "slide",
+      "title": "坐标运算与共线",
+      "order": 12,
+      "content": {
+        "type": "slide",
+        "canvas": {
+          "id": "4DFeJWdErdH7qXWWxSmEq",
+          "viewportSize": 1000,
+          "viewportRatio": 0.5625,
+          "theme": {
+            "backgroundColor": "#ffffff",
+            "themeColors": [
+              "#5b9bd5",
+              "#ed7d31",
+              "#a5a5a5",
+              "#ffc000",
+              "#4472c4"
+            ],
+            "fontColor": "#333333",
+            "fontName": "Microsoft YaHei",
+            "outline": {
+              "color": "#d14424",
+              "width": 2,
+              "style": "solid"
+            },
+            "shadow": {
+              "h": 0,
+              "v": 0,
+              "blur": 10,
+              "color": "#000000"
+            }
+          },
+          "elements": [
+            {
+              "id": "t11-0",
+              "type": "text",
+              "left": 54.6875,
+              "top": 40.625,
+              "width": 890.625,
+              "height": 65.625,
+              "rotate": 0,
+              "defaultFontName": "Microsoft YaHei",
+              "defaultColor": "#182C35",
+              "content": "<p style=\"font-size:34.375px;line-height:1.25;font-weight:bold;\">坐标运算与共线</p>"
+            },
+            {
+              "id": "t11-1",
+              "type": "text",
+              "left": 59.375,
+              "top": 129.6875,
+              "width": 875,
+              "height": 46.875,
+              "rotate": 0,
+              "defaultFontName": "Microsoft YaHei",
+              "defaultColor": "#233B43",
+              "content": "<p style=\"font-size:22.65625px;line-height:1.25;\">加减法：对应坐标分别相加减。</p>"
+            },
+            {
+              "id": "t11-2",
+              "type": "text",
+              "left": 59.375,
+              "top": 180.46875,
+              "width": 875,
+              "height": 46.875,
+              "rotate": 0,
+              "defaultFontName": "Microsoft YaHei",
+              "defaultColor": "#233B43",
+              "content": "<p style=\"font-size:22.65625px;line-height:1.25;\">数乘：每个坐标乘以同一个实数。</p>"
+            },
+            {
+              "id": "t11-3",
+              "type": "text",
+              "left": 59.375,
+              "top": 231.25,
+              "width": 875,
+              "height": 46.875,
+              "rotate": 0,
+              "defaultFontName": "Microsoft YaHei",
+              "defaultColor": "#233B43",
+              "content": "<p style=\"font-size:22.65625px;line-height:1.25;\">共线判定使用交叉乘积，避免除以零。</p>"
+            },
+            {
+              "id": "t11-4",
+              "type": "text",
+              "left": 59.375,
+              "top": 304.6875,
+              "width": 875,
+              "height": 51.5625,
+              "rotate": 0,
+              "defaultFontName": "Microsoft YaHei",
+              "defaultColor": "#096E68",
+              "content": "<p style=\"font-size:26.5625px;line-height:1.25;font-weight:bold;\">x₁y₂ − y₁x₂ = 0</p>"
+            },
+            {
+              "id": "t11-5",
+              "type": "text",
+              "left": 59.375,
+              "top": 384.375,
+              "width": 875,
+              "height": 97.65625,
+              "rotate": 0,
+              "defaultFontName": "Microsoft YaHei",
+              "defaultColor": "#344B52",
+              "content": "<p style=\"font-size:20.3125px;line-height:1.25;\">例：a = (2, 1)，b = (6, 3)，有 b = 3a，所以二者同向共线。</p>"
+            },
+            {
+              "id": "t11-6",
+              "type": "text",
+              "left": 59.375,
+              "top": 514.0625,
+              "width": 703.125,
+              "height": 27.34375,
+              "rotate": 0,
+              "defaultFontName": "Microsoft YaHei",
+              "defaultColor": "#63757A",
+              "content": "<p style=\"font-size:14.84375px;line-height:1.25;\">教材第 30–32 页</p>"
+            },
+            {
+              "id": "t11-7",
+              "type": "text",
+              "left": 859.375,
+              "top": 514.0625,
+              "width": 82.03125,
+              "height": 27.34375,
+              "rotate": 0,
+              "defaultFontName": "Microsoft YaHei",
+              "defaultColor": "#63757A",
+              "content": "<p style=\"font-size:14.0625px;line-height:1.25;\">12 / 21</p>"
+            }
+          ],
+          "background": {
+            "type": "solid",
+            "color": "#FCFBF7"
+          }
+        }
+      },
+      "actions": [
+        {
+          "id": "speech-11",
+          "type": "speech",
+          "agentId": "teacher",
+          "text": "坐标运算与共线。加减法：对应坐标分别相加减。。数乘：每个坐标乘以同一个实数。。共线判定使用交叉乘积，避免除以零。。x₁y₂ − y₁x₂ = 0。例：a = (2, 1)，b = (6, 3)，有 b = 3a，所以二者同向共线。"
+        }
+      ],
+      "createdAt": 1788936168805,
+      "updatedAt": 1788936168805
+    },
+    {
+      "id": "math-vectors-ch6-slide-13",
+      "outlineId": "math-vectors-ch6-outline-13",
+      "stageId": "math-vectors-ch6",
+      "type": "slide",
+      "title": "数量积的坐标计算",
+      "order": 13,
+      "content": {
+        "type": "slide",
+        "canvas": {
+          "id": "3Q3bU5ezQf-nfdjoejvxH",
+          "viewportSize": 1000,
+          "viewportRatio": 0.5625,
+          "theme": {
+            "backgroundColor": "#ffffff",
+            "themeColors": [
+              "#5b9bd5",
+              "#ed7d31",
+              "#a5a5a5",
+              "#ffc000",
+              "#4472c4"
+            ],
+            "fontColor": "#333333",
+            "fontName": "Microsoft YaHei",
+            "outline": {
+              "color": "#d14424",
+              "width": 2,
+              "style": "solid"
+            },
+            "shadow": {
+              "h": 0,
+              "v": 0,
+              "blur": 10,
+              "color": "#000000"
+            }
+          },
+          "elements": [
+            {
+              "id": "t12-0",
+              "type": "text",
+              "left": 54.6875,
+              "top": 40.625,
+              "width": 890.625,
+              "height": 65.625,
+              "rotate": 0,
+              "defaultFontName": "Microsoft YaHei",
+              "defaultColor": "#182C35",
+              "content": "<p style=\"font-size:34.375px;line-height:1.25;font-weight:bold;\">数量积的坐标计算</p>"
+            },
+            {
+              "id": "t12-1",
+              "type": "text",
+              "left": 59.375,
+              "top": 129.6875,
+              "width": 875,
+              "height": 46.875,
+              "rotate": 0,
+              "defaultFontName": "Microsoft YaHei",
+              "defaultColor": "#233B43",
+              "content": "<p style=\"font-size:22.65625px;line-height:1.25;\">a · b = x₁x₂ + y₁y₂。</p>"
+            },
+            {
+              "id": "t12-2",
+              "type": "text",
+              "left": 59.375,
+              "top": 180.46875,
+              "width": 875,
+              "height": 46.875,
+              "rotate": 0,
+              "defaultFontName": "Microsoft YaHei",
+              "defaultColor": "#233B43",
+              "content": "<p style=\"font-size:22.65625px;line-height:1.25;\">|a| = √(x² + y²)。</p>"
+            },
+            {
+              "id": "t12-3",
+              "type": "text",
+              "left": 59.375,
+              "top": 231.25,
+              "width": 875,
+              "height": 46.875,
+              "rotate": 0,
+              "defaultFontName": "Microsoft YaHei",
+              "defaultColor": "#233B43",
+              "content": "<p style=\"font-size:22.65625px;line-height:1.25;\">求夹角前先检查两个向量均非零。</p>"
+            },
+            {
+              "id": "t12-4",
+              "type": "text",
+              "left": 59.375,
+              "top": 304.6875,
+              "width": 875,
+              "height": 51.5625,
+              "rotate": 0,
+              "defaultFontName": "Microsoft YaHei",
+              "defaultColor": "#096E68",
+              "content": "<p style=\"font-size:26.5625px;line-height:1.25;font-weight:bold;\">cos θ = (a · b) / (|a| |b|)</p>"
+            },
+            {
+              "id": "t12-5",
+              "type": "text",
+              "left": 59.375,
+              "top": 384.375,
+              "width": 875,
+              "height": 97.65625,
+              "rotate": 0,
+              "defaultFontName": "Microsoft YaHei",
+              "defaultColor": "#344B52",
+              "content": "<p style=\"font-size:20.3125px;line-height:1.25;\">例：a = (1, 2)，b = (2, −1)，数量积为 0，所以 a ⟂ b。</p>"
+            },
+            {
+              "id": "t12-6",
+              "type": "text",
+              "left": 59.375,
+              "top": 514.0625,
+              "width": 703.125,
+              "height": 27.34375,
+              "rotate": 0,
+              "defaultFontName": "Microsoft YaHei",
+              "defaultColor": "#63757A",
+              "content": "<p style=\"font-size:14.84375px;line-height:1.25;\">教材第 33–35 页</p>"
+            },
+            {
+              "id": "t12-7",
+              "type": "text",
+              "left": 859.375,
+              "top": 514.0625,
+              "width": 82.03125,
+              "height": 27.34375,
+              "rotate": 0,
+              "defaultFontName": "Microsoft YaHei",
+              "defaultColor": "#63757A",
+              "content": "<p style=\"font-size:14.0625px;line-height:1.25;\">13 / 21</p>"
+            }
+          ],
+          "background": {
+            "type": "solid",
+            "color": "#FCFBF7"
+          }
+        }
+      },
+      "actions": [
+        {
+          "id": "speech-12",
+          "type": "speech",
+          "agentId": "teacher",
+          "text": "数量积的坐标计算。a · b = x₁x₂ + y₁y₂。。|a| = √(x² + y²)。。求夹角前先检查两个向量均非零。。cos θ = (a · b) / (|a| |b|)。例：a = (1, 2)，b = (2, −1)，数量积为 0，所以 a ⟂ b。"
+        }
+      ],
+      "createdAt": 1788936168809,
+      "updatedAt": 1788936168809
+    },
+    {
+      "id": "math-vectors-ch6-slide-14",
+      "outlineId": "math-vectors-ch6-outline-14",
+      "stageId": "math-vectors-ch6",
+      "type": "slide",
+      "title": "几何证明中的向量法",
+      "order": 14,
+      "content": {
+        "type": "slide",
+        "canvas": {
+          "id": "vGdDenbl7LDUSUgbu8cEt",
+          "viewportSize": 1000,
+          "viewportRatio": 0.5625,
+          "theme": {
+            "backgroundColor": "#ffffff",
+            "themeColors": [
+              "#5b9bd5",
+              "#ed7d31",
+              "#a5a5a5",
+              "#ffc000",
+              "#4472c4"
+            ],
+            "fontColor": "#333333",
+            "fontName": "Microsoft YaHei",
+            "outline": {
+              "color": "#d14424",
+              "width": 2,
+              "style": "solid"
+            },
+            "shadow": {
+              "h": 0,
+              "v": 0,
+              "blur": 10,
+              "color": "#000000"
+            }
+          },
+          "elements": [
+            {
+              "id": "t13-0",
+              "type": "text",
+              "left": 54.6875,
+              "top": 40.625,
+              "width": 890.625,
+              "height": 65.625,
+              "rotate": 0,
+              "defaultFontName": "Microsoft YaHei",
+              "defaultColor": "#182C35",
+              "content": "<p style=\"font-size:34.375px;line-height:1.25;font-weight:bold;\">几何证明中的向量法</p>"
+            },
+            {
+              "id": "t13-1",
+              "type": "text",
+              "left": 59.375,
+              "top": 129.6875,
+              "width": 875,
+              "height": 46.875,
+              "rotate": 0,
+              "defaultFontName": "Microsoft YaHei",
+              "defaultColor": "#233B43",
+              "content": "<p style=\"font-size:22.65625px;line-height:1.25;\">选取基底或建立直角坐标系。</p>"
+            },
+            {
+              "id": "t13-2",
+              "type": "text",
+              "left": 59.375,
+              "top": 180.46875,
+              "width": 875,
+              "height": 46.875,
+              "rotate": 0,
+              "defaultFontName": "Microsoft YaHei",
+              "defaultColor": "#233B43",
+              "content": "<p style=\"font-size:22.65625px;line-height:1.25;\">把共线、平行、垂直或长度关系写成向量式。</p>"
+            },
+            {
+              "id": "t13-3",
+              "type": "text",
+              "left": 59.375,
+              "top": 231.25,
+              "width": 875,
+              "height": 46.875,
+              "rotate": 0,
+              "defaultFontName": "Microsoft YaHei",
+              "defaultColor": "#233B43",
+              "content": "<p style=\"font-size:22.65625px;line-height:1.25;\">运算结束后，把结论译回几何语言。</p>"
+            },
+            {
+              "id": "t13-4",
+              "type": "text",
+              "left": 59.375,
+              "top": 304.6875,
+              "width": 875,
+              "height": 51.5625,
+              "rotate": 0,
+              "defaultFontName": "Microsoft YaHei",
+              "defaultColor": "#096E68",
+              "content": "<p style=\"font-size:26.5625px;line-height:1.25;font-weight:bold;\">M 为 AB 中点：OM = (OA + OB)/2</p>"
+            },
+            {
+              "id": "t13-5",
+              "type": "text",
+              "left": 59.375,
+              "top": 384.375,
+              "width": 875,
+              "height": 97.65625,
+              "rotate": 0,
+              "defaultFontName": "Microsoft YaHei",
+              "defaultColor": "#344B52",
+              "content": "<p style=\"font-size:20.3125px;line-height:1.25;\">例：三角形两边中点连线，等于第三边向量的一半，因此平行且长度为一半。</p>"
+            },
+            {
+              "id": "t13-6",
+              "type": "text",
+              "left": 59.375,
+              "top": 514.0625,
+              "width": 703.125,
+              "height": 27.34375,
+              "rotate": 0,
+              "defaultFontName": "Microsoft YaHei",
+              "defaultColor": "#63757A",
+              "content": "<p style=\"font-size:14.84375px;line-height:1.25;\">教材第 38–40 页</p>"
+            },
+            {
+              "id": "t13-7",
+              "type": "text",
+              "left": 859.375,
+              "top": 514.0625,
+              "width": 82.03125,
+              "height": 27.34375,
+              "rotate": 0,
+              "defaultFontName": "Microsoft YaHei",
+              "defaultColor": "#63757A",
+              "content": "<p style=\"font-size:14.0625px;line-height:1.25;\">14 / 21</p>"
+            }
+          ],
+          "background": {
+            "type": "solid",
+            "color": "#FCFBF7"
+          }
+        }
+      },
+      "actions": [
+        {
+          "id": "speech-13",
+          "type": "speech",
+          "agentId": "teacher",
+          "text": "几何证明中的向量法。选取基底或建立直角坐标系。。把共线、平行、垂直或长度关系写成向量式。。运算结束后，把结论译回几何语言。。M 为 AB 中点：OM = (OA + OB)/2。例：三角形两边中点连线，等于第三边向量的一半，因此平行且长度为一半。"
+        }
+      ],
+      "createdAt": 1788936168809,
+      "updatedAt": 1788936168809
+    },
+    {
+      "id": "math-vectors-ch6-slide-15",
+      "outlineId": "math-vectors-ch6-outline-15",
+      "stageId": "math-vectors-ch6",
+      "type": "slide",
+      "title": "物理中的向量法",
+      "order": 15,
+      "content": {
+        "type": "slide",
+        "canvas": {
+          "id": "lrYFmrkBVu65wlgs1WbKS",
+          "viewportSize": 1000,
+          "viewportRatio": 0.5625,
+          "theme": {
+            "backgroundColor": "#ffffff",
+            "themeColors": [
+              "#5b9bd5",
+              "#ed7d31",
+              "#a5a5a5",
+              "#ffc000",
+              "#4472c4"
+            ],
+            "fontColor": "#333333",
+            "fontName": "Microsoft YaHei",
+            "outline": {
+              "color": "#d14424",
+              "width": 2,
+              "style": "solid"
+            },
+            "shadow": {
+              "h": 0,
+              "v": 0,
+              "blur": 10,
+              "color": "#000000"
+            }
+          },
+          "elements": [
+            {
+              "id": "t14-0",
+              "type": "text",
+              "left": 54.6875,
+              "top": 40.625,
+              "width": 890.625,
+              "height": 65.625,
+              "rotate": 0,
+              "defaultFontName": "Microsoft YaHei",
+              "defaultColor": "#182C35",
+              "content": "<p style=\"font-size:34.375px;line-height:1.25;font-weight:bold;\">物理中的向量法</p>"
+            },
+            {
+              "id": "t14-1",
+              "type": "text",
+              "left": 59.375,
+              "top": 129.6875,
+              "width": 875,
+              "height": 46.875,
+              "rotate": 0,
+              "defaultFontName": "Microsoft YaHei",
+              "defaultColor": "#233B43",
+              "content": "<p style=\"font-size:22.65625px;line-height:1.25;\">位移、速度和力可以按向量法则合成。</p>"
+            },
+            {
+              "id": "t14-2",
+              "type": "text",
+              "left": 59.375,
+              "top": 180.46875,
+              "width": 875,
+              "height": 46.875,
+              "rotate": 0,
+              "defaultFontName": "Microsoft YaHei",
+              "defaultColor": "#233B43",
+              "content": "<p style=\"font-size:22.65625px;line-height:1.25;\">恒力做功等于力与位移的数量积。</p>"
+            },
+            {
+              "id": "t14-3",
+              "type": "text",
+              "left": 59.375,
+              "top": 231.25,
+              "width": 875,
+              "height": 46.875,
+              "rotate": 0,
+              "defaultFontName": "Microsoft YaHei",
+              "defaultColor": "#233B43",
+              "content": "<p style=\"font-size:22.65625px;line-height:1.25;\">只有力沿位移方向的分量对做功有贡献。</p>"
+            },
+            {
+              "id": "t14-4",
+              "type": "text",
+              "left": 59.375,
+              "top": 304.6875,
+              "width": 875,
+              "height": 51.5625,
+              "rotate": 0,
+              "defaultFontName": "Microsoft YaHei",
+              "defaultColor": "#096E68",
+              "content": "<p style=\"font-size:26.5625px;line-height:1.25;font-weight:bold;\">W = F · s = |F| |s| cos θ</p>"
+            },
+            {
+              "id": "t14-5",
+              "type": "text",
+              "left": 59.375,
+              "top": 384.375,
+              "width": 875,
+              "height": 97.65625,
+              "rotate": 0,
+              "defaultFontName": "Microsoft YaHei",
+              "defaultColor": "#344B52",
+              "content": "<p style=\"font-size:20.3125px;line-height:1.25;\">例：10 N 的力与 4 m 位移夹角为 60°，做功为 20 J。</p>"
+            },
+            {
+              "id": "t14-6",
+              "type": "text",
+              "left": 59.375,
+              "top": 514.0625,
+              "width": 703.125,
+              "height": 27.34375,
+              "rotate": 0,
+              "defaultFontName": "Microsoft YaHei",
+              "defaultColor": "#63757A",
+              "content": "<p style=\"font-size:14.84375px;line-height:1.25;\">教材第 41–43 页</p>"
+            },
+            {
+              "id": "t14-7",
+              "type": "text",
+              "left": 859.375,
+              "top": 514.0625,
+              "width": 82.03125,
+              "height": 27.34375,
+              "rotate": 0,
+              "defaultFontName": "Microsoft YaHei",
+              "defaultColor": "#63757A",
+              "content": "<p style=\"font-size:14.0625px;line-height:1.25;\">15 / 21</p>"
+            }
+          ],
+          "background": {
+            "type": "solid",
+            "color": "#FCFBF7"
+          }
+        }
+      },
+      "actions": [
+        {
+          "id": "speech-14",
+          "type": "speech",
+          "agentId": "teacher",
+          "text": "物理中的向量法。位移、速度和力可以按向量法则合成。。恒力做功等于力与位移的数量积。。只有力沿位移方向的分量对做功有贡献。。W = F · s = |F| |s| cos θ。例：10 N 的力与 4 m 位移夹角为 60°，做功为 20 J。"
+        }
+      ],
+      "createdAt": 1788936168810,
+      "updatedAt": 1788936168810
+    },
+    {
+      "id": "math-vectors-ch6-slide-16",
+      "outlineId": "math-vectors-ch6-outline-16",
+      "stageId": "math-vectors-ch6",
+      "type": "slide",
+      "title": "余弦定理",
+      "order": 16,
+      "content": {
+        "type": "slide",
+        "canvas": {
+          "id": "SElKZtTFkH-eDlpcyGg5W",
+          "viewportSize": 1000,
+          "viewportRatio": 0.5625,
+          "theme": {
+            "backgroundColor": "#ffffff",
+            "themeColors": [
+              "#5b9bd5",
+              "#ed7d31",
+              "#a5a5a5",
+              "#ffc000",
+              "#4472c4"
+            ],
+            "fontColor": "#333333",
+            "fontName": "Microsoft YaHei",
+            "outline": {
+              "color": "#d14424",
+              "width": 2,
+              "style": "solid"
+            },
+            "shadow": {
+              "h": 0,
+              "v": 0,
+              "blur": 10,
+              "color": "#000000"
+            }
+          },
+          "elements": [
+            {
+              "id": "t15-0",
+              "type": "text",
+              "left": 54.6875,
+              "top": 40.625,
+              "width": 890.625,
+              "height": 65.625,
+              "rotate": 0,
+              "defaultFontName": "Microsoft YaHei",
+              "defaultColor": "#182C35",
+              "content": "<p style=\"font-size:34.375px;line-height:1.25;font-weight:bold;\">余弦定理</p>"
+            },
+            {
+              "id": "t15-1",
+              "type": "text",
+              "left": 59.375,
+              "top": 129.6875,
+              "width": 875,
+              "height": 46.875,
+              "rotate": 0,
+              "defaultFontName": "Microsoft YaHei",
+              "defaultColor": "#233B43",
+              "content": "<p style=\"font-size:22.65625px;line-height:1.25;\">约定 a、b、c 分别为角 A、B、C 的对边。</p>"
+            },
+            {
+              "id": "t15-2",
+              "type": "text",
+              "left": 59.375,
+              "top": 180.46875,
+              "width": 875,
+              "height": 46.875,
+              "rotate": 0,
+              "defaultFontName": "Microsoft YaHei",
+              "defaultColor": "#233B43",
+              "content": "<p style=\"font-size:22.65625px;line-height:1.25;\">已知两边及夹角，可求第三边。</p>"
+            },
+            {
+              "id": "t15-3",
+              "type": "text",
+              "left": 59.375,
+              "top": 231.25,
+              "width": 875,
+              "height": 46.875,
+              "rotate": 0,
+              "defaultFontName": "Microsoft YaHei",
+              "defaultColor": "#233B43",
+              "content": "<p style=\"font-size:22.65625px;line-height:1.25;\">已知三边，可求角的余弦值。</p>"
+            },
+            {
+              "id": "t15-4",
+              "type": "text",
+              "left": 59.375,
+              "top": 304.6875,
+              "width": 875,
+              "height": 51.5625,
+              "rotate": 0,
+              "defaultFontName": "Microsoft YaHei",
+              "defaultColor": "#096E68",
+              "content": "<p style=\"font-size:26.5625px;line-height:1.25;font-weight:bold;\">c² = a² + b² − 2ab cos C</p>"
+            },
+            {
+              "id": "t15-5",
+              "type": "text",
+              "left": 59.375,
+              "top": 384.375,
+              "width": 875,
+              "height": 97.65625,
+              "rotate": 0,
+              "defaultFontName": "Microsoft YaHei",
+              "defaultColor": "#344B52",
+              "content": "<p style=\"font-size:20.3125px;line-height:1.25;\">例：a = 3，b = 4，C = 60°，则 c² = 13，c = √13。</p>"
+            },
+            {
+              "id": "t15-6",
+              "type": "text",
+              "left": 59.375,
+              "top": 514.0625,
+              "width": 703.125,
+              "height": 27.34375,
+              "rotate": 0,
+              "defaultFontName": "Microsoft YaHei",
+              "defaultColor": "#63757A",
+              "content": "<p style=\"font-size:14.84375px;line-height:1.25;\">教材第 44–46 页</p>"
+            },
+            {
+              "id": "t15-7",
+              "type": "text",
+              "left": 859.375,
+              "top": 514.0625,
+              "width": 82.03125,
+              "height": 27.34375,
+              "rotate": 0,
+              "defaultFontName": "Microsoft YaHei",
+              "defaultColor": "#63757A",
+              "content": "<p style=\"font-size:14.0625px;line-height:1.25;\">16 / 21</p>"
+            }
+          ],
+          "background": {
+            "type": "solid",
+            "color": "#FCFBF7"
+          }
+        }
+      },
+      "actions": [
+        {
+          "id": "speech-15",
+          "type": "speech",
+          "agentId": "teacher",
+          "text": "余弦定理。约定 a、b、c 分别为角 A、B、C 的对边。。已知两边及夹角，可求第三边。。已知三边，可求角的余弦值。。c² = a² + b² − 2ab cos C。例：a = 3，b = 4，C = 60°，则 c² = 13，c = √13。"
+        }
+      ],
+      "createdAt": 1788936168810,
+      "updatedAt": 1788936168810
+    },
+    {
+      "id": "math-vectors-ch6-slide-17",
+      "outlineId": "math-vectors-ch6-outline-17",
+      "stageId": "math-vectors-ch6",
+      "type": "slide",
+      "title": "正弦定理",
+      "order": 17,
+      "content": {
+        "type": "slide",
+        "canvas": {
+          "id": "HTAAtmhhnAoSLF8B7c2_L",
+          "viewportSize": 1000,
+          "viewportRatio": 0.5625,
+          "theme": {
+            "backgroundColor": "#ffffff",
+            "themeColors": [
+              "#5b9bd5",
+              "#ed7d31",
+              "#a5a5a5",
+              "#ffc000",
+              "#4472c4"
+            ],
+            "fontColor": "#333333",
+            "fontName": "Microsoft YaHei",
+            "outline": {
+              "color": "#d14424",
+              "width": 2,
+              "style": "solid"
+            },
+            "shadow": {
+              "h": 0,
+              "v": 0,
+              "blur": 10,
+              "color": "#000000"
+            }
+          },
+          "elements": [
+            {
+              "id": "t16-0",
+              "type": "text",
+              "left": 54.6875,
+              "top": 40.625,
+              "width": 890.625,
+              "height": 65.625,
+              "rotate": 0,
+              "defaultFontName": "Microsoft YaHei",
+              "defaultColor": "#182C35",
+              "content": "<p style=\"font-size:34.375px;line-height:1.25;font-weight:bold;\">正弦定理</p>"
+            },
+            {
+              "id": "t16-1",
+              "type": "text",
+              "left": 59.375,
+              "top": 129.6875,
+              "width": 875,
+              "height": 46.875,
+              "rotate": 0,
+              "defaultFontName": "Microsoft YaHei",
+              "defaultColor": "#233B43",
+              "content": "<p style=\"font-size:22.65625px;line-height:1.25;\">每条边与其对角的正弦对应。</p>"
+            },
+            {
+              "id": "t16-2",
+              "type": "text",
+              "left": 59.375,
+              "top": 180.46875,
+              "width": 875,
+              "height": 46.875,
+              "rotate": 0,
+              "defaultFontName": "Microsoft YaHei",
+              "defaultColor": "#233B43",
+              "content": "<p style=\"font-size:22.65625px;line-height:1.25;\">已知两角一边，先求第三角，再求其余边。</p>"
+            },
+            {
+              "id": "t16-3",
+              "type": "text",
+              "left": 59.375,
+              "top": 231.25,
+              "width": 875,
+              "height": 46.875,
+              "rotate": 0,
+              "defaultFontName": "Microsoft YaHei",
+              "defaultColor": "#233B43",
+              "content": "<p style=\"font-size:22.65625px;line-height:1.25;\">已知两边及一边的对角，可能出现两解。</p>"
+            },
+            {
+              "id": "t16-4",
+              "type": "text",
+              "left": 59.375,
+              "top": 304.6875,
+              "width": 875,
+              "height": 51.5625,
+              "rotate": 0,
+              "defaultFontName": "Microsoft YaHei",
+              "defaultColor": "#096E68",
+              "content": "<p style=\"font-size:26.5625px;line-height:1.25;font-weight:bold;\">a/sin A = b/sin B = c/sin C</p>"
+            },
+            {
+              "id": "t16-5",
+              "type": "text",
+              "left": 59.375,
+              "top": 384.375,
+              "width": 875,
+              "height": 97.65625,
+              "rotate": 0,
+              "defaultFontName": "Microsoft YaHei",
+              "defaultColor": "#344B52",
+              "content": "<p style=\"font-size:20.3125px;line-height:1.25;\">例：A = 30°，B = 45°，a = 2，则 b = 2√2。</p>"
+            },
+            {
+              "id": "t16-6",
+              "type": "text",
+              "left": 59.375,
+              "top": 514.0625,
+              "width": 703.125,
+              "height": 27.34375,
+              "rotate": 0,
+              "defaultFontName": "Microsoft YaHei",
+              "defaultColor": "#63757A",
+              "content": "<p style=\"font-size:14.84375px;line-height:1.25;\">教材第 47–50 页</p>"
+            },
+            {
+              "id": "t16-7",
+              "type": "text",
+              "left": 859.375,
+              "top": 514.0625,
+              "width": 82.03125,
+              "height": 27.34375,
+              "rotate": 0,
+              "defaultFontName": "Microsoft YaHei",
+              "defaultColor": "#63757A",
+              "content": "<p style=\"font-size:14.0625px;line-height:1.25;\">17 / 21</p>"
+            }
+          ],
+          "background": {
+            "type": "solid",
+            "color": "#FCFBF7"
+          }
+        }
+      },
+      "actions": [
+        {
+          "id": "speech-16",
+          "type": "speech",
+          "agentId": "teacher",
+          "text": "正弦定理。每条边与其对角的正弦对应。。已知两角一边，先求第三角，再求其余边。。已知两边及一边的对角，可能出现两解。。a/sin A = b/sin B = c/sin C。例：A = 30°，B = 45°，a = 2，则 b = 2√2。"
+        }
+      ],
+      "createdAt": 1788936168811,
+      "updatedAt": 1788936168811
+    },
+    {
+      "id": "math-vectors-ch6-slide-18",
+      "outlineId": "math-vectors-ch6-outline-18",
+      "stageId": "math-vectors-ch6",
+      "type": "slide",
+      "title": "解三角形中的两解问题",
+      "order": 18,
+      "content": {
+        "type": "slide",
+        "canvas": {
+          "id": "7e1mhZLmS5OGklWlKYwHU",
+          "viewportSize": 1000,
+          "viewportRatio": 0.5625,
+          "theme": {
+            "backgroundColor": "#ffffff",
+            "themeColors": [
+              "#5b9bd5",
+              "#ed7d31",
+              "#a5a5a5",
+              "#ffc000",
+              "#4472c4"
+            ],
+            "fontColor": "#333333",
+            "fontName": "Microsoft YaHei",
+            "outline": {
+              "color": "#d14424",
+              "width": 2,
+              "style": "solid"
+            },
+            "shadow": {
+              "h": 0,
+              "v": 0,
+              "blur": 10,
+              "color": "#000000"
+            }
+          },
+          "elements": [
+            {
+              "id": "t17-0",
+              "type": "text",
+              "left": 54.6875,
+              "top": 40.625,
+              "width": 890.625,
+              "height": 65.625,
+              "rotate": 0,
+              "defaultFontName": "Microsoft YaHei",
+              "defaultColor": "#182C35",
+              "content": "<p style=\"font-size:34.375px;line-height:1.25;font-weight:bold;\">解三角形中的两解问题</p>"
+            },
+            {
+              "id": "t17-1",
+              "type": "text",
+              "left": 59.375,
+              "top": 129.6875,
+              "width": 875,
+              "height": 46.875,
+              "rotate": 0,
+              "defaultFontName": "Microsoft YaHei",
+              "defaultColor": "#233B43",
+              "content": "<p style=\"font-size:22.65625px;line-height:1.25;\">由正弦值反求角时，锐角与补角的正弦相同。</p>"
+            },
+            {
+              "id": "t17-2",
+              "type": "text",
+              "left": 59.375,
+              "top": 180.46875,
+              "width": 875,
+              "height": 46.875,
+              "rotate": 0,
+              "defaultFontName": "Microsoft YaHei",
+              "defaultColor": "#233B43",
+              "content": "<p style=\"font-size:22.65625px;line-height:1.25;\">每个候选角都要检查三角形内角和。</p>"
+            },
+            {
+              "id": "t17-3",
+              "type": "text",
+              "left": 59.375,
+              "top": 231.25,
+              "width": 875,
+              "height": 46.875,
+              "rotate": 0,
+              "defaultFontName": "Microsoft YaHei",
+              "defaultColor": "#233B43",
+              "content": "<p style=\"font-size:22.65625px;line-height:1.25;\">不能只保留计算器给出的锐角。</p>"
+            },
+            {
+              "id": "t17-4",
+              "type": "text",
+              "left": 59.375,
+              "top": 304.6875,
+              "width": 875,
+              "height": 51.5625,
+              "rotate": 0,
+              "defaultFontName": "Microsoft YaHei",
+              "defaultColor": "#096E68",
+              "content": "<p style=\"font-size:26.5625px;line-height:1.25;font-weight:bold;\">a = 2，b = 2√2，A = 30°</p>"
+            },
+            {
+              "id": "t17-5",
+              "type": "text",
+              "left": 59.375,
+              "top": 384.375,
+              "width": 875,
+              "height": 97.65625,
+              "rotate": 0,
+              "defaultFontName": "Microsoft YaHei",
+              "defaultColor": "#344B52",
+              "content": "<p style=\"font-size:20.3125px;line-height:1.25;\">sin B = √2/2，B 可为 45° 或 135°；两者与 A 的和均小于 180°，所以有两解。</p>"
+            },
+            {
+              "id": "t17-6",
+              "type": "text",
+              "left": 59.375,
+              "top": 514.0625,
+              "width": 703.125,
+              "height": 27.34375,
+              "rotate": 0,
+              "defaultFontName": "Microsoft YaHei",
+              "defaultColor": "#63757A",
+              "content": "<p style=\"font-size:14.84375px;line-height:1.25;\">教材第 49–50 页</p>"
+            },
+            {
+              "id": "t17-7",
+              "type": "text",
+              "left": 859.375,
+              "top": 514.0625,
+              "width": 82.03125,
+              "height": 27.34375,
+              "rotate": 0,
+              "defaultFontName": "Microsoft YaHei",
+              "defaultColor": "#63757A",
+              "content": "<p style=\"font-size:14.0625px;line-height:1.25;\">18 / 21</p>"
+            }
+          ],
+          "background": {
+            "type": "solid",
+            "color": "#FCFBF7"
+          }
+        }
+      },
+      "actions": [
+        {
+          "id": "speech-17",
+          "type": "speech",
+          "agentId": "teacher",
+          "text": "解三角形中的两解问题。由正弦值反求角时，锐角与补角的正弦相同。。每个候选角都要检查三角形内角和。。不能只保留计算器给出的锐角。。a = 2，b = 2√2，A = 30°。sin B = √2/2，B 可为 45° 或 135°；两者与 A 的和均小于 180°，所以有两解。"
+        }
+      ],
+      "createdAt": 1788936168811,
+      "updatedAt": 1788936168811
+    },
+    {
+      "id": "math-vectors-ch6-slide-19",
+      "outlineId": "math-vectors-ch6-outline-19",
+      "stageId": "math-vectors-ch6",
+      "type": "slide",
+      "title": "面积与测量",
+      "order": 19,
+      "content": {
+        "type": "slide",
+        "canvas": {
+          "id": "dfV_on27fj8EdRW3fO5zy",
+          "viewportSize": 1000,
+          "viewportRatio": 0.5625,
+          "theme": {
+            "backgroundColor": "#ffffff",
+            "themeColors": [
+              "#5b9bd5",
+              "#ed7d31",
+              "#a5a5a5",
+              "#ffc000",
+              "#4472c4"
+            ],
+            "fontColor": "#333333",
+            "fontName": "Microsoft YaHei",
+            "outline": {
+              "color": "#d14424",
+              "width": 2,
+              "style": "solid"
+            },
+            "shadow": {
+              "h": 0,
+              "v": 0,
+              "blur": 10,
+              "color": "#000000"
+            }
+          },
+          "elements": [
+            {
+              "id": "t18-0",
+              "type": "text",
+              "left": 54.6875,
+              "top": 40.625,
+              "width": 890.625,
+              "height": 65.625,
+              "rotate": 0,
+              "defaultFontName": "Microsoft YaHei",
+              "defaultColor": "#182C35",
+              "content": "<p style=\"font-size:34.375px;line-height:1.25;font-weight:bold;\">面积与测量</p>"
+            },
+            {
+              "id": "t18-1",
+              "type": "text",
+              "left": 59.375,
+              "top": 129.6875,
+              "width": 875,
+              "height": 46.875,
+              "rotate": 0,
+              "defaultFontName": "Microsoft YaHei",
+              "defaultColor": "#233B43",
+              "content": "<p style=\"font-size:22.65625px;line-height:1.25;\">已知两边及夹角：S = ab sin C / 2。</p>"
+            },
+            {
+              "id": "t18-2",
+              "type": "text",
+              "left": 59.375,
+              "top": 180.46875,
+              "width": 875,
+              "height": 46.875,
+              "rotate": 0,
+              "defaultFontName": "Microsoft YaHei",
+              "defaultColor": "#233B43",
+              "content": "<p style=\"font-size:22.65625px;line-height:1.25;\">测量问题先画出三角形，标清已知量和目标量。</p>"
+            },
+            {
+              "id": "t18-3",
+              "type": "text",
+              "left": 59.375,
+              "top": 231.25,
+              "width": 875,
+              "height": 46.875,
+              "rotate": 0,
+              "defaultFontName": "Microsoft YaHei",
+              "defaultColor": "#233B43",
+              "content": "<p style=\"font-size:22.65625px;line-height:1.25;\">三边已知时可用海伦公式；注意单位一致。</p>"
+            },
+            {
+              "id": "t18-4",
+              "type": "text",
+              "left": 59.375,
+              "top": 304.6875,
+              "width": 875,
+              "height": 51.5625,
+              "rotate": 0,
+              "defaultFontName": "Microsoft YaHei",
+              "defaultColor": "#096E68",
+              "content": "<p style=\"font-size:26.5625px;line-height:1.25;font-weight:bold;\">S = √[p(p−a)(p−b)(p−c)]</p>"
+            },
+            {
+              "id": "t18-5",
+              "type": "text",
+              "left": 59.375,
+              "top": 384.375,
+              "width": 875,
+              "height": 97.65625,
+              "rotate": 0,
+              "defaultFontName": "Microsoft YaHei",
+              "defaultColor": "#344B52",
+              "content": "<p style=\"font-size:20.3125px;line-height:1.25;\">p = (a+b+c)/2。例：三边为 3、4、5，面积为 6。</p>"
+            },
+            {
+              "id": "t18-6",
+              "type": "text",
+              "left": 59.375,
+              "top": 514.0625,
+              "width": 703.125,
+              "height": 27.34375,
+              "rotate": 0,
+              "defaultFontName": "Microsoft YaHei",
+              "defaultColor": "#63757A",
+              "content": "<p style=\"font-size:14.84375px;line-height:1.25;\">教材第 51–56 页</p>"
+            },
+            {
+              "id": "t18-7",
+              "type": "text",
+              "left": 859.375,
+              "top": 514.0625,
+              "width": 82.03125,
+              "height": 27.34375,
+              "rotate": 0,
+              "defaultFontName": "Microsoft YaHei",
+              "defaultColor": "#63757A",
+              "content": "<p style=\"font-size:14.0625px;line-height:1.25;\">19 / 21</p>"
+            }
+          ],
+          "background": {
+            "type": "solid",
+            "color": "#FCFBF7"
+          }
+        }
+      },
+      "actions": [
+        {
+          "id": "speech-18",
+          "type": "speech",
+          "agentId": "teacher",
+          "text": "面积与测量。已知两边及夹角：S = ab sin C / 2。。测量问题先画出三角形，标清已知量和目标量。。三边已知时可用海伦公式；注意单位一致。。S = √[p(p−a)(p−b)(p−c)]。p = (a+b+c)/2。例：三边为 3、4、5，面积为 6。"
+        }
+      ],
+      "createdAt": 1788936168811,
+      "updatedAt": 1788936168811
+    },
+    {
+      "id": "math-vectors-ch6-slide-20",
+      "outlineId": "math-vectors-ch6-outline-20",
+      "stageId": "math-vectors-ch6",
+      "type": "slide",
+      "title": "拓展：三角形的重心",
+      "order": 20,
+      "content": {
+        "type": "slide",
+        "canvas": {
+          "id": "eD2T2sechnTGjDiIzt6SZ",
+          "viewportSize": 1000,
+          "viewportRatio": 0.5625,
+          "theme": {
+            "backgroundColor": "#ffffff",
+            "themeColors": [
+              "#5b9bd5",
+              "#ed7d31",
+              "#a5a5a5",
+              "#ffc000",
+              "#4472c4"
+            ],
+            "fontColor": "#333333",
+            "fontName": "Microsoft YaHei",
+            "outline": {
+              "color": "#d14424",
+              "width": 2,
+              "style": "solid"
+            },
+            "shadow": {
+              "h": 0,
+              "v": 0,
+              "blur": 10,
+              "color": "#000000"
+            }
+          },
+          "elements": [
+            {
+              "id": "t19-0",
+              "type": "text",
+              "left": 54.6875,
+              "top": 40.625,
+              "width": 890.625,
+              "height": 65.625,
+              "rotate": 0,
+              "defaultFontName": "Microsoft YaHei",
+              "defaultColor": "#182C35",
+              "content": "<p style=\"font-size:34.375px;line-height:1.25;font-weight:bold;\">拓展：三角形的重心</p>"
+            },
+            {
+              "id": "t19-1",
+              "type": "text",
+              "left": 59.375,
+              "top": 129.6875,
+              "width": 875,
+              "height": 46.875,
+              "rotate": 0,
+              "defaultFontName": "Microsoft YaHei",
+              "defaultColor": "#233B43",
+              "content": "<p style=\"font-size:22.65625px;line-height:1.25;\">设 G 的位置向量为三个顶点位置向量的平均值。</p>"
+            },
+            {
+              "id": "t19-2",
+              "type": "text",
+              "left": 59.375,
+              "top": 180.46875,
+              "width": 875,
+              "height": 46.875,
+              "rotate": 0,
+              "defaultFontName": "Microsoft YaHei",
+              "defaultColor": "#233B43",
+              "content": "<p style=\"font-size:22.65625px;line-height:1.25;\">若 M 是 BC 中点，则 AG = (2/3)AM。</p>"
+            },
+            {
+              "id": "t19-3",
+              "type": "text",
+              "left": 59.375,
+              "top": 231.25,
+              "width": 875,
+              "height": 46.875,
+              "rotate": 0,
+              "defaultFontName": "Microsoft YaHei",
+              "defaultColor": "#233B43",
+              "content": "<p style=\"font-size:22.65625px;line-height:1.25;\">因此 G 在中线上，并按 2∶1 分中线。</p>"
+            },
+            {
+              "id": "t19-4",
+              "type": "text",
+              "left": 59.375,
+              "top": 304.6875,
+              "width": 875,
+              "height": 51.5625,
+              "rotate": 0,
+              "defaultFontName": "Microsoft YaHei",
+              "defaultColor": "#096E68",
+              "content": "<p style=\"font-size:26.5625px;line-height:1.25;font-weight:bold;\">OG = (OA + OB + OC)/3</p>"
+            },
+            {
+              "id": "t19-5",
+              "type": "text",
+              "left": 59.375,
+              "top": 384.375,
+              "width": 875,
+              "height": 97.65625,
+              "rotate": 0,
+              "defaultFontName": "Microsoft YaHei",
+              "defaultColor": "#344B52",
+              "content": "<p style=\"font-size:20.3125px;line-height:1.25;\">同样处理另外两条中线，可说明三条中线交于一点。</p>"
+            },
+            {
+              "id": "t19-6",
+              "type": "text",
+              "left": 59.375,
+              "top": 514.0625,
+              "width": 703.125,
+              "height": 27.34375,
+              "rotate": 0,
+              "defaultFontName": "Microsoft YaHei",
+              "defaultColor": "#63757A",
+              "content": "<p style=\"font-size:14.84375px;line-height:1.25;\">教材第 63–66 页</p>"
+            },
+            {
+              "id": "t19-7",
+              "type": "text",
+              "left": 859.375,
+              "top": 514.0625,
+              "width": 82.03125,
+              "height": 27.34375,
+              "rotate": 0,
+              "defaultFontName": "Microsoft YaHei",
+              "defaultColor": "#63757A",
+              "content": "<p style=\"font-size:14.0625px;line-height:1.25;\">20 / 21</p>"
+            }
+          ],
+          "background": {
+            "type": "solid",
+            "color": "#FCFBF7"
+          }
+        }
+      },
+      "actions": [
+        {
+          "id": "speech-19",
+          "type": "speech",
+          "agentId": "teacher",
+          "text": "拓展：三角形的重心。设 G 的位置向量为三个顶点位置向量的平均值。。若 M 是 BC 中点，则 AG = (2/3)AM。。因此 G 在中线上，并按 2∶1 分中线。。OG = (OA + OB + OC)/3。同样处理另外两条中线，可说明三条中线交于一点。"
+        }
+      ],
+      "createdAt": 1788936168812,
+      "updatedAt": 1788936168812
+    },
+    {
+      "id": "math-vectors-ch6-slide-21",
+      "outlineId": "math-vectors-ch6-outline-21",
+      "stageId": "math-vectors-ch6",
+      "type": "slide",
+      "title": "本章易错点",
+      "order": 21,
+      "content": {
+        "type": "slide",
+        "canvas": {
+          "id": "7rc07Wa8HUMXUxrlmc58v",
+          "viewportSize": 1000,
+          "viewportRatio": 0.5625,
+          "theme": {
+            "backgroundColor": "#ffffff",
+            "themeColors": [
+              "#5b9bd5",
+              "#ed7d31",
+              "#a5a5a5",
+              "#ffc000",
+              "#4472c4"
+            ],
+            "fontColor": "#333333",
+            "fontName": "Microsoft YaHei",
+            "outline": {
+              "color": "#d14424",
+              "width": 2,
+              "style": "solid"
+            },
+            "shadow": {
+              "h": 0,
+              "v": 0,
+              "blur": 10,
+              "color": "#000000"
+            }
+          },
+          "elements": [
+            {
+              "id": "t20-0",
+              "type": "text",
+              "left": 54.6875,
+              "top": 40.625,
+              "width": 890.625,
+              "height": 65.625,
+              "rotate": 0,
+              "defaultFontName": "Microsoft YaHei",
+              "defaultColor": "#182C35",
+              "content": "<p style=\"font-size:34.375px;line-height:1.25;font-weight:bold;\">本章易错点</p>"
+            },
+            {
+              "id": "t20-1",
+              "type": "text",
+              "left": 59.375,
+              "top": 129.6875,
+              "width": 875,
+              "height": 46.875,
+              "rotate": 0,
+              "defaultFontName": "Microsoft YaHei",
+              "defaultColor": "#233B43",
+              "content": "<p style=\"font-size:22.65625px;line-height:1.25;\">向量相等需要大小与方向同时相同。</p>"
+            },
+            {
+              "id": "t20-2",
+              "type": "text",
+              "left": 59.375,
+              "top": 180.46875,
+              "width": 875,
+              "height": 46.875,
+              "rotate": 0,
+              "defaultFontName": "Microsoft YaHei",
+              "defaultColor": "#233B43",
+              "content": "<p style=\"font-size:22.65625px;line-height:1.25;\">共线判定中的非零条件不能遗漏。</p>"
+            },
+            {
+              "id": "t20-3",
+              "type": "text",
+              "left": 59.375,
+              "top": 231.25,
+              "width": 875,
+              "height": 46.875,
+              "rotate": 0,
+              "defaultFontName": "Microsoft YaHei",
+              "defaultColor": "#233B43",
+              "content": "<p style=\"font-size:22.65625px;line-height:1.25;\">数量积是数；向量的数量积没有一般结合律。</p>"
+            },
+            {
+              "id": "t20-4",
+              "type": "text",
+              "left": 59.375,
+              "top": 282.03125,
+              "width": 875,
+              "height": 46.875,
+              "rotate": 0,
+              "defaultFontName": "Microsoft YaHei",
+              "defaultColor": "#233B43",
+              "content": "<p style=\"font-size:22.65625px;line-height:1.25;\">解三角形时检查补角、内角和与实际意义。</p>"
+            },
+            {
+              "id": "t20-5",
+              "type": "text",
+              "left": 59.375,
+              "top": 384.375,
+              "width": 875,
+              "height": 97.65625,
+              "rotate": 0,
+              "defaultFontName": "Microsoft YaHei",
+              "defaultColor": "#344B52",
+              "content": "<p style=\"font-size:20.3125px;line-height:1.25;\">完成独立 quiz 后，按概念、运算、应用三类回看错题。</p>"
+            },
+            {
+              "id": "t20-6",
+              "type": "text",
+              "left": 59.375,
+              "top": 514.0625,
+              "width": 703.125,
+              "height": 27.34375,
+              "rotate": 0,
+              "defaultFontName": "Microsoft YaHei",
+              "defaultColor": "#63757A",
+              "content": "<p style=\"font-size:14.84375px;line-height:1.25;\">教材第 57–62 页</p>"
+            },
+            {
+              "id": "t20-7",
+              "type": "text",
+              "left": 859.375,
+              "top": 514.0625,
+              "width": 82.03125,
+              "height": 27.34375,
+              "rotate": 0,
+              "defaultFontName": "Microsoft YaHei",
+              "defaultColor": "#63757A",
+              "content": "<p style=\"font-size:14.0625px;line-height:1.25;\">21 / 21</p>"
+            }
+          ],
+          "background": {
+            "type": "solid",
+            "color": "#FCFBF7"
+          }
+        }
+      },
+      "actions": [
+        {
+          "id": "speech-20",
+          "type": "speech",
+          "agentId": "teacher",
+          "text": "本章易错点。向量相等需要大小与方向同时相同。。共线判定中的非零条件不能遗漏。。数量积是数；向量的数量积没有一般结合律。。解三角形时检查补角、内角和与实际意义。。完成独立 quiz 后，按概念、运算、应用三类回看错题。"
+        }
+      ],
+      "createdAt": 1788936168812,
+      "updatedAt": 1788936168812
+    },
+    {
+      "id": "math-vectors-ch6-quiz",
+      "outlineId": "math-vectors-ch6-quiz-outline",
+      "stageId": "math-vectors-ch6",
+      "type": "quiz",
+      "title": "章节测验",
+      "order": 22,
+      "content": {
+        "type": "quiz",
+        "questions": [
+          {
+            "id": "math-vectors-ch6-q1",
+            "type": "single",
+            "question": "下列量中属于向量的是？",
+            "options": [
+              {
+                "label": "质量",
+                "value": "A"
+              },
+              {
+                "label": "路程",
+                "value": "B"
+              },
+              {
+                "label": "位移",
+                "value": "C"
+              },
+              {
+                "label": "面积",
+                "value": "D"
+              }
+            ],
+            "answer": [
+              "C"
+            ],
+            "analysis": "位移同时具有大小和方向；其余三个量只有大小。",
+            "hasAnswer": true,
+            "points": 1
+          },
+          {
+            "id": "math-vectors-ch6-q2",
+            "type": "single",
+            "question": "两个非零向量相等的充要条件是？",
+            "options": [
+              {
+                "label": "模相等",
+                "value": "A"
+              },
+              {
+                "label": "方向相同",
+                "value": "B"
+              },
+              {
+                "label": "模相等且方向相同",
+                "value": "C"
+              },
+              {
+                "label": "起点相同",
+                "value": "D"
+              }
+            ],
+            "answer": [
+              "C"
+            ],
+            "analysis": "自由向量可平移；大小与方向共同确定向量。",
+            "hasAnswer": true,
+            "points": 1
+          },
+          {
+            "id": "math-vectors-ch6-q3",
+            "type": "single",
+            "question": "O、A、B 为三点，OA − OB 等于哪个向量？",
+            "options": [
+              {
+                "label": "AB",
+                "value": "A"
+              },
+              {
+                "label": "BA",
+                "value": "B"
+              },
+              {
+                "label": "AO",
+                "value": "C"
+              },
+              {
+                "label": "BO",
+                "value": "D"
+              }
+            ],
+            "answer": [
+              "B"
+            ],
+            "analysis": "OA − OB = BO + OA = BA。这里各字母对均表示向量。",
+            "hasAnswer": true,
+            "points": 1
+          },
+          {
+            "id": "math-vectors-ch6-q4",
+            "type": "single",
+            "question": "a = (2, −1)，b = (−1, 3)，则 2a − b 为？",
+            "options": [
+              {
+                "label": "(3, 1)",
+                "value": "A"
+              },
+              {
+                "label": "(5, −5)",
+                "value": "B"
+              },
+              {
+                "label": "(−5, 5)",
+                "value": "C"
+              },
+              {
+                "label": "(5, 1)",
+                "value": "D"
+              }
+            ],
+            "answer": [
+              "B"
+            ],
+            "analysis": "2a = (4, −2)，减去 b 后得 (5, −5)。",
+            "hasAnswer": true,
+            "points": 1
+          },
+          {
+            "id": "math-vectors-ch6-q5",
+            "type": "single",
+            "question": "a = (2, 1)，b = (k, 3)。若二者共线，则 k =？",
+            "options": [
+              {
+                "label": "3",
+                "value": "A"
+              },
+              {
+                "label": "6",
+                "value": "B"
+              },
+              {
+                "label": "−6",
+                "value": "C"
+              },
+              {
+                "label": "2/3",
+                "value": "D"
+              }
+            ],
+            "answer": [
+              "B"
+            ],
+            "analysis": "2×3 − 1×k = 0，因此 k = 6。",
+            "hasAnswer": true,
+            "points": 1
+          },
+          {
+            "id": "math-vectors-ch6-q6",
+            "type": "single",
+            "question": "|a| = 2，|b| = 3，夹角为 120°，则 a · b =？",
+            "options": [
+              {
+                "label": "6",
+                "value": "A"
+              },
+              {
+                "label": "3",
+                "value": "B"
+              },
+              {
+                "label": "−3",
+                "value": "C"
+              },
+              {
+                "label": "−6",
+                "value": "D"
+              }
+            ],
+            "answer": [
+              "C"
+            ],
+            "analysis": "2×3×cos120° = 6×(−1/2) = −3。",
+            "hasAnswer": true,
+            "points": 1
+          },
+          {
+            "id": "math-vectors-ch6-q7",
+            "type": "single",
+            "question": "a = (1, 2)，b = (4, k)。若 a ⟂ b，则 k =？",
+            "options": [
+              {
+                "label": "−2",
+                "value": "A"
+              },
+              {
+                "label": "2",
+                "value": "B"
+              },
+              {
+                "label": "−4",
+                "value": "C"
+              },
+              {
+                "label": "4",
+                "value": "D"
+              }
+            ],
+            "answer": [
+              "A"
+            ],
+            "analysis": "1×4 + 2k = 0，因此 k = −2。",
+            "hasAnswer": true,
+            "points": 1
+          },
+          {
+            "id": "math-vectors-ch6-q8",
+            "type": "multiple",
+            "question": "下列说法正确的有？",
+            "options": [
+              {
+                "label": "一组基底必须互相垂直",
+                "value": "A"
+              },
+              {
+                "label": "两个不共线向量可以构成基底",
+                "value": "B"
+              },
+              {
+                "label": "零向量与任意向量平行",
+                "value": "C"
+              },
+              {
+                "label": "a · b 的结果是向量",
+                "value": "D"
+              }
+            ],
+            "answer": [
+              "B",
+              "C"
+            ],
+            "analysis": "基底只要求不共线。零向量与任意向量平行是教材约定。数量积结果是数。",
+            "hasAnswer": true,
+            "points": 1
+          },
+          {
+            "id": "math-vectors-ch6-q9",
+            "type": "single",
+            "question": "A(1, 2)，B(4, 6)，则 |AB| =？",
+            "options": [
+              {
+                "label": "3",
+                "value": "A"
+              },
+              {
+                "label": "4",
+                "value": "B"
+              },
+              {
+                "label": "5",
+                "value": "C"
+              },
+              {
+                "label": "7",
+                "value": "D"
+              }
+            ],
+            "answer": [
+              "C"
+            ],
+            "analysis": "AB = (3, 4)，模为 √(9+16) = 5。",
+            "hasAnswer": true,
+            "points": 1
+          },
+          {
+            "id": "math-vectors-ch6-q10",
+            "type": "single",
+            "question": "恒力大小为 10 N，与 4 m 位移夹角为 60°，做功为？",
+            "options": [
+              {
+                "label": "40 J",
+                "value": "A"
+              },
+              {
+                "label": "20 J",
+                "value": "B"
+              },
+              {
+                "label": "10 J",
+                "value": "C"
+              },
+              {
+                "label": "0 J",
+                "value": "D"
+              }
+            ],
+            "answer": [
+              "B"
+            ],
+            "analysis": "W = 10×4×cos60° = 20 J。",
+            "hasAnswer": true,
+            "points": 1
+          },
+          {
+            "id": "math-vectors-ch6-q11",
+            "type": "single",
+            "question": "三角形 a = 3，b = 4，夹角 C = 60°，则 c =？",
+            "options": [
+              {
+                "label": "1",
+                "value": "A"
+              },
+              {
+                "label": "5",
+                "value": "B"
+              },
+              {
+                "label": "√13",
+                "value": "C"
+              },
+              {
+                "label": "√37",
+                "value": "D"
+              }
+            ],
+            "answer": [
+              "C"
+            ],
+            "analysis": "余弦定理给出 c² = 9+16−24×1/2 = 13。",
+            "hasAnswer": true,
+            "points": 1
+          },
+          {
+            "id": "math-vectors-ch6-q12",
+            "type": "single",
+            "question": "三角形 a = 2，b = 2√2，A = 30°，满足条件的三角形有几个？",
+            "options": [
+              {
+                "label": "0",
+                "value": "A"
+              },
+              {
+                "label": "1",
+                "value": "B"
+              },
+              {
+                "label": "2",
+                "value": "C"
+              },
+              {
+                "label": "3",
+                "value": "D"
+              }
+            ],
+            "answer": [
+              "C"
+            ],
+            "analysis": "sin B = √2/2，B = 45° 或 135°，两个候选角都满足 A+B<180°，所以有两个。",
+            "hasAnswer": true,
+            "points": 1
+          }
+        ]
+      },
+      "actions": [],
+      "createdAt": 1788936168812,
+      "updatedAt": 1788936168812
+    }
+  ],
+  "dslVersion": "0.2.0",
+  "outline": {
+    "outlines": [
+      {
+        "id": "math-vectors-ch6-outline-1",
+        "type": "slide",
+        "title": "平面向量及其应用",
+        "description": "章节学习与复习课件",
+        "keyPoints": [
+          "本册首章 · 第六章",
+          "概念、运算、坐标与解三角形"
+        ],
+        "order": 1
+      },
+      {
+        "id": "math-vectors-ch6-outline-2",
+        "type": "slide",
+        "title": "本章学习路线",
+        "description": "学习目标：把几何关系转成可计算的向量关系。",
+        "keyPoints": [
+          "6.1 向量：大小与方向",
+          "6.2 运算：加减、数乘、数量积",
+          "6.3 表示：基底与坐标",
+          "6.4 应用：几何、物理与解三角形"
+        ],
+        "order": 2
+      },
+      {
+        "id": "math-vectors-ch6-outline-3",
+        "type": "slide",
+        "title": "向量与数量",
+        "description": "例：向东走 3 m，再向西走 3 m；路程为 6 m，合位移为零向量。",
+        "keyPoints": [
+          "向量同时具有大小和方向，如位移、力。",
+          "数量只有大小，如路程、质量。",
+          "有向线段的长度表示模，箭头表示方向。"
+        ],
+        "order": 3
+      },
+      {
+        "id": "math-vectors-ch6-outline-4",
+        "type": "slide",
+        "title": "相等、相反与共线",
+        "description": "模相等不能推出向量相等；单位向量的模为 1，方向可以不同。",
+        "keyPoints": [
+          "相等向量：大小相等，方向相同，可平移。",
+          "相反向量：大小相等，方向相反。",
+          "零向量的模为 0；规定它与任意向量平行。"
+        ],
+        "order": 4
+      },
+      {
+        "id": "math-vectors-ch6-outline-5",
+        "type": "slide",
+        "title": "向量加法",
+        "description": "这里 AB、BC、AC 均表示有向线段对应的向量。沿路径相加时，中间点可以消去。",
+        "keyPoints": [
+          "三角形法则：首尾相接，连接起点与终点。",
+          "平行四边形法则：同起点，两邻边合成为对角线。",
+          "加法满足交换律、结合律。"
+        ],
+        "order": 5
+      },
+      {
+        "id": "math-vectors-ch6-outline-6",
+        "type": "slide",
+        "title": "向量减法",
+        "description": "OA − OB = BA。易错点：差向量的方向不要画反。",
+        "keyPoints": [
+          "减去一个向量，等于加上它的相反向量。",
+          "同起点作差：从减向量的终点指向被减向量的终点。"
+        ],
+        "order": 6
+      },
+      {
+        "id": "math-vectors-ch6-outline-7",
+        "type": "slide",
+        "title": "实数与向量的积",
+        "description": "共线判定：当 a 非零时，a 与 b 共线，当且仅当存在实数 λ 使 b = λa。",
+        "keyPoints": [
+          "|λa| = |λ| |a|。",
+          "λ > 0 时同向；λ < 0 时反向；λ = 0 时为零向量。",
+          "满足分配律：λ(a + b) = λa + λb。"
+        ],
+        "order": 7
+      },
+      {
+        "id": "math-vectors-ch6-outline-8",
+        "type": "slide",
+        "title": "数量积",
+        "description": "例：|a| = 3，|b| = 4，θ = 60°，则 a · b = 6。",
+        "keyPoints": [
+          "非零向量的夹角 θ 取 0° 到 180°。",
+          "数量积的结果是一个数。",
+          "夹角为锐角、直角、钝角时，数量积依次为正、零、负。"
+        ],
+        "order": 8
+      },
+      {
+        "id": "math-vectors-ch6-outline-9",
+        "type": "slide",
+        "title": "投影与垂直",
+        "description": "投影长度的有向值可以为负；数量积不满足一般的结合律。",
+        "keyPoints": [
+          "设 e 是沿 b 方向的单位向量，b ≠ 0。",
+          "a 在 b 方向上的投影向量为 (a · e)e。",
+          "非零向量 a、b 垂直，当且仅当 a · b = 0。"
+        ],
+        "order": 9
+      },
+      {
+        "id": "math-vectors-ch6-outline-10",
+        "type": "slide",
+        "title": "平面向量基本定理",
+        "description": "关键条件是不共线；若 e₂ = 2e₁，就不能表示任意平面向量。",
+        "keyPoints": [
+          "两个不共线向量 e₁、e₂ 构成平面的一组基底。",
+          "同一平面内任意向量可由这组基底唯一表示。",
+          "基底不一定垂直，也不一定是单位向量。"
+        ],
+        "order": 10
+      },
+      {
+        "id": "math-vectors-ch6-outline-11",
+        "type": "slide",
+        "title": "向量的坐标表示",
+        "description": "例：A(1, 2)，B(4, 6)，则 AB = (3, 4)，|AB| = 5。",
+        "keyPoints": [
+          "取相互垂直的单位向量作为基底。",
+          "向量 a = (x, y)，对应两个方向的分量。",
+          "点的坐标与向量的坐标含义不同。"
+        ],
+        "order": 11
+      },
+      {
+        "id": "math-vectors-ch6-outline-12",
+        "type": "slide",
+        "title": "坐标运算与共线",
+        "description": "例：a = (2, 1)，b = (6, 3)，有 b = 3a，所以二者同向共线。",
+        "keyPoints": [
+          "加减法：对应坐标分别相加减。",
+          "数乘：每个坐标乘以同一个实数。",
+          "共线判定使用交叉乘积，避免除以零。"
+        ],
+        "order": 12
+      },
+      {
+        "id": "math-vectors-ch6-outline-13",
+        "type": "slide",
+        "title": "数量积的坐标计算",
+        "description": "例：a = (1, 2)，b = (2, −1)，数量积为 0，所以 a ⟂ b。",
+        "keyPoints": [
+          "a · b = x₁x₂ + y₁y₂。",
+          "|a| = √(x² + y²)。",
+          "求夹角前先检查两个向量均非零。"
+        ],
+        "order": 13
+      },
+      {
+        "id": "math-vectors-ch6-outline-14",
+        "type": "slide",
+        "title": "几何证明中的向量法",
+        "description": "例：三角形两边中点连线，等于第三边向量的一半，因此平行且长度为一半。",
+        "keyPoints": [
+          "选取基底或建立直角坐标系。",
+          "把共线、平行、垂直或长度关系写成向量式。",
+          "运算结束后，把结论译回几何语言。"
+        ],
+        "order": 14
+      },
+      {
+        "id": "math-vectors-ch6-outline-15",
+        "type": "slide",
+        "title": "物理中的向量法",
+        "description": "例：10 N 的力与 4 m 位移夹角为 60°，做功为 20 J。",
+        "keyPoints": [
+          "位移、速度和力可以按向量法则合成。",
+          "恒力做功等于力与位移的数量积。",
+          "只有力沿位移方向的分量对做功有贡献。"
+        ],
+        "order": 15
+      },
+      {
+        "id": "math-vectors-ch6-outline-16",
+        "type": "slide",
+        "title": "余弦定理",
+        "description": "例：a = 3，b = 4，C = 60°，则 c² = 13，c = √13。",
+        "keyPoints": [
+          "约定 a、b、c 分别为角 A、B、C 的对边。",
+          "已知两边及夹角，可求第三边。",
+          "已知三边，可求角的余弦值。"
+        ],
+        "order": 16
+      },
+      {
+        "id": "math-vectors-ch6-outline-17",
+        "type": "slide",
+        "title": "正弦定理",
+        "description": "例：A = 30°，B = 45°，a = 2，则 b = 2√2。",
+        "keyPoints": [
+          "每条边与其对角的正弦对应。",
+          "已知两角一边，先求第三角，再求其余边。",
+          "已知两边及一边的对角，可能出现两解。"
+        ],
+        "order": 17
+      },
+      {
+        "id": "math-vectors-ch6-outline-18",
+        "type": "slide",
+        "title": "解三角形中的两解问题",
+        "description": "sin B = √2/2，B 可为 45° 或 135°；两者与 A 的和均小于 180°，所以有两解。",
+        "keyPoints": [
+          "由正弦值反求角时，锐角与补角的正弦相同。",
+          "每个候选角都要检查三角形内角和。",
+          "不能只保留计算器给出的锐角。"
+        ],
+        "order": 18
+      },
+      {
+        "id": "math-vectors-ch6-outline-19",
+        "type": "slide",
+        "title": "面积与测量",
+        "description": "p = (a+b+c)/2。例：三边为 3、4、5，面积为 6。",
+        "keyPoints": [
+          "已知两边及夹角：S = ab sin C / 2。",
+          "测量问题先画出三角形，标清已知量和目标量。",
+          "三边已知时可用海伦公式；注意单位一致。"
+        ],
+        "order": 19
+      },
+      {
+        "id": "math-vectors-ch6-outline-20",
+        "type": "slide",
+        "title": "拓展：三角形的重心",
+        "description": "同样处理另外两条中线，可说明三条中线交于一点。",
+        "keyPoints": [
+          "设 G 的位置向量为三个顶点位置向量的平均值。",
+          "若 M 是 BC 中点，则 AG = (2/3)AM。",
+          "因此 G 在中线上，并按 2∶1 分中线。"
+        ],
+        "order": 20
+      },
+      {
+        "id": "math-vectors-ch6-outline-21",
+        "type": "slide",
+        "title": "本章易错点",
+        "description": "完成独立 quiz 后，按概念、运算、应用三类回看错题。",
+        "keyPoints": [
+          "向量相等需要大小与方向同时相同。",
+          "共线判定中的非零条件不能遗漏。",
+          "数量积是数；向量的数量积没有一般结合律。",
+          "解三角形时检查补角、内角和与实际意义。"
+        ],
+        "order": 21
+      },
+      {
+        "id": "math-vectors-ch6-quiz-outline",
+        "type": "quiz",
+        "title": "章节测验",
+        "description": "12 道选择题，每题 1 分；多选题须完全选对。",
+        "keyPoints": [
+          "章节理解与应用"
+        ],
+        "order": 22
+      }
+    ],
+    "createdAt": 1788936168793,
+    "updatedAt": 1788936168793,
+    "generationComplete": true
+  }
+}
